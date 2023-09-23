@@ -1,0 +1,269 @@
+:root {
+	--test-color: hsl(250, 45%, 45%);
+	--section-thickness: 1px; /* must be in pixels */
+	--profile-accent-color: 250deg 45% 45%;
+	--profile-transparency: 25%;
+}
+.userPopoutInner-nv9Y92:has(#account) > *:not(:has(#account)), .userPopoutOverlayBackground-3A0Pcz:has(#account) > *:not(#account), .container-TT--xs ::-webkit-scrollbar,
+:is(.userPopoutInner-nv9Y92, .profilePanel-2VBkh8) [class*=divider-], [class*=userPanelInner-]::before, .accountProfilePopoutWrapper-3GskID .section-28YDOf, .lastSection-q3HCfo,
+.section-28YDOf:has(.roles-3vQPxb:empty) {
+    display: none;
+}
+/* Profile panel */
+[class^=userPopoutOverlayBackground], [class^=userProfileModalOverlayBackground] {
+	background: transparent
+}
+.userPopoutInner-nv9Y92 {
+	max-height: calc(100vh - 480px);
+}
+[class*=pronouns-] {
+	text-transform: none;
+	color: var(--text-normal);
+	font-size: 16px;
+	font-weight: 800;
+	padding: 0.25em 0.375em;
+	margin: 0.25em 0 0 0;
+	border-radius: 0.5rem;
+	max-width: 90%;
+	overflow: hidden;
+	background: var(--profile-gradient-secondary-color)
+}
+.scroller-15bIdk {
+	padding: 6px 12px;
+}
+.buttonsContainer-3iOFIV > button {
+	border-radius: 0.5rem;
+}
+body:not([class*=profilePanel-]) :is(.section-28YDOf>div:not(.roles-3vQPxb), .container-3g15px, .userInfoText-2MFCmH, .vc-rdb-input, .vc-rdb-view,
+div[style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;"], [class*=mutualGuildsList-], [class*=mutualFriendsList-]) {
+	background: linear-gradient(45deg, var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color));
+	background-size: 200% 200%;
+	/*background: color-mix(in srgb, var(--profile-body-divider-color) 50%, rgba(255, 255, 255, 0.10));*/
+	border: var(--section-thickness) solid var(--profile-body-divider-color)
+}
+:is([class|=userPopoutInner], [class|=userPanelOverlayBackground], [class|=userInfoText]) [style*="-webkit-line-clamp"] {
+    display: block;
+}
+.markup-eYLPri>div>.blockquoteContainer-3VtvI1	{
+  justify-content: center;
+}
+.section-28YDOf>div:not(.activity-3uaYny, .roles-3vQPxb), .container-3g15px, .userInfoText-2MFCmH, .memberSinceContainer-2CBD23, .nameTag-35jqbZ, img[class*=emoji-] {
+	justify-content: center;
+	text-align: center
+}
+.divider-MZkkle {
+	background: var(--profile-body-divider-color) 
+}
+.platformIcon-k3yytQ {
+	margin: 2px 2px 
+}
+.scroller-Q9d9Di {
+	left: 12.5%
+}
+.title-3CjiSS, .title-1yq5kT, .userInfoSectionHeader-2mYYun, .activity-3uaYny .overflow-1wOqNV, .userPopoutInner-nv9Y92 .eyebrow-1Shfyi {
+	text-transform: none;
+	font-size: 14px;
+	font-weight: 1000;
+	color: var(--header-primary) !important;
+	text-align: center;
+	display: block
+}
+.profileBadges-2pItdR {
+	background-color: transparent 
+}
+/* Role pills */
+.rolePill-78LFtg {
+	background: transparent 
+}
+[class*="role-"] [class*="roleCircle-"]:before,[class*="actionButton-"][class*="role-"][class*="justifyCenter-"] {
+	border-radius: 10px 
+}
+[class*=roles-] {
+	justify-content: center 
+}
+[class*="role-"] {
+	transform: translate(0);
+	border: 0 
+}
+[class*="role-"] [class*="roleRemoveIcon-"] {
+	margin: 0;
+	left: unset;
+	transform: translate(50%,-50%) 
+}
+[class*="role-"] [class*="roleRemoveButton-"] {
+	position: static 
+}
+[class*="role-"] [class*="roleCircle-"]:before {
+	content: '';
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	background: inherit;
+	border: 2px solid transparent;
+	opacity: .4
+}
+.separator-12G2Op {
+	border: none;
+}
+/* Platform Indicators */
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .vc-platform-indicator>svg {
+	width: 12.5px !important;
+	height: 12.5px !important;
+	margin-left: 0px;
+	margin-right: 0px
+}
+.vc-platform-indicator>svg {
+	fill: hsl(var(--primary-200-hsl)/1) !important 
+}
+.theme-light .vc-platform-indicator>svg {
+	fill: hsl(var(--primary-600-hsl)/1) !important 
+}
+/* Connected accounts */
+.connectedAccountContainer-3aLMHJ {
+	border-width: var(--section-thickness);
+	border-radius: 0.5rem
+}
+.connectedAccountContainer-3aLMHJ:has(.connectedAccountOpenIcon-3i81Tz:hover) {
+	background-color: var(--profile-body-divider-color) 
+}
+.flowerStarContainer-1QeD-L.connectedAccountVerifiedIcon-3EPFPC>svg>path {
+	fill: var(--profile-body-divider-color);
+	filter: brightness(1) contrast(2)
+}
+.badgeList-2aoHPw {
+	background: transparent;
+}
+.defaultColor-1EVLSt.text-lg-semibold-UQkeZc {
+	margin-right: 0 !important;
+}
+.customStatus-19KW6v .customStatusEmoji-1GD8RK {
+	margin: 0.25em -0.75em 0.5em;
+	position: relative;
+	left: 50%;
+	float: none;
+	border-radius: 4px
+}
+.customStatus-19KW6v .customStatusEmoji-1GD8RK.customStatusSoloEmoji-a_jSVz {
+	position: relative;
+	left: 42.5%;
+}
+.customStatus-19KW6v::before {
+	content: "Current status";
+	font-weight: 800;
+	color: var(--text-muted);
+	display: block
+}
+.tabBarContainer-sCZC4w {
+	margin: 20px 0 0;
+}
+.tabBar-2hXqzU {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	row-gap: 0.5em;
+	column-gap: 0.5em;
+	margin-bottom: 1em;
+}
+.userProfileModalInner-3dx9L9 .top-Ktfr_T .item-2GWPIy {
+	border: none;
+	background: hsla(var(--profile-accent-color)/var(--profile-transparency));
+	/*background: color-mix(in srgb, var(--profile-body-background-color) 40%, transparent);*/
+	border-radius: var(--profile-border-radius);
+	padding: 0.125em 0;
+	width: 31%;
+	font-weight: 600;
+	text-align: center;
+}
+.userInfoSection-2u2hir+.userInfoSection-2u2hir, .tabBarContainer-sCZC4w, .top-Ktfr_T .themed-qqoYp3.item-2GWPIy:hover {
+	border: none
+}
+.userProfileModalInner-3dx9L9 .top-Ktfr_T .item-2GWPIy:hover {
+	background: hsla(var(--profile-accent-color)/calc(var(--profile-transparency) + 40%)) !important;
+	/*background: color-mix(in srgb, var(--profile-body-background-color) 70%, transparent) !important;*/
+}
+.userProfileModalInner-3dx9L9 .top-Ktfr_T .selected-1sf9UK.item-2GWPIy {
+	background: hsla(var(--profile-accent-color)/calc(var(--profile-transparency) + 20%));
+	/*background: color-mix(in srgb, var(--profile-body-background-color) 100%, transparent)*/
+}
+.tabBarItem-30Te4- {
+	height: fit-content
+}
+.lookFilled-1H2Jvj.colorGreen-jIPCAS {
+	border-radius: 0.5em
+}
+/* from coolesding */
+.defaultColor-1EVLSt.eyebrow-1Shfyi.defaultColor-1GKx81.title-3CjiSS {
+	justify-content: center;
+	display: flex
+}
+.userPopoutInner-nv9Y92 .markup-eYLPri a, .userInfoText-2MFCmH.markup-eYLPri a, .timestamp-6-ptG3 {
+	background: var(--background-modifier-accent);
+	color: var(--text-link);
+	font-weight: 600;
+	padding: 0 0.5em;
+	border-radius: 8px;
+}
+.userPopoutInner-nv9Y92 .markup-eYLPri a:hover, .userInfoText-2MFCmH.markup-eYLPri a:hover, .timestamp-6-ptG3:hover {
+	background: var(--background-modifier-hover);
+	text-decoration: none;
+}
+.accountProfilePopoutWrapper-3GskID [class*=userProfileOuter-] [class*=userProfileInner-] {
+	width: 60%;
+	border-radius: 8px;
+}
+.accountProfilePopoutWrapper-3GskID [class*=userProfileOuter-] {
+	margin-right: -136px;
+}
+.userPopoutOuter-1OHwPL.userProfileOuter-2tQwNf.userProfileOuterUnthemed-11rPfA.profileColors-2AgAV4.theme-dark,
+.accountProfilePopoutWrapper-3GskID .userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL {
+	background: transparent;
+	box-shadow: none;
+}
+/* profile popup fix */
+[class*=userPopoutOuter-], .popoutBannerPremium-3i5EEI, .popoutNoBannerPremium-25mwJy {
+    width: 338px;
+}
+/* ReviewDB header */
+div[style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;"] {
+	padding: 0.25em 0.75em;
+	margin: 0.5em 0;
+	border-radius: 8px;
+}
+.scrollerSeparator-6DmwRQ {
+	box-shadow: none;
+}
+.section-28YDOf.usernameSection-3FppkT {
+	margin-bottom: 0.5em;
+}
+.vc-rdb-view {
+	margin: 0.5em 0 0.25em;
+}
+.vc-rdb-view .container-2gUZhU {
+	margin-right: 0.5em;
+}
+.vc-rdb-input {
+	border-radius: 8px;
+	border: none;
+	margin: 0.375em 0
+}
+.section-28YDOf>div:not(.roles-3vQPxb), .container-3g15px, .userInfoText-2MFCmH, .vc-rdb-view {
+	border-radius: 8px;
+	padding: 0.5em;
+}
+.overlayBackground-2aa7wt, .badgeList-2hF9ig {
+	background: transparent;
+}
+.banner-1AB1xq {
+	background: var(--background-modifier-accent);
+	margin: 0.5em 0.25em;
+	padding: 0.5em;
+	border-radius: 8px;
+}
+.userPopoutOverlayBackground-3A0Pcz:has(#account) {
+  	margin: 0;
+}

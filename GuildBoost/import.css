@@ -1,0 +1,55 @@
+:root {
+	--test-color: hsl(188, 80%, 42%);
+	--guildboost-accent-color: 188deg 80% 42%;
+	--guildboost-transparency: 25%;
+}
+.textArea-7J7xQx {
+	padding: 0 8px
+}
+.progressBar-2yl2pi, .progressBarContainer-1efroK {
+	height: 40px;
+	border-radius: 8px;
+}
+.container-2giAcK,.containerWithMargin-1CVXAM {
+	position: relative;
+	top: 25px;
+    left: 6px;
+	margin: 0;
+	padding: 0;
+}
+.container-2giAcK::after {
+    display: none;
+}
+.tadaIcon-313rPm {
+	right: 98%;
+	top: 6px;
+	translate: none;
+	font-size: 36px;
+	opacity: 0.5;
+}
+.progressBarContainer-1efroK {
+	top: -40px;
+	z-index: -1;
+}
+.progressBar-2yl2pi {
+	background: hsla(var(--guildboost-accent-color)/calc(var(--guildboost-transparency) + 40%));
+}
+.container-2giAcK:hover .progressBar-2yl2pi {
+	animation: 5s flicker linear infinite;
+	background: hsla(var(--guildboost-accent-color)/calc(var(--guildboost-transparency) + 40%));
+	/*background: color-mix(in srgb, var(--guildboost-accent-color) 90%, white);*/
+}
+.container-2giAcK:hover .tadaIcon-313rPm {
+	animation: 3s flicker linear infinite
+}
+@keyframes flicker {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
