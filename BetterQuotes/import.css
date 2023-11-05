@@ -1,0 +1,16 @@
+/* [[ QUOTES ]] */
+[class*="markup_"] blockquote {
+padding: 4px 10px;
+background: color-mix(in srgb, var(--brand-experiment) 25%, transparent);
+border-radius: 0 4px 4px 0
+}
+.theme-dark[class*="markup_"] blockquote {
+color: var(--brand-experiment);
+background: var(--brand-experiment)
+}
+.theme-light[class*="markup_"] blockquote {
+color: var(--brand-experiment)
+}
+[class*="blockquoteDivider_"] {
+background: var(--brand-experiment)
+}

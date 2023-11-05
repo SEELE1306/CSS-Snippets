@@ -1,55 +1,49 @@
-:root {
-	--test-color: hsl(188, 80%, 42%);
-	--guildboost-accent-color: 188deg 80% 42%;
-	--guildboost-transparency: 25%;
+/* [[ GUILD BOOSTS ]] */
+.textArea_f2029c {
+padding: 0 8px
 }
-.textArea-7J7xQx {
-	padding: 0 8px
+.progressBar_db0972,
+.progressBarContainer__9b571 {
+height: 40px;
+border-radius: 8px
 }
-.progressBar-2yl2pi, .progressBarContainer-1efroK {
-	height: 40px;
-	border-radius: 8px;
+.container__4f639,
+.containerWithMargin__7d380 {
+position: relative;
+top: 25px;
+margin: 0;
+padding: 0;
+width: 105%
 }
-.container-2giAcK,.containerWithMargin-1CVXAM {
-	position: relative;
-	top: 25px;
-    left: 6px;
-	margin: 0;
-	padding: 0;
+.tadaIcon__3b97b {
+right: 98%;
+top: 6px;
+translate: none;
+font-size: 36px;
+opacity: 0.5
 }
-.container-2giAcK::after {
-    display: none;
+.progressBarContainer__9b571 {
+top: -40px;
+z-index: -1
 }
-.tadaIcon-313rPm {
-	right: 98%;
-	top: 6px;
-	translate: none;
-	font-size: 36px;
-	opacity: 0.5;
+.progressBar_db0972 {
+background: color-mix(in srgb, var(--brand-experiment) 50%, transparent)
 }
-.progressBarContainer-1efroK {
-	top: -40px;
-	z-index: -1;
+.container__4f639:hover .progressBar_db0972 {
+animation: 5s flicker linear infinite;
+background: color-mix(in srgb, var(--brand-experiment) 75%, transparent)
 }
-.progressBar-2yl2pi {
-	background: hsla(var(--guildboost-accent-color)/calc(var(--guildboost-transparency) + 40%));
-}
-.container-2giAcK:hover .progressBar-2yl2pi {
-	animation: 5s flicker linear infinite;
-	background: hsla(var(--guildboost-accent-color)/calc(var(--guildboost-transparency) + 40%));
-	/*background: color-mix(in srgb, var(--guildboost-accent-color) 90%, white);*/
-}
-.container-2giAcK:hover .tadaIcon-313rPm {
-	animation: 3s flicker linear infinite
+.container__4f639:hover .tadaIcon__3b97b {
+animation: 3s flicker linear infinite
 }
 @keyframes flicker {
-	0% {
-		opacity: 1;
-	}
-	50% {
-		opacity: 0.5;
-	}
-	100% {
-		opacity: 1;
-	}
+0% {
+opacity: 1
+}
+50% {
+opacity: 0.5
+}
+100% {
+opacity: 1
+}
 }

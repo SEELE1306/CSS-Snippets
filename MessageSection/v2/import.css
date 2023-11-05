@@ -1,0 +1,178 @@
+/* [[ CHAT AREA ]] */
+.channelTextArea__56a36 {
+background: var(--background-primary)
+}
+.form__13a2c {
+margin-top: 0;
+padding: 0
+}
+.sendIcon__461ff path {
+fill: var(--brand-experiment)
+}
+.form__13a2c .buttons_ce5b56 {
+overflow: hidden;
+position: relative;
+justify-content: flex-end;
+transition: all 350ms
+}
+.form__13a2c .buttons_ce5b56>:is(button,div) {
+display: flex;
+justify-content: center
+}
+.form__13a2c .buttons_ce5b56:where(:not(:hover)){
+max-width: 32px
+}
+.form__13a2c .buttons_ce5b56::before {
+opacity: 0%;
+transition: opacity 150ms;
+position: absolute;
+bottom: 4px;
+content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='352' height='42' x='80' y='96' fill='rgb(181, 186, 193)' class='ci-primary'/%3E%3Crect width='352' height='42' x='80' y='240' fill='rgb(181, 186, 193)' class='ci-primary'/%3E%3Crect width='352' height='42' x='80' y='384' fill='rgb(181, 186, 193)' class='ci-primary'/%3E%3C/svg%3E");
+display: block;
+width: 32px
+}
+.form__13a2c .buttons_ce5b56:where(:not(:hover))::before {
+opacity: 100%;
+transition: opacity 1000ms
+}
+.form__13a2c .buttons_ce5b56:hover {
+transition: all 150ms;
+width: 50%
+}
+.form__13a2c .buttons_ce5b56 > :is(div,button) {
+transform: scaleX(0%) !important;
+opacity: 0%;
+display: flex;
+justify-content: center
+}
+.form__13a2c .buttons_ce5b56:hover > :is(div,button) {
+transform: scaleX(100%) !important;
+transition: opacity 300ms;
+opacity: 100%
+}
+.buttons_ce5b56 > :is(div,button):hover svg {
+color: var(--brand-experiment)
+}
+.buttons_ce5b56 > :is(div,button) svg {
+transition: all 0.3s;
+color: var(--interactive-normal)
+}
+.separator__8424b {
+grid-column: 4;
+margin-right: 8px;
+padding-bottom: 8px;
+padding-top: 8px
+}
+.separator__8424b .innerButton_debeee {
+padding: 0;
+margin: 0
+}
+.channelTextArea__2e60f .divider_b9338f {
+border-top: none
+}
+.channelAttachmentArea__740bf {
+background: var(--brand-experiment-900);
+margin-left: 4px;
+padding: 8px;
+gap: 8px;
+border-radius: 8px;
+width: fit-content
+}
+.upload_c98ecb {
+min-height: 150px;
+max-height: 150px;
+min-width: 150px;
+max-width: 150px
+}
+.actionBar__3cdab {
+transform: translate(0, -16px)
+}
+.actionBar__3cdab .button_d553e5 {
+background: var(--brand-experiment-900)
+}
+/* align chatbox to bottom */
+.form__13a2c > :first-child {
+margin-bottom: 0px
+}
+/* center chatbox contents, no border radius */
+.form__13a2c > :first-child > * {
+padding-top: 4px;
+min-height: 49px;
+border-radius: 0
+}
+/* slowmode/typing indicator */
+.form__13a2c > :last-child[class^=typing] {
+top: -32px;
+right: 24px;
+padding: 4px 16px 4px 8px;
+margin-left: auto;
+width: fit-content;
+border-radius: 8px 8px 0 0;
+background: var(--brand-experiment-900)
+}
+/* jump to presz */
+.jumpToPresentBar__0ff7f {
+padding: 0;
+left: 0;
+border-radius: 0px;
+border-top-right-radius: 8px;
+width: fit-content !important;
+background: var(--brand-experiment-900);
+right: unset
+}
+.jumpToPresentBar__0ff7f>.barButtonMain__0f5c6 {
+flex: 0 0 auto
+}
+.attachedBars_da3c74 {
+min-height: unset !important;
+position: relative;
+padding: 0 0 2px 0 !important;
+margin: 0 20px 0 0px !important;
+border-top-right-radius: 8px !important;
+background: var(--brand-experiment-900)
+}
+.replyBar_b64d74 {
+background: var(--brand-experiment-900)
+}
+/* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
+.barBase__4e0ba {
+--bar-height: 24px;
+--bar-edges: 24px
+}
+.messagesWrapper_ea2b0b:has(.newMessagesBar__8b6d7):has(.jumpToPresentBar__0ff7f) .barBase__4e0ba {
+align-items: flex-start;
+height: var(--bar-height);
+overflow: hidden;
+width: calc(50% - var(--bar-edges))
+}
+.base__512ed .typingDots_d92d42 svg {
+margin-right: 4px
+}
+.newMessagesBar__8b6d7 {
+margin-left: calc(var(--bar-edges)* -1);
+border-radius: 8px 8px 0 0;
+inset: auto var(--bar-edges) 0;
+background: var(--brand-experiment-900)
+}
+.messagesWrapper_ea2b0b:has(.jumpToPresentBar__0ff7f) .newMessagesBar__8b6d7 {
+left: auto
+}
+.newMessagesBar__8b6d7:hover .span_a7874a,
+.jumpToPresentBar__0ff7f:hover .barButtonMain__0f5c6 {
+animation: vertiscroll 0.5s linear forwards;
+display: block;
+height: auto;
+overflow: visible;
+white-space: normal
+}
+@keyframes vertiscroll {
+0% {
+transform: translateY(0%)
+}
+100% {
+transform: translateY(calc(-100% + var(--bar-height)))
+}
+}
+.form__13a2c:before {
+display: none
+}

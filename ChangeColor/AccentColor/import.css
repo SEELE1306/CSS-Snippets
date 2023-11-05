@@ -1,0 +1,121 @@
+:root {
+--brand-experiment: hsl(249, 22%, 50%);
+}
+:root, .theme-dark {
+/* New brand variables */
+--brand-experiment-100: color-mix(in srgb, #fff calc(97.6% - 32.5%), var(--brand-experiment));
+--brand-experiment-130: color-mix(in srgb, #fff calc(95.5% - 32.5%), var(--brand-experiment));
+--brand-experiment-160: color-mix(in srgb, #fff calc(92.9% - 32.5%), var(--brand-experiment));
+--brand-experiment-200: color-mix(in srgb, #fff calc(90.0% - 32.5%), var(--brand-experiment));
+--brand-experiment-230: color-mix(in srgb, #fff calc(87.1% - 32.5%), var(--brand-experiment));
+--brand-experiment-260: color-mix(in srgb, #fff calc(83.7% - 32.5%), var(--brand-experiment));
+--brand-experiment-300: color-mix(in srgb, #fff calc(78.8% - 32.5%), var(--brand-experiment));
+--brand-experiment-330: color-mix(in srgb, #fff calc(73.3% - 32.5%), var(--brand-experiment));
+--brand-experiment-345: color-mix(in srgb, #fff calc(67.5% - 32.5%), var(--brand-experiment));
+--brand-experiment-360: color-mix(in srgb, #fff calc(61.2% - 32.5%), var(--brand-experiment));
+--brand-experiment-400: color-mix(in srgb, #fff calc(52.9% - 32.5%), var(--brand-experiment));
+--brand-experiment-430: color-mix(in srgb, #fff calc(44.9% - 32.5%), var(--brand-experiment));
+--brand-experiment-460: color-mix(in srgb, #fff calc(38.0% - 32.5%), var(--brand-experiment));
+--brand-experiment-500: var(--brand-experiment); /* This is served as a middle ground for all other colour variables */
+--brand-experiment-530: color-mix(in srgb, #000 calc(38.0% - 32.5%), var(--brand-experiment));
+--brand-experiment-560: color-mix(in srgb, #000 calc(44.9% - 32.5%), var(--brand-experiment));
+--brand-experiment-600: color-mix(in srgb, #000 calc(52.9% - 32.5%), var(--brand-experiment));
+--brand-experiment-630: color-mix(in srgb, #000 calc(61.2% - 32.5%), var(--brand-experiment));
+--brand-experiment-645: color-mix(in srgb, #000 calc(67.5% - 32.5%), var(--brand-experiment));
+--brand-experiment-660: color-mix(in srgb, #000 calc(73.3% - 32.5%), var(--brand-experiment));
+--brand-experiment-700: color-mix(in srgb, #000 calc(78.8% - 32.5%), var(--brand-experiment));
+--brand-experiment-730: color-mix(in srgb, #000 calc(83.7% - 32.5%), var(--brand-experiment));
+--brand-experiment-760: color-mix(in srgb, #000 calc(87.1% - 32.5%), var(--brand-experiment));
+--brand-experiment-800: color-mix(in srgb, #000 calc(90.0% - 32.5%), var(--brand-experiment));
+--brand-experiment-830: color-mix(in srgb, #000 calc(92.9% - 32.5%), var(--brand-experiment));
+--brand-experiment-860: color-mix(in srgb, #000 calc(95.5% - 32.5%), var(--brand-experiment));
+--brand-experiment-900: color-mix(in srgb, #000 calc(97.6% - 32.5%), var(--brand-experiment));
+
+/* Opaque brand variables */
+--brand-experiment-05a: color-mix(in srgb, var(--brand-experiment) 5%, transparent);
+--brand-experiment-10a: color-mix(in srgb, var(--brand-experiment) 10%, transparent);
+--brand-experiment-15a: color-mix(in srgb, var(--brand-experiment) 15%, transparent);
+--brand-experiment-20a: color-mix(in srgb, var(--brand-experiment) 20%, transparent);
+--brand-experiment-25a: color-mix(in srgb, var(--brand-experiment) 25%, transparent);
+--brand-experiment-30a: color-mix(in srgb, var(--brand-experiment) 30%, transparent);
+--brand-experiment-35a: color-mix(in srgb, var(--brand-experiment) 35%, transparent);
+--brand-experiment-40a: color-mix(in srgb, var(--brand-experiment) 40%, transparent);
+--brand-experiment-45a: color-mix(in srgb, var(--brand-experiment) 45%, transparent);
+--brand-experiment-50a: color-mix(in srgb, var(--brand-experiment) 50%, transparent);
+--brand-experiment-55a: color-mix(in srgb, var(--brand-experiment) 55%, transparent);
+--brand-experiment-60a: color-mix(in srgb, var(--brand-experiment) 60%, transparent);
+--brand-experiment-65a: color-mix(in srgb, var(--brand-experiment) 65%, transparent);
+--brand-experiment-70a: color-mix(in srgb, var(--brand-experiment) 70%, transparent);
+--brand-experiment-75a: color-mix(in srgb, var(--brand-experiment) 75%, transparent);
+--brand-experiment-80a: color-mix(in srgb, var(--brand-experiment) 80%, transparent);
+--brand-experiment-85a: color-mix(in srgb, var(--brand-experiment) 85%, transparent);
+--brand-experiment-90a: color-mix(in srgb, var(--brand-experiment) 90%, transparent);
+--brand-experiment-95a: color-mix(in srgb, var(--brand-experiment) 95%, transparent);
+/* Old brand varibales */
+--brand-100: var(--brand-experiment-100);
+--brand-130: var(--brand-experiment-130);
+--brand-160: var(--brand-experiment-160);
+--brand-200: var(--brand-experiment-200);
+--brand-230: var(--brand-experiment-230);
+--brand-260: var(--brand-experiment-260);
+--brand-300: var(--brand-experiment-300);
+--brand-330: var(--brand-experiment-330);
+--brand-345: var(--brand-experiment-345);
+--brand-360: var(--brand-experiment-360);
+--brand-400: var(--brand-experiment-400);
+--brand-430: var(--brand-experiment-430);
+--brand-460: var(--brand-experiment-460);
+--brand-500: var(--brand-experiment-500);
+--brand-530: var(--brand-experiment-530);
+--brand-560: var(--brand-experiment-560);
+--brand-600: var(--brand-experiment-600);
+--brand-630: var(--brand-experiment-630);
+--brand-645: var(--brand-experiment-645);
+--brand-660: var(--brand-experiment-660);
+--brand-700: var(--brand-experiment-700);
+--brand-730: var(--brand-experiment-730);
+--brand-760: var(--brand-experiment-760);
+--brand-800: var(--brand-experiment-800);
+--brand-830: var(--brand-experiment-830);
+--brand-860: var(--brand-experiment-860);
+--brand-900: var(--brand-experiment-900);
+
+--status-danger: var(--brand-experiment);
+--button-outline-danger-border: var(--brand-experiment);
+--text-brand: var(--brand-experiment);
+--mention-background: var(--brand-experiment-30a);
+--red-330: var(--brand-experiment-330);
+--red-360: var(--brand-experiment-360);
+--red-400: var(--brand-experiment-400);
+--red-430: var(--brand-experiment-430);
+--red-460: var(--brand-experiment-460);
+--red-500: var(--brand-experiment-500);
+--red-530: var(--brand-experiment-530);
+--red-560: var(--brand-experiment-560);
+--red-600: var(--brand-experiment-600);
+--yellow-330: var(--brand-experiment-330);
+--yellow-360: var(--brand-experiment-360);
+--yellow-400: var(--brand-experiment-400);
+--yellow-430: var(--brand-experiment-430);
+--yellow-460: var(--brand-experiment-460);
+--yellow-500: var(--brand-experiment-500);
+--yellow-530: var(--brand-experiment-530);
+--yellow-560: var(--brand-experiment-560);
+--yellow-600: var(--brand-experiment-600);
+--green-330: var(--brand-experiment-330);
+--green-360: var(--brand-experiment-360);
+--green-400: var(--brand-experiment-400);
+--green-430: var(--brand-experiment-430);
+--green-460: var(--brand-experiment-460);
+--green-500: var(--brand-experiment-500);
+--green-530: var(--brand-experiment-530);
+--green-560: var(--brand-experiment-560);
+--green-600: var(--brand-experiment-600);
+--mention-background: var(--brand-experiment-30a);
+
+/* Scrollbars */
+--scrollbar-auto-thumb: var(--brand-experiment);
+--scrollbar-auto-track: color-mix(in srgb, var(--brand-experiment) 25%, transparent);
+--scrollbar-thin-thumb: var(--brand-experiment);
+--scrollbar-thin-track: transparent;
+}

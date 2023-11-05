@@ -1,0 +1,33 @@
+/* ShowMeYourName plugin */
+.vc-smyn-suffix:before {
+content: "| @" !important
+}
+.vc-smyn-suffix:after {
+content: "" !important
+}
+.vc-smyn-suffix {
+color: currentColor !important;
+opacity: 0.5
+}
+/* Username */
+.cozy_f5c119 .header__39b23 {
+margin-bottom: 4px
+}
+.contents_f41bb2 .username_d30d99,
+.base__512ed .text_ca54e9 strong,
+.name__4c9aa,
+.repliedMessage_e2bf4a>.username_d30d99,
+.member_aa4760 .username_d272d6
+{
+background: color-mix(in srgb, currentColor 25%, rgba(0, 0, 0, 0.25));
+text-shadow: 0 0 5px color-mix(in srgb, currentColor 25%, #000);
+margin-right: 4px;
+padding: 0 4px;
+border-radius: 4px
+}
+.username_d30d99::after {
+position: relative;
+margin: 0 0 0 8px;
+color: inherit;
+text-shadow: 0 0 5px #000
+}

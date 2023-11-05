@@ -1,0 +1,37 @@
+/* Timestamps */
+.contents_f41bb2 [class^=timestamp] {
+position: relative;
+color: var(--text-normal) !important;
+font-weight: bold;
+letter-spacing: 0.05em;
+font-size: 10px !important;
+margin: 0 4px;
+height: 16px;
+border-radius: 4px;
+top: -2px;
+line-height: 1rem !important
+}
+.contents_f41bb2 [class^=botTagCozy_] {
+line-height: 1rem;
+box-shadow: 0 0 0 1px var(--brand-experiment-900);
+height: 16px;
+top: 2px
+}
+@font-face {
+font-family: "Blank Dot";
+src: url("https://raw.githubusercontent.com/adobe-fonts/adobe-blank/master/AdobeBlank.ttf.woff");
+unicode-range: U+2022
+}
+[class^=timestampInline_] {
+font-family: "Blank Dot", var(--font-primary)
+}
+.contents_f41bb2 [class^=timestamp]:not(:has(time)) {
+background: var(--brand-experiment);
+padding: 0 4px 0 2px;
+box-shadow: 0 0 0 1px var(--brand-experiment-300)
+}
+.contents_f41bb2 [class^=timestamp]:has(time) {
+background: var(--brand-experiment-900);
+padding: 0 4px;
+box-shadow: 0 0 0 1px var(--brand-experiment)
+}

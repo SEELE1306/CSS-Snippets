@@ -1,0 +1,25 @@
+/* Message types */
+.contents_f41bb2 .username_d30d99::after {
+content: "wrote:"
+}
+.message__80c10:has(.edited_b20dd9) .contents_f41bb2 .username_d30d99::after {
+content: "wrote and edited:"
+}
+.message__80c10:has(.mediaAttachmentsContainer_edba75, .embed_d3cbe3) .contents_f41bb2 .username_d30d99::after {
+content: "sent attachment(s):"
+}
+.message__80c10:has(.stickerAsset__00e6b) .contents_f41bb2 .username_d30d99::after {
+content: "sent a sticker:"
+}
+.message__80c10:has(.emoji.jumboable) .contents_f41bb2 .username_d30d99::after {
+content: "sent emoji(s):"
+}
+.hasReply_febd50 .contents_f41bb2 .username_d30d99::after {
+content: "replied:"
+}
+.message__80c10.hasReply_febd50:has(.edited_b20dd9) .contents_f41bb2 .username_d30d99::after {
+content: "replied and edited:"
+}
+.mentioned__58017 .contents_f41bb2 .username_d30d99::after {
+content: "mentioned:"
+}
