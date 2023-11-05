@@ -1,6 +1,9 @@
 # CSS-Snippets
 A compilation of CSS snippets for Vencord / Vesktop.
 
+> [!NOTE]
+> A brief description of what each snippet does will be added in the future.
+
 ## Apply
 There are several methods to apply these snippets:
 
