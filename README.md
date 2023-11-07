@@ -59,3 +59,6 @@ There are several methods to apply these snippets:
   + Paste the following line as your **first line (ahead of any other custom CSS)**: `@import url(URL HERE);`
 </details>
 
+## Special thanks to
+[ant0n-0x0000](https://github.com/ant0n-0x0000) for helping out with the snippets' descriptions!
+
