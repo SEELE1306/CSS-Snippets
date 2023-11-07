@@ -4,6 +4,8 @@ A compilation of CSS snippets for Vencord / Vesktop.
 > [!IMPORTANT]
 > Many of the snippets are only guaranteed to work on Vesktop as of currently. Get the latest build here: [Releases - Vencord/Vesktop](https://github.com/Vencord/Vesktop/releases)
 
+## List of available snippets
+
 | Snippet    | Changes | Image |
 | -------- | ------- | ------- |
 | [BetterProfiles](BetterProfiles/import.css) | Improves general layout of user profiles, improving readability and visual appeal. | <img valign='middle' alt='BetterProfiles' src='./docs/_media/BetterProfiles.png' height='200px'/> |
