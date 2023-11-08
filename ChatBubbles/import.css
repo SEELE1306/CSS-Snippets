@@ -3,6 +3,8 @@
 --chat-bubble-replying: cyan;
 --chat-bubble-mentioned: orange;
 --chat-bubble-automod: red;
+}
+:root {
 /* Chat bubbles requirements */
 --background-message-hover: none;
 --background-mentioned: none;
