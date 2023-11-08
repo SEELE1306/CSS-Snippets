@@ -26,9 +26,6 @@ display: block
 justify-content: center;
 display: flex
 }
-.userPopoutInner_f545a3 {
-max-height: calc(100vh - 480px)
-}
 .pronouns__8bcdb,
 .pronouns_be950a {
 text-transform: none;
