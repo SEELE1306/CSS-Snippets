@@ -3,7 +3,6 @@
 display: none !important
 }
 .wrapper_d281dd[data-list-item-id="guildsnav___home"]::before {
-margin-left: 3px;
 content: "";
 border-radius: 50%;
 position: absolute;
