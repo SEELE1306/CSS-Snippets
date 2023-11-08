@@ -189,7 +189,76 @@ border-color: transparent
 .section__6f61e:has(.roles__74a2b:empty), /* no roles */
 [class*=userPanelInner_]::before,
 .lastSection__37b97, /* notes section */
-.aboutMeGuildIcon_b05b69 /* Profile guild icon */
-{
+.aboutMeGuildIcon_b05b69 /* Profile guild icon */ {
 display: none !important
+}
+/* fixes */
+[class^=userPopoutOverlayBackground_],
+[class^=userProfileModalOverlayBackground__] {
+background: transparent
+}
+:is(.section__6f61e, .userInfoSection__1daf8) .eyebrow_f53856 {
+text-transform: none;
+font-size: 14px;
+display: block;
+text-align: center
+}
+.activityUserPopoutV2__32328 .headerText__7d203,
+.activityProfileV2__4de28 .headerText__7d203 {
+text-transform: none;
+font-size: 14px
+}
+[style^="-webkit-line-clamp: 6"] {
+display: block
+}
+[class^=userProfileModalOverlayBackground__]>[class^=body_] {
+flex: 0 1 500px
+}
+/* [[ ROLE PILLS ]] */
+[class*=roles_] {
+justify-content: center
+}
+.rolePill_ee1aa1 {
+padding: 0;
+overflow: hidden;
+position: relative
+}
+.rolePill_ee1aa1 .roleRemoveButton__737f2 {
+position: unset;
+width: 100%;
+height: 100%
+}
+.rolePill_ee1aa1 .roleRemoveButton__737f2 .roleCircle_bae511 {
+border-radius: unset;
+margin: unset;
+position: absolute;
+width: 100%;
+height: 100%;
+mix-blend-mode: multiply;
+text-align: center
+}
+.rolePill_ee1aa1 .roleRemoveButton__737f2 .roleRemoveIcon__7f63d {
+background: var(--profile-role-pill-background-color);
+padding: 2px;
+border-radius: 50%;
+margin: -6px 0 0 -6px
+}
+.rolePill_ee1aa1 .roleRemoveButton__737f2 .roleRemoveIcon__7f63d path {
+fill: #fff
+}
+.rolePill_ee1aa1 .roleRemoveButton__737f2+.roleName_d19d33,.rolePill_ee1aa1 .roleIcon__7599e {
+margin-left: 4px
+}
+.rolePill_ee1aa1 .roleName_d19d33 {
+padding: 4px
+}
+.rolePill_ee1aa1 .roleName_d19d33 div {
+font-weight: 600
+}
+.rolePill_ee1aa1 .roleIcon__7599e {
+min-width: 16px;
+z-index: 1
+}
+.rolePillBorder__00c58 {
+border-color: none
 }
