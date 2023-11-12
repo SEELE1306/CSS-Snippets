@@ -8,7 +8,7 @@ A compilation of CSS snippets for Vencord / Vesktop.
 
 | Snippet    | Changes | Image |
 | -------- | ------- | ------- |
-| [BetterProfiles](BetterProfiles/import.css) | Improves general layout of user profiles, improving readability and visual appeal. | <img valign='middle' alt='BetterProfiles' src='./docs/_media/BetterProfiles.png' height='200px'/> |
+| [BetterProfiles](BetterProfiles/import.css) | Improves general layout of user profiles, improving readability and visual appeal. Credits to [Saltssaumure](https://github.com/Saltssaumure) for the role pills. | <img valign='middle' alt='BetterProfiles' src='./docs/_media/BetterProfiles.png' height='200px'/> |
 | [BetterQuotes](BetterQuotes/import.css) | Improves blockquotes styling to make it more visible and appealing | <img valign='middle' alt='BetterQuotes' src='./docs/_media/BetterQuotes.png'/> |
 | [AccentColor](ChangeColor/AccentColor/import.css) | Replaces the Blurple [<img valign='middle' alt='blurple' src='https://readme-swatches.vercel.app/5865F2?style=circle&size=10'/>#5865F2] accent color with one of your choice. | <img valign='middle' alt='AccentColor' src='./docs/_media/AccentColor.png'/> |
 | [ClientColor](ChangeColor/ClientColor/import.css) | Replaces the Grey [<img valign='middle' alt='grey' src='https://readme-swatches.vercel.app/313338?style=circle&size=10'/>#313338] client color with one of your choice. | <img valign='middle' alt='ClientColor' src='./docs/_media/ClientColor.png'/> |
@@ -66,4 +66,6 @@ There are several methods to apply these snippets:
 
 ## Special thanks to
 [ant0n-0x0000](https://github.com/ant0n-0x0000) for helping out with the snippets' descriptions!
+
+[Saltssaumure](https://github.com/Saltssaumure) for various elements within the snippets
 
