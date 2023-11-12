@@ -209,6 +209,7 @@ display: block
 flex: 0 1 500px
 }
 /* [[ ROLE PILLS ]] */
+/* credits to Saltssaumure for this part */
 [class*=roles_] {
 justify-content: center
 }
