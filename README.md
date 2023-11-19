@@ -17,9 +17,9 @@ A compilation of CSS snippets for Vencord / Vesktop.
 | [GuildBoost](GuildBoost/import.css) | Replaces the boost bar in guilds with a more appealing indicator | <img valign='middle' alt='GuildBoost' src='./docs/_media/GuildBoost.png' height='200px'/> |
 | [GuildList](GuildList/import.css) | Makes the guild/server list more more efficient and more appealing |  <img valign='middle' alt='GuildList' src='./docs/_media/GuildList.png' height='200px'/> |
 | [MessageSection-v2](MessageSection/v2/import.css) | Aligns the "Message Section" better and hides its icons a hover menu | <img valign='middle' alt='MessageSection-v2' src='./docs/_media/MessageSection-v2.png'/> |
-| [MessageTypes](MessageUtilities/MessageTypes/import.css) | Includes the message types & actions with the username | <img valign='middle' alt='MessageTypes' src='./docs/_media/MessageTypes.png'/> |
-| [TimestampBubbles](MessageUtilities/TimestampBubbles/import.css) | Applies a bubble to message timestamps | <img valign='middle' alt='TimestampBubbles' src='./docs/_media/TimestampBubbles.png'/> |
-| [Username](MessageUtilities/Username/import.css) | Applies a bubble to usernames that abide by role color | <img valign='middle' alt='Username' src='./docs/_media/Username.png'/> |
+| [MessageTypes](MessageUltilities/MessageTypes/import.css) | Includes the message types & actions with the username | <img valign='middle' alt='MessageTypes' src='./docs/_media/MessageTypes.png'/> |
+| [TimestampBubbles](MessageUltilities/TimestampBubbles/import.css) | Applies a bubble to message timestamps | <img valign='middle' alt='TimestampBubbles' src='./docs/_media/TimestampBubbles.png'/> |
+| [Username](MessageUltilities/Username/import.css) | Applies a bubble to usernames that abide by role color | <img valign='middle' alt='Username' src='./docs/_media/Username.png'/> |
 | [OnekoDM](OnekoDM/import.css) | Replaces the discord logo with Oneko! | <img valign='middle' alt='OnekoDM' src='./docs/_media/OnekoDM.png'/> |
 | [UserOptions](UserOptions/import.css) | Replaces the profile popout with more streamlined options | <img valign='middle' alt='UserOptions' src='./docs/_media/UserOptions.png' height='200px'/> |
 | [UserPanel](UserPanel/import.css) | Replaces the user panel with a customizable, more appealing version. | <img valign='middle' alt='UserPanel' src='./docs/_media/UserPanel.png'/> |
