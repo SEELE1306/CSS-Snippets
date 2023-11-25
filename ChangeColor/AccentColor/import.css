@@ -2,6 +2,7 @@
 --brand-experiment: hsl(249, 22%, 50%);
 }
 :root, .theme-dark {
+    
 /* New brand variables */
 --brand-experiment-100: color-mix(in srgb, #fff calc(97.6% - 32.5%), var(--brand-experiment));
 --brand-experiment-130: color-mix(in srgb, #fff calc(95.5% - 32.5%), var(--brand-experiment));
@@ -51,6 +52,7 @@
 --brand-experiment-85a: color-mix(in srgb, var(--brand-experiment) 85%, transparent);
 --brand-experiment-90a: color-mix(in srgb, var(--brand-experiment) 90%, transparent);
 --brand-experiment-95a: color-mix(in srgb, var(--brand-experiment) 95%, transparent);
+
 /* Old brand varibales */
 --brand-100: var(--brand-experiment-100);
 --brand-130: var(--brand-experiment-130);
@@ -80,37 +82,7 @@
 --brand-860: var(--brand-experiment-860);
 --brand-900: var(--brand-experiment-900);
 
---status-danger: var(--brand-experiment);
---button-outline-danger-border: var(--brand-experiment);
 --text-brand: var(--brand-experiment);
---mention-background: var(--brand-experiment-30a);
---red-330: var(--brand-experiment-330);
---red-360: var(--brand-experiment-360);
---red-400: var(--brand-experiment-400);
---red-430: var(--brand-experiment-430);
---red-460: var(--brand-experiment-460);
---red-500: var(--brand-experiment-500);
---red-530: var(--brand-experiment-530);
---red-560: var(--brand-experiment-560);
---red-600: var(--brand-experiment-600);
---yellow-330: var(--brand-experiment-330);
---yellow-360: var(--brand-experiment-360);
---yellow-400: var(--brand-experiment-400);
---yellow-430: var(--brand-experiment-430);
---yellow-460: var(--brand-experiment-460);
---yellow-500: var(--brand-experiment-500);
---yellow-530: var(--brand-experiment-530);
---yellow-560: var(--brand-experiment-560);
---yellow-600: var(--brand-experiment-600);
---green-330: var(--brand-experiment-330);
---green-360: var(--brand-experiment-360);
---green-400: var(--brand-experiment-400);
---green-430: var(--brand-experiment-430);
---green-460: var(--brand-experiment-460);
---green-500: var(--brand-experiment-500);
---green-530: var(--brand-experiment-530);
---green-560: var(--brand-experiment-560);
---green-600: var(--brand-experiment-600);
 --mention-background: var(--brand-experiment-30a);
 
 /* Scrollbars */
