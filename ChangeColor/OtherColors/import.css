@@ -172,4 +172,8 @@
 --blue-830: var(--brand-experiment-830);
 --blue-860: var(--brand-experiment-860);
 --blue-900: var(--brand-experiment-900);
+
+/* OTHERS */
+--status-danger: var(--brand-experiment);
+--button-outline-danger-border: var(--brand-experiment);
 }

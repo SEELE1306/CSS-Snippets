@@ -2,7 +2,7 @@
 A compilation of CSS snippets for Vencord / Vesktop.
 
 > [!IMPORTANT]
-> Many of the snippets are only guaranteed to work on Vesktop as of currently. Get the latest build here: [Releases - Vencord/Vesktop](https://github.com/Vencord/Vesktop/releases)
+> **Update 26.11.2023:** For many of the snippets, a `import-legacy.css` file has been added to support non-Vesktop clients. These files however will not guarantee the ezact same look as on Vesktop due to Chromium limitations.
 
 ## List of available snippets
 
@@ -12,6 +12,7 @@ A compilation of CSS snippets for Vencord / Vesktop.
 | [BetterQuotes](BetterQuotes/import.css) | Improves blockquotes styling to make it more visible and appealing | <img valign='middle' alt='BetterQuotes' src='./docs/_media/BetterQuotes.png'/> |
 | [AccentColor](ChangeColor/AccentColor/import.css) | Replaces the Blurple [<img valign='middle' alt='blurple' src='https://readme-swatches.vercel.app/5865F2?style=circle&size=10'/>#5865F2] accent color with one of your choice. | <img valign='middle' alt='AccentColor' src='./docs/_media/AccentColor.png'/> |
 | [ClientColor](ChangeColor/ClientColor/import.css) | Replaces the Grey [<img valign='middle' alt='grey' src='https://readme-swatches.vercel.app/313338?style=circle&size=10'/>#313338] client color with one of your choice. | <img valign='middle' alt='ClientColor' src='./docs/_media/ClientColor.png'/> |
+| [OtherColors](ChangeColor/OtherColors/import.css) | Replace other Discord colors (red, yellow, green, etc.) with Blurple [<img valign='middle' alt='blurple' src='https://readme-swatches.vercel.app/5865F2?style=circle&size=10'/>#5865F2].| <img valign='middle' alt='OtherColors' src='./docs/_media/OtherColors.png'/> |
 | [ChannelSelections](ChannelSelections/import.css) | Allows for more spacing for channel icons & colored unread notifiers. | <img valign='middle' alt='ChannelSelections' src='./docs/_media/ChannelSelections.png' height='200px'/> |
 | [ChatBubbles](ChatBubbles/import.css) | Adds a chat bubble around messages. Different colours are available for normal, replying, mentioned and automod messages. | <img valign='middle' alt='ChatBubbles' src='./docs/_media/ChatBubbles.png'/> |
 | [GuildBoost](GuildBoost/import.css) | Replaces the boost bar in guilds with a more appealing indicator | <img valign='middle' alt='GuildBoost' src='./docs/_media/GuildBoost.png' height='200px'/> |
