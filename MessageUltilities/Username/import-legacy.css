@@ -20,7 +20,7 @@ margin-bottom: 4px
 .member_aa4760 .username_d272d6
 {
 background: var(--background-secondary);
-text-shadow: 0 0 5px #000;
+text-shadow: 0 0 5px currentColor;
 margin-right: 4px;
 padding: 0 4px;
 border-radius: 4px
