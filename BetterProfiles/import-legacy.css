@@ -6,26 +6,31 @@
   float: none;
   border-radius: 4px;
 }
+
 .customStatus__3aa7f .customStatusEmoji__00639.customStatusSoloEmoji__24b58 {
   position: relative;
   left: 42.5%;
 }
+
 .customStatus__3aa7f::before {
   content: "Current status";
   font-weight: 800;
   color: var(--text-muted);
   display: block;
 }
+
 .customStatus__90402::before {
   content: "Current status";
   font-weight: 800;
   color: var(--text-muted);
   display: block;
 }
+
 .defaultColor__77578.eyebrow_e5a66c.defaultColor__87d87.title_ef4a6d {
   justify-content: center;
   display: flex;
 }
+
 .pronouns__8bcdb,
 .pronouns_be950a {
   text-transform: none;
@@ -44,6 +49,7 @@
   );
   background-size: 200% 200%;
 }
+
 .profileBannerPremium__9ca8f {
   margin: 12px auto auto;
   width: calc(100% - 24px);
@@ -51,6 +57,7 @@
   min-height: 188px !important;
   border-radius: 8px;
 }
+
 .popoutBannerPremium__942db {
   margin: 8px auto auto;
   width: calc(100% - 16px) !important;
@@ -58,26 +65,33 @@
   min-height: 106px !important;
   border-radius: 4px;
 }
+
 .scroller__83262 {
   padding: 6px 12px;
 }
+
 .section__6f61e > div:not(.roles__74a2b),
 .userInfoText__5f822 {
   padding: 8px;
 }
+
 .scrollerSeparator__321f3 {
   box-shadow: none;
 }
+
 .section__6f61e.usernameSection__53868 {
   margin-bottom: 8px;
 }
+
 .container_b6b15b {
   margin: 0 12px;
   padding: 16px;
 }
+
 .usernameSection__53868 > div {
   width: calc(100% - 16px);
 }
+
 .section__6f61e > div:not(.activity__20c1e, .roles__74a2b),
 .memberSinceContainer__0a28b,
 .userInfoText__5f822,
@@ -87,6 +101,7 @@ img[class*="emoji_"] {
   justify-content: center;
   text-align: center;
 }
+
 .section__6f61e > div:not(.roles__74a2b),
 .mutualGuildsList__6e961,
 .mutualFriendsList__632b5,
@@ -95,18 +110,22 @@ img[class*="emoji_"] {
   background: var(--profile-body-background-color);
   border-radius: 4px;
 }
+
 /* remove border in modal connections */
 .userInfoSection__1daf8 + .userInfoSection__1daf8 {
   border-top: none;
 }
+
 /* fix badge list height */
 .profileBadges__7a7cb.container__5bda1 {
   min-height: fit-content;
   margin-right: 10px;
 }
+
 :is(.userPopoutInner_f545a3, .userInfoText__5f822) .blockquoteContainer_f24d1f {
   justify-content: center;
 }
+
 .userPopoutInner_f545a3 .markup_a7e664 a,
 .userInfoText-2MFCmH.markup_a7e664 a,
 .timestamp_a65714 {
@@ -116,6 +135,7 @@ img[class*="emoji_"] {
   padding: 0 4px;
   border-radius: 4px;
 }
+
 :is(
     .userPopoutInner_f545a3 .markup_a7e664 a,
     .userInfoText-2MFCmH.markup_a7e664 a,
@@ -124,9 +144,11 @@ img[class*="emoji_"] {
   background: var(--background-modifier-hover);
   text-decoration: none;
 }
+
 .tabBarContainer__63f55 {
   margin: 20px 0 0;
 }
+
 .tabBar__35f81 {
   display: flex;
   flex-flow: row wrap;
@@ -136,6 +158,7 @@ img[class*="emoji_"] {
   column-gap: 8px;
   margin-bottom: 16px;
 }
+
 .userProfileModalInner__7c87d .top__592a7 .item__48dda {
   border: none;
   background: var(--background-modifier-accent);
@@ -144,49 +167,63 @@ img[class*="emoji_"] {
   border-radius: 4px;
   text-align: center;
 }
+
 .tabBarContainer__63f55,
 .top__592a7 .themed_b957e8.item__48dda:hover {
   border: none;
 }
+
 .userProfileModalInner__7c87d .top__592a7 .item__48dda:hover {
   background: var(--background-modifier-hover) !important;
 }
+
 .userProfileModalInner__7c87d .top__592a7 .selected__5711d.item__48dda {
   background: var(--background-modifier-selected);
 }
+
 .tabBarItem_b56b35 {
   height: fit-content;
 }
+
 .divider_d66e63 {
   background: var(--profile-body-divider-color);
 }
+
 .platformIcon__05c5e {
   margin: 2px 2px;
 }
+
 .scroller__5a651 {
   left: 12.5%;
 }
+
 .userProfileOuterUnthemed__48723 .userPanelInner_eddf4c,
 .root_a28985:has(.userProfileModalOuter__3fe6b) {
   background: transparent !important;
 }
+
 .profilePanel__12596 .userPanelInner_eddf4c {
   border-radius: 8px;
 }
+
 .connectedAccountContainer__23f00 {
   border-width: 2px;
 }
+
 .connectedAccountContainer__23f00:has(.connectedAccountOpenIcon_df549d:hover) {
   background: var(--profile-body-divider-color);
 }
+
 .flowerStarContainer_d8d14b.connectedAccountVerifiedIcon_db6dbd > svg > path {
   fill: var(--profile-body-divider-color);
   filter: brightness(1) contrast(2);
 }
+
 :is(.userPopoutInner_f545a3, .profilePanel__12596) [class*="divider_"] {
   background: transparent;
   border-color: transparent;
 }
+
 .userInfoSection__1daf8 .eyebrow_f53856:last-child, /* Notes in profile modal */
 .section__6f61e:has(.roles__74a2b:empty), /* no roles */
 [class*=userPanelInner_]::before,
@@ -194,43 +231,52 @@ img[class*="emoji_"] {
 .aboutMeGuildIcon_b05b69 /* Profile guild icon */ {
   display: none !important;
 }
+
 /* fixes */
 [class^="userPopoutOverlayBackground_"],
 [class^="userProfileModalOverlayBackground__"] {
   background: transparent;
 }
+
 :is(.section__6f61e, .userInfoSection__1daf8) .eyebrow_f53856 {
   text-transform: none;
   font-size: 14px;
   display: block;
   text-align: center;
 }
+
 .activityUserPopoutV2__32328 .headerText__7d203,
 .activityProfileV2__4de28 .headerText__7d203 {
   text-transform: none;
   font-size: 14px;
 }
+
 [style^="-webkit-line-clamp: 6"] {
   display: block;
 }
+
 [class^="userProfileModalOverlayBackground__"] > [class^="body_"] {
   flex: 0 1 500px;
 }
+
 /* [[ ROLE PILLS ]] */
 /* credits to Saltssaumure for this part */
 [class*="roles_"] {
   justify-content: center;
 }
+
 .rolePill_ee1aa1 {
   padding: 0;
   overflow: hidden;
   position: relative;
 }
+
 .rolePill_ee1aa1 .roleRemoveButton__737f2 {
   position: unset;
   width: 100%;
   height: 100%;
 }
+
 .rolePill_ee1aa1 .roleRemoveButton__737f2 .roleCircle_bae511 {
   border-radius: unset;
   margin: unset;
@@ -240,29 +286,45 @@ img[class*="emoji_"] {
   mix-blend-mode: multiply;
   text-align: center;
 }
+
 .rolePill_ee1aa1 .roleRemoveButton__737f2 .roleRemoveIcon__7f63d {
   background: var(--profile-role-pill-background-color);
   padding: 2px;
   border-radius: 50%;
   margin: -6px 0 0 -6px;
 }
+
 .rolePill_ee1aa1 .roleRemoveButton__737f2 .roleRemoveIcon__7f63d path {
   fill: #fff;
 }
+
 .rolePill_ee1aa1 .roleRemoveButton__737f2 + .roleName_d19d33,
 .rolePill_ee1aa1 .roleIcon__7599e {
   margin-left: 4px;
 }
+
 .rolePill_ee1aa1 .roleName_d19d33 {
   padding: 4px;
 }
+
 .rolePill_ee1aa1 .roleName_d19d33 div {
   font-weight: 600;
 }
+
 .rolePill_ee1aa1 .roleIcon__7599e {
   min-width: 16px;
   z-index: 1;
 }
+
 .rolePillBorder__00c58 {
   border-color: none;
+}
+
+/* Fix profile in customization section */
+.profileCustomizationSection__88eff .section__6f61e.container__22d2b {
+  justify-content: center;
+}
+
+.profileCustomizationSection__88eff .section__6f61e.container__22d2b > div {
+  width: 100%;
 }
