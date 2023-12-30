@@ -24,6 +24,7 @@ A compilation of CSS snippets for Vencord / Vesktop.
 | [OnekoDM](OnekoDM/import.css) | Replaces the discord logo with Oneko! | <img valign='middle' alt='OnekoDM' src='./docs/_media/OnekoDM.png'/> |
 | [UserOptions](UserOptions/import.css) | Replaces the profile popout with more streamlined options | <img valign='middle' alt='UserOptions' src='./docs/_media/UserOptions.png' height='200px'/> |
 | [UserPanel](UserPanel/import.css) | Replaces the user panel with a customizable, more appealing version. | <img valign='middle' alt='UserPanel' src='./docs/_media/UserPanel.png'/> |
+| [ToolbarHide](UserPanel/import.css) | Hides the toolbar at the top for a cleaner layout. | <img valign='middle' alt='ToolbarHide' src='./docs/_media/ToolbarHide.png'/> |
 
 Note: Some screenshots were taken in smaller windows for the sake of fitting in this table. All were taken in Vesktop v0.4.3
 
