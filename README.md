@@ -2,7 +2,7 @@
 A compilation of CSS snippets for Vencord / Vesktop.
 
 > [!IMPORTANT]
-> **Update 26.11.2023:** For many of the snippets, a `import-legacy.css` file has been added to support **non-Vesktop clients**. These files however will not guarantee the exact same look as on Vesktop due to Chromium limitations.
+> **Update 30.12.2023:** Some `import.css` files have been changed to `import-legacy.css` to accomodate for the new files. If your snippet stops working, I would recommend checking out the new `import-legacy.css` files instead.
 
 ## List of available snippets
 
