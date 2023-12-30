@@ -1,0 +1,95 @@
+/* [[ ONEKO DM ]] */
+.wrapper_d281dd[data-list-item-id="guildsnav___home"] path {
+  display: none !important;
+}
+
+.wrapper_d281dd[data-list-item-id="guildsnav___home"]::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  transition: 0.2s ease;
+  opacity: 0.5;
+  image-rendering: pixelated;
+  background-image: url("https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif");
+  animation: sleep, init;
+  animation-duration: 1s, 2s;
+  animation-iteration-count: infinite, 1;
+  animation-delay: 2s, 0s;
+}
+
+.wrapper_d281dd[data-list-item-id="guildsnav___home"]::after {
+  animation: reverse wakeup 1s 1;
+}
+
+.wrapper_d281dd[data-list-item-id="guildsnav___home"]:hover::before,
+.wrapper_d281dd[data-list-item-id="guildsnav___home"].selected_f5ec8e::before {
+  animation: 2s 1 forwards wakeup;
+  opacity: 1;
+}
+
+@keyframes sleep {
+  0%,
+  50% {
+    background-position: -64px 0;
+  }
+  50.00001%,
+  100% {
+    background-position: -64px -32px;
+  }
+}
+
+@keyframes wakeup {
+  0%,
+  20% {
+    background-position: -160px 0;
+  }
+  20.00001%,
+  40% {
+    background-position: -192px 0;
+  }
+  40.00001%,
+  60% {
+    background-position: -224px 0;
+  }
+  60.00001%,
+  80% {
+    background-position: -96px -64px;
+  }
+  80.00001%,
+  100% {
+    background-position: -96px -96px;
+  }
+}
+
+@keyframes init {
+  0%,
+  14.28% {
+    background-position: -96px -96px;
+  }
+  14.280001%,
+  28.56% {
+    background-position: -96px -64px;
+  }
+  28.560001%,
+  42.84% {
+    background-position: -224px 0;
+  }
+  42.840001%,
+  57.12% {
+    background-position: -192px 0;
+  }
+  57.120001%,
+  71.40% {
+    background-position: -160px 0;
+  }
+  71.400001%,
+  85.68% {
+    background-position: -64px 0;
+  }
+  85.680001%,
+  99.999999% {
+    background-position: -64px -32px;
+  }
+}
