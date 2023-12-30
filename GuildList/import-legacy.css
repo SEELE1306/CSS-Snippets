@@ -1,0 +1,141 @@
+/* [[ GUILD LIST ]] */
+.guilds__2b93a {
+  width: 64px;
+}
+
+.listItem_fa7b36,
+.wrapper_ed1dea,
+.svg_ad7356,
+.blobContainer__5ee50,
+.listItem_fa7b36 > .wrapper__3670f + div:not([class]),
+.wrapper__3af0b,
+.svg_ad7356 > foreignObject {
+  width: 64px;
+  mask: none !important;
+}
+
+.listItem_fa7b36:not(:has(.guildSeparator_dcb3cc)),
+.wrapper__3af0b,
+.svg_ad7356 > foreignObject {
+  height: 40px;
+}
+
+.expandedFolderBackground__1bec6 {
+  width: 40px;
+  border-radius: 4px;
+}
+
+.svg_ad7356 > foreignObject {
+  transform: translateX(calc(-32px + 50%));
+}
+
+.wrapper_d281dd,
+.folder__17546,
+.circleIconButton_d8df29 {
+  margin-left: 14px;
+  width: 40px;
+  justify-content: start;
+  border-radius: 4px !important;
+  height: 40px;
+}
+
+.wrapper_d281dd img,
+.folderIconWrapper__72239,
+.childWrapper__01b9c,
+.expandedFolderIconWrapper__458cf,
+.closedFolderIconWrapper__7321f {
+  border-radius: 4px !important;
+  height: 40px;
+  width: 40px;
+}
+
+.svg_ad7356 {
+  position: static;
+}
+
+.wrapperSimple_a34580 {
+  border-radius: 0 !important;
+}
+
+.circleIcon__428dd {
+  height: 32px;
+  margin-left: 0;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: calc(40px / 7);
+}
+
+.circleIconButton_d8df29.selected__5250e::after,
+.wrapper_d281dd[data-list-item-id*="guildsnav___"].selected_f5ec8e::after {
+  color: var(--interactive-active);
+}
+
+.wrapper_ed1dea > [id*="folder-items-"] {
+  height: fit-content !important;
+}
+
+.expandedFolderBackground__1bec6 {
+  height: 100%;
+}
+
+.upperBadge_c7cfb3,
+.lowerBadge__669e7 {
+  transform: translateX(-50%) !important;
+}
+
+.numberBadge__50328,
+.iconBadge_fdf33a {
+  border-radius: 2px;
+}
+
+.base__92a12 {
+  background: var(--brand-experiment-700) !important;
+  font-size: 12px;
+  box-shadow: 0 0 0 1.5px var(--brand-experiment);
+}
+
+.pill__13f64,
+.wrapper__3670f:not(:last-child) {
+  height: 40px !important;
+  align-items: center;
+  width: 3px;
+  margin-left: 7px;
+  background-color: var(--background-modifier-accent);
+}
+
+.wrapper__3670f:last-child {
+  width: 3px;
+  align-items: center;
+  border-radius: 0;
+  height: 40px !important;
+}
+
+.item_f9d377 {
+  max-height: 40px;
+  background: var(--brand-experiment);
+  border-radius: 0;
+}
+
+.blobContainer__5ee50
+  .wrapper_d281dd[data-list-item-id*="guildsnav___"]::after {
+  content: none;
+}
+
+.listItem_fa7b36 {
+  margin: 8px 0;
+}
+
+div[style="opacity: 1; height: 56px; transform: scale(1);"] {
+  height: 40px !important;
+}
+
+path[d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"] {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  d: path(
+    "m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2"
+  );
+}
