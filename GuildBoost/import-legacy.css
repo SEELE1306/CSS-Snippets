@@ -2,11 +2,13 @@
 .textArea_f2029c {
   padding: 0 8px;
 }
+
 .progressBar_db0972,
 .progressBarContainer__9b571 {
   height: 40px;
   border-radius: 8px;
 }
+
 .container__4f639,
 .containerWithMargin__7d380 {
   position: relative;
@@ -15,6 +17,7 @@
   padding: 0;
   width: 105%;
 }
+
 .tadaIcon__3b97b {
   right: 98%;
   top: 6px;
@@ -22,20 +25,25 @@
   font-size: 36px;
   opacity: 0.5;
 }
+
 .progressBarContainer__9b571 {
   top: -40px;
   z-index: -1;
 }
+
 .progressBar_db0972 {
   background: var(--brand-experiment-50a);
 }
+
 .container__4f639:hover .progressBar_db0972 {
   animation: 5s flicker linear infinite;
   background: var(--brand-experiment-75a);
 }
+
 .container__4f639:hover .tadaIcon__3b97b {
   animation: 3s flicker linear infinite;
 }
+
 @keyframes flicker {
   0% {
     opacity: 1;
