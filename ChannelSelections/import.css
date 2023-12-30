@@ -5,6 +5,7 @@
 .navButtonActive__735cb {
   background: color-mix(in srgb, var(--brand-experiment) 50%, transparent);
 }
+
 .icon_eff5d4 {
   width: 15px;
   height: 15px;
@@ -12,13 +13,16 @@
   border-radius: 4px;
   padding: 3px;
 }
+
 :is(.containerDefault__3187b.selected__3b4cb, .modeUnread_f74c03) .icon_eff5d4 {
   color: var(--interactive-active);
 }
+
 .containerDefault__3187b:hover .icon_eff5d4 {
   color: var(--interactive-active);
   background: color-mix(in srgb, var(--brand-experiment) 50%, transparent);
 }
+
 [class*="unread_"] {
   display: none;
 }

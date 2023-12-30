@@ -5,6 +5,7 @@
 .navButtonActive__735cb {
   background: var(--brand-experiment-50a);
 }
+
 .icon_eff5d4 {
   width: 15px;
   height: 15px;
@@ -12,13 +13,16 @@
   border-radius: 4px;
   padding: 3px;
 }
+
 :is(.containerDefault__3187b.selected__3b4cb, .modeUnread_f74c03) .icon_eff5d4 {
   color: var(--interactive-active);
 }
+
 .containerDefault__3187b:hover .icon_eff5d4 {
   color: var(--interactive-active);
   background: var(--brand-experiment-50a);
 }
+
 [class*="unread_"] {
   display: none;
 }
