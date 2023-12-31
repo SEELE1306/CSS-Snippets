@@ -37,6 +37,6 @@
 }
 
 /* Prevent light mode from making whitenames black (visibility) */
-.username_d30d99:not(:has([style])) {
+.username_d30d99:not([style]) {
   color: var(--brand-experiment-100);
 }
