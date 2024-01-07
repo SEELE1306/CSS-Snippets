@@ -30,13 +30,6 @@
       opacity: 1;
     }
   }
-
-  &.selected_f5ec8e {
-    &::before {
-      animation: 2s 1 forwards wakeup;
-      opacity: 1;
-    }
-  }
 }
 
 @keyframes sleep {

@@ -23,8 +23,7 @@
   animation: reverse wakeup 1s 1;
 }
 
-.wrapper_d281dd[data-list-item-id="guildsnav___home"]:hover::before,
-.wrapper_d281dd[data-list-item-id="guildsnav___home"].selected_f5ec8e::before {
+.wrapper_d281dd[data-list-item-id="guildsnav___home"]:hover::before {
   animation: 2s 1 forwards wakeup;
   opacity: 1;
 }
