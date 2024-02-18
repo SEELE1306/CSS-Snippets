@@ -2,7 +2,7 @@
 A compilation of CSS snippets for Discord and its custom clients.
 
 > [!IMPORTANT]
-> **Update 30.12.2023:** Some `import.css` files have been changed to `import-legacy.css` to accomodate for the new files. If your snippet stops working, I would recommend checking out the new `import-legacy.css` files instead.
+> **Update 19.02.2024:** GuildList is currently broken, please refrain from using it for the time being.
 
 ## List of available snippets
 
