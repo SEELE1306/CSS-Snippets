@@ -281,7 +281,7 @@ img[class*="emoji_"] {
   border-radius: unset;
   margin: unset;
   position: absolute;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   mix-blend-mode: multiply;
   text-align: center;
@@ -327,4 +327,17 @@ img[class*="emoji_"] {
 
 .profileCustomizationSection__88eff .section__6f61e.container__22d2b > div {
   width: 100%;
+}
+
+/* Add back ReviewDB */
+div[style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;"],
+.vc-rdb-view {
+  padding: 4px 8px;
+  margin-top: 8px;
+  border-radius: 8px;
+  background: var(--profile-body-background-color);
+}
+
+.vc-rdb-view .wrapper_c727b6 {
+  scale: 0.825;
 }
