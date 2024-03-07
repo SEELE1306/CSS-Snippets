@@ -13,17 +13,21 @@
       min-height: 49px;
       border-radius: 0;
     }
+
+    & > .content_cecbc1 > img {
+      margin-bottom: 8px;
+    }
   }
 
   /* Slowmode/typing indicators */
   & > :last-child[class^="typing"] {
-    top: -24px;
+    top: -28px;
     right: 24px;
     padding: 0px 16px 0px 8px;
     margin-left: auto;
     width: fit-content;
-    border-radius: 4px 4px 0 0;
-    background: var(--brand-experiment);
+    border-radius: 4px;
+    background: var(--background-tertiary);
   }
 
   & .buttons_ce5b56 {
@@ -60,12 +64,13 @@
       opacity: 0%;
 
       & svg {
-        color: var(--interactive-normal);
-        transition: all 0.3s ease-in-out;
+        padding: 3px;
+        border-radius: 4px;
       }
 
       &:hover svg {
-        color: var(--brand-experiment);
+        background: var(--background-modifier-hover);
+        color: var(--interactive-hover);
       }
     }
 
@@ -79,11 +84,6 @@
     }
   }
 }
-
-.sendIcon__461ff path {
-  fill: var(--brand-experiment);
-}
-
 .separator__8424b {
   grid-column: 4;
   margin-right: 8px;
@@ -101,7 +101,7 @@
 }
 
 .channelAttachmentArea__740bf {
-  background: var(--brand-experiment-900);
+  background: var(--background-tertiary);
   margin-left: 4px;
   padding: 8px;
   gap: 8px;
@@ -120,7 +120,7 @@
   transform: translate(0, -16px);
 
   & .button_d553e5 {
-    background: var(--brand-experiment-700);
+    background: var(--background-tertiary);
   }
 }
 
@@ -132,7 +132,7 @@
   /* v2.0.1 */
   border-top-right-radius: 8px;
   width: fit-content !important;
-  background: var(--brand-experiment);
+  background: var(--background-primary);
   right: unset;
 
   & > .barButtonMain__0f5c6 {
@@ -152,14 +152,14 @@
   min-height: unset !important;
   position: relative;
   /* v2.0.1 */
-  padding: 0 0 2px 0 !important;
-  margin: 0 20px 0 0px !important;
-  border-top-right-radius: 8px !important;
-  background: var(--brand-experiment);
+  margin: 0px 24px 4px 4px;
+  padding: 4px 0;
+  border-radius: 4px !important;
+  background: var(--background-tertiary);
 }
 
 .replyBar_b64d74 {
-  background: var(--brand-experiment);
+  background: none;
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
@@ -188,9 +188,11 @@
 
 .newMessagesBar__8b6d7 {
   height: 24px;
-  margin-left: calc(var(--bar-edges) * -1);
-  border-radius: 4px 4px 0 0;
+  margin-bottom: 4px;
+  margin-left: calc(var(--bar-edges) * -1 + 4px);
+  border-radius: 4px;
   inset: auto var(--bar-edges) 0;
+  background: var(--background-tertiary);
 
   &:hover .span_a7874a {
     animation: vertiscroll 0.5s linear forwards;

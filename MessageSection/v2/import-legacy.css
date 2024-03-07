@@ -1,15 +1,7 @@
 /* [[ CHAT AREA ]] */
-.channelTextArea__56a36 {
-  background: var(--background-primary);
-}
-
 .form__13a2c {
   margin-top: 0;
   padding: 0;
-}
-
-.sendIcon__461ff path {
-  fill: var(--brand-experiment);
 }
 
 .form__13a2c .buttons_ce5b56 {
@@ -56,18 +48,20 @@
 }
 
 .form__13a2c .buttons_ce5b56:hover > :is(div, button) {
+  display: flex;
   transform: scaleX(100%) !important;
   transition: opacity 300ms;
   opacity: 100%;
 }
 
 .buttons_ce5b56 > :is(div, button):hover svg {
-  color: var(--brand-experiment);
+  background: var(--background-modifier-hover);
+  color: var(--interactive-hover);
 }
 
 .buttons_ce5b56 > :is(div, button) svg {
-  transition: all 0.3s;
-  color: var(--interactive-normal);
+  padding: 3px;
+  border-radius: 4px;
 }
 
 .separator__8424b {
@@ -87,7 +81,7 @@
 }
 
 .channelAttachmentArea__740bf {
-  background: var(--brand-experiment-900);
+  background: var(--background-tertiary);
   margin-left: 4px;
   padding: 8px;
   gap: 8px;
@@ -107,7 +101,7 @@
 }
 
 .actionBar__3cdab .button_d553e5 {
-  background: var(--brand-experiment-900);
+  background: var(--background-tertiary);
 }
 
 /* align chatbox to bottom */
@@ -124,23 +118,24 @@
 
 /* slowmode/typing indicator */
 .form__13a2c > :last-child[class^="typing"] {
-  top: -32px;
+  top: -28px;
   right: 24px;
-  padding: 4px 16px 4px 8px;
+  padding: 0px 16px 0px 8px;
   margin-left: auto;
   width: fit-content;
-  border-radius: 8px 8px 0 0;
-  background: var(--brand-experiment-900);
+  border-radius: 4px;
+  background: var(--background-tertiary);
 }
 
-/* jump to presz */
+/* jump to present */
 .jumpToPresentBar__0ff7f {
   padding: 0;
   left: 0;
   border-radius: 0px;
+  /* v2.0.1 */
   border-top-right-radius: 8px;
   width: fit-content !important;
-  background: var(--brand-experiment-900);
+  background: var(--background-primary);
   right: unset;
 }
 
@@ -151,14 +146,15 @@
 .attachedBars_da3c74 {
   min-height: unset !important;
   position: relative;
-  padding: 0 0 2px 0 !important;
-  margin: 0 20px 0 0px !important;
-  border-top-right-radius: 8px !important;
-  background: var(--brand-experiment-900);
+  /* v2.0.1 */
+  margin: 0px 24px 4px 4px;
+  padding: 4px 0;
+  border-radius: 4px !important;
+  background: var(--background-tertiary);
 }
 
 .replyBar_b64d74 {
-  background: var(--brand-experiment-900);
+  background: none;
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
@@ -182,10 +178,12 @@
 }
 
 .newMessagesBar__8b6d7 {
-  margin-left: calc(var(--bar-edges) * -1);
-  border-radius: 8px 8px 0 0;
+  height: 24px;
+  margin-bottom: 4px;
+  margin-left: calc(var(--bar-edges) * -1 + 4px);
+  border-radius: 4px;
   inset: auto var(--bar-edges) 0;
-  background: var(--brand-experiment-900);
+  background: var(--background-tertiary);
 }
 
 .messagesWrapper_ea2b0b:has(.jumpToPresentBar__0ff7f) .newMessagesBar__8b6d7 {
@@ -208,8 +206,4 @@
   100% {
     transform: translateY(calc(-100% + var(--bar-height)));
   }
-}
-
-.form__13a2c:before {
-  display: none;
 }
