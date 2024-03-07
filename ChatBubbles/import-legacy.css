@@ -4,6 +4,7 @@
   --chat-bubble-replying: 180 100% 50%;
   --chat-bubble-mentioned: 39 100% 50%;
   --chat-bubble-automod: 0 100% 50%;
+  --enable-chat-bubble-border: 1;
 }
 
 /* NOT Customizable */
@@ -53,6 +54,8 @@
   padding: 8px;
   border-radius: 8px;
   background: hsl(var(--chat-bubble-default) / 25%);
+  border: calc(2px * var(--enable-chat-bubble-border)) solid
+    hsl(var(--chat-bubble-default));
   max-width: max-content;
   box-sizing: border-box;
 }
@@ -82,6 +85,8 @@
   .container_dbadf5
   > :not(.reactions_b8dc93, .searchResultsWrap__9f374 *, iframe) {
   background: hsl(var(--chat-bubble-replying) / 25%);
+  border: calc(2px * var(--enable-chat-bubble-border)) solid
+    hsl(var(--chat-bubble-replying));
   border-radius: 8px;
   max-width: max-content;
 }
@@ -104,6 +109,8 @@
   .container_dbadf5
   > :not(.reactions_b8dc93, .searchResultsWrap__9f374 *, iframe) {
   background: hsl(var(--chat-bubble-mentioned) / 25%);
+  border: calc(2px * var(--enable-chat-bubble-border)) solid
+    hsl(var(--chat-bubble-mentioned));
   border-radius: 8px;
 }
 
@@ -125,6 +132,8 @@
   .container_dbadf5
   > :not(.reactions_b8dc93, .searchResultsWrap__9f374 *, iframe) {
   background: hsl(var(--chat-bubble-automod) / 25%);
+  border: calc(2px * var(--enable-chat-bubble-border)) solid
+    hsl(var(--chat-bubble-automod));
   border-radius: 8px;
 }
 
