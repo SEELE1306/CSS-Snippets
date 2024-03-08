@@ -1,4 +1,9 @@
 /* Message types (ENGLISH) */
+/* Removes the edited sign */
+.edited_b20dd9 {
+  font-size: 0;
+}
+
 .contents_f41bb2 .username_d30d99::after {
   content: " wrote:";
 }
@@ -35,4 +40,13 @@
 
 .mentioned__58017 .contents_f41bb2 .username_d30d99::after {
   content: " mentioned:";
+}
+
+.mentioned__58017:has(.edited_b20dd9) .contents_f41bb2 .username_d30d99::after {
+  content: " mentioned and edited:";
+}
+
+/* Add color to extra elements */
+.username_d30d99::after {
+  color: var(--text-muted);
 }
