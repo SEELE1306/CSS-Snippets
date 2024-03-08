@@ -1,0 +1,36 @@
+:root {
+  --owner-color: red;
+  --admin-color: blue;
+  --staff-color: purple;
+  --mod-color: green;
+}
+
+/* [[ STAFF TAGS ]] */
+[class*="botTag__"] {
+  font-size: 12px;
+  text-transform: none;
+  top: 0.225rem;
+  border-radius: 0.25rem !important;
+  height: 0.875rem !important;
+}
+
+[class*="botTag__"][data-tag="admin"] {
+  background: var(--admin-color);
+}
+
+[class*="botTag__"][data-tag="owner"] {
+  background: var(--owner-color);
+}
+
+[class*="botTag__"][data-tag="staff"] {
+  background: var(--staff-color);
+}
+
+[class*="botTag__"][data-tag="mod"] {
+  background: var(--mod-color);
+}
+
+[class*="botTag__"] > [class*="botText__"] {
+  line-height: 0.875rem !important;
+  font-weight: 600;
+}
