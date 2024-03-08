@@ -35,7 +35,7 @@
 .message__80c10.hasReply_febd50:has(.edited_b20dd9)
   .contents_f41bb2
   .username_d30d99::after {
-  content: " hat geanwortet und bearbeitet:";
+  content: " hat geantwortet und bearbeitet:";
 }
 
 .mentioned__58017 .contents_f41bb2 .username_d30d99::after {

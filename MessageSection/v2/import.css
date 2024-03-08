@@ -21,7 +21,7 @@
 
   /* Slowmode/typing indicators */
   & > :last-child[class^="typing"] {
-    top: -28px;
+    top: -32px;
     right: 24px;
     padding: 0px 16px 0px 8px;
     margin-left: auto;
@@ -128,12 +128,15 @@
 .jumpToPresentBar__0ff7f {
   padding: 0;
   left: 0;
-  border-radius: 0px;
-  /* v2.0.1 */
-  border-top-right-radius: 8px;
+  border-radius: 4px;
+  margin: 8px;
   width: fit-content !important;
-  background: var(--background-primary);
+  background: var(--background-tertiary);
   right: unset;
+
+  &:active {
+    margin-bottom: 8px;
+  }
 
   & > .barButtonMain__0f5c6 {
     flex: 0 0 auto;
@@ -151,7 +154,6 @@
 .attachedBars_da3c74 {
   min-height: unset !important;
   position: relative;
-  /* v2.0.1 */
   margin: 0px 24px 4px 4px;
   padding: 4px 0;
   border-radius: 4px !important;
@@ -188,8 +190,8 @@
 
 .newMessagesBar__8b6d7 {
   height: 24px;
-  margin-bottom: 4px;
-  margin-left: calc(var(--bar-edges) * -1 + 4px);
+  margin-bottom: 8px;
+  margin-left: calc(var(--bar-edges) * -1 + 8px);
   border-radius: 4px;
   inset: auto var(--bar-edges) 0;
   background: var(--background-tertiary);
