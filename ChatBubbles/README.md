@@ -1,5 +1,9 @@
 # Chat bubbles
 
+## Description
+
+Adds a chat bubble around messages. Different colours are available for normal, replying, mentioned and automod messages.
+
 ## How to change bubble colors
 
 After importing the snippet, copy and paste this snippet. Afterwards, change the colors to those you prefer.

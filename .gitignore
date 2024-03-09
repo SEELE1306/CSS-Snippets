@@ -1,5 +1,5 @@
 # Ignore GuildList (work in progress)
-GuildList/
+# GuildList/
 
 # Ignore German localization for MessageTypes
-MessageUltilities/MessageTypes/import_de.css
+# MessageUltilities/MessageTypes/import_de.css

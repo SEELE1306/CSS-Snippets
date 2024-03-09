@@ -6,7 +6,7 @@ Add colors to different staff tags for easier identification.
 
 ## Requirements
 
-The following plugins have to be enabled:
+The following plugins have to be enabled in Vencord:
 **MoreUserTags, ThemeAttributes**
 
 ## How to change staff tags colors
