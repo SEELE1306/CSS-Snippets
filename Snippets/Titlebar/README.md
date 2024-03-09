@@ -23,7 +23,7 @@ After importing the snippet, copy and paste this snippet. Afterwards, change the
 }
 ```
 
-If you want to use the Discord's accent color for the background color, modify the above snippet to the following. Note that this also works well with the snippet [AccentColor](/ChangeColor/AccentColor/).
+If you want to use the Discord's accent color for the background color, modify the above snippet to the following. Note that this also works well with the snippet [AccentColor](Snippets/ChangeColor/AccentColor/).
 
 ```css
 :root {
