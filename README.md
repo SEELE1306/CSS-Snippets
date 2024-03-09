@@ -4,6 +4,7 @@ A compilation of CSS snippets for Discord and its custom clients.
 
 > [!IMPORTANT]
 > **Update 09.03.2024:** All snippets have changed their respective raw links. You should consider updating those in your configuration again.
+>
 > **Update 19.02.2024:** GuildList is currently broken, please refrain from using it for the time being.
 
 ## List of available snippets
