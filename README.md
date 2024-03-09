@@ -27,6 +27,8 @@ A compilation of CSS snippets for Discord and its custom clients.
 | [UserPanel](UserPanel/) | Replaces the user panel with a customizable, more appealing version. Includes appearance changes to the Spotify media player. | <img valign='middle' alt='UserPanel' src='./docs/_media/UserPanel.png'/> |
 | [ToolbarHide](ToolbarHide/) | Hides the toolbar at the top for a cleaner layout. | <img valign='middle' alt='ToolbarHide' src='./docs/_media/ToolbarHide.png'/> |
 | [StaffTags](StaffTags/) | Hides the toolbar at the top for a cleaner layout. | <img valign='middle' alt='ToolbarHide' src='./docs/_media/StaffTags.png'/> |
+| [Titlebar](Titlebar/) | Changes the default Discord titlebar to a more visually appealing one. You can customize the text and background color to your liking. | <img valign='middle' alt='ToolbarHide' src='./docs/_media/Titlebar_01.png'/> <img valign='middle' alt='ToolbarHide' src='./docs/_media/Titlebar_02.png'/> |
+
 
 
 ## Apply
