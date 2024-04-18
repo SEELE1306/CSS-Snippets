@@ -4,49 +4,49 @@
   font-size: 0;
 }
 
-.contents_f41bb2 .username_d30d99::after {
+.contents_d3ae0d .username__0b0e7::after {
   content: " wrote:";
 }
 
-.message__80c10:has(.edited_b20dd9) .contents_f41bb2 .username_d30d99::after {
+.message_ccca67:has(.edited_b20dd9) .contents_d3ae0d .username__0b0e7::after {
   content: " wrote and edited:";
 }
 
-.message__80c10:has(.mediaAttachmentsContainer_edba75, .embed_d3cbe3)
-  .contents_f41bb2
-  .username_d30d99::after {
+.message_ccca67:has(.mediaAttachmentsContainer__242e2, .embed_cc6dae)
+  .contents_d3ae0d
+  .username__0b0e7::after {
   content: " sent attachment(s):";
 }
 
-.message__80c10:has(.stickerAsset__00e6b)
-  .contents_f41bb2
-  .username_d30d99::after {
+.message_ccca67:has(.stickerAsset_ab864f)
+  .contents_d3ae0d
+  .username__0b0e7::after {
   content: " sent a sticker:";
 }
 
-.message__80c10:has(.emoji.jumboable) .contents_f41bb2 .username_d30d99::after {
+.message_ccca67:has(.emoji.jumboable) .contents_d3ae0d .username__0b0e7::after {
   content: " sent emoji(s):";
 }
 
-.hasReply_febd50 .contents_f41bb2 .username_d30d99::after {
+.hasReply__602e2 .contents_d3ae0d .username__0b0e7::after {
   content: " replied:";
 }
 
-.message__80c10.hasReply_febd50:has(.edited_b20dd9)
-  .contents_f41bb2
-  .username_d30d99::after {
+.message_ccca67.hasReply__602e2:has(.edited_b20dd9)
+  .contents_d3ae0d
+  .username__0b0e7::after {
   content: " replied and edited:";
 }
 
-.mentioned__58017 .contents_f41bb2 .username_d30d99::after {
+.mentioned_fa6fd2 .contents_d3ae0d .username__0b0e7::after {
   content: " mentioned:";
 }
 
-.mentioned__58017:has(.edited_b20dd9) .contents_f41bb2 .username_d30d99::after {
+.mentioned_fa6fd2:has(.edited_b20dd9) .contents_d3ae0d .username__0b0e7::after {
   content: " mentioned and edited:";
 }
 
 /* Add color to extra elements */
-.username_d30d99::after {
+.username__0b0e7::after {
   color: var(--text-muted);
 }
