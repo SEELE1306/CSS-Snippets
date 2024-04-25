@@ -1,5 +1,8 @@
-# Ignore GuildList (work in progress)
-# GuildList/
+# Snippets to ignore
 
-# Ignore German localization for MessageTypes
-# MessageUltilities/MessageTypes/import_de.css
+# GuildList (cannot find a way to fix for now)
+GuildList/
+
+# MessageSection v1 (superseded by v2)
+MessageSection/v1/
+

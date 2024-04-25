@@ -1,7 +1,18 @@
+/*
+ * @name MessageSection-v1 (Deprecated)
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Aligns the "Message Section" better and hides its icons a hover menu
+ * @version 1.0.1
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
 :is(main, section)[class^="chatContent"] .form__13a2c {
   padding: 20px 0;
   right: 18px;
 }
+
 :is(main, section)[class^="chatContent"] .scrollableContainer__33e06 {
   max-width: 100%;
   padding-top: 4px;
@@ -9,9 +20,11 @@
   background: transparent;
   border-radius: 8px;
 }
+
 .channelTextArea__2e60f .divider_b9338f {
   border-top: none;
 }
+
 .channelAttachmentArea__740bf {
   background: var(--background-tertiary);
   border-radius: 8px;
@@ -19,23 +32,28 @@
   padding: 0.5em;
   gap: 8px;
 }
+
 .upload_c98ecb {
   min-height: 150px;
   max-height: 150px;
   min-width: 150px;
   max-width: 150px;
 }
+
 .actionBar__3cdab {
   transform: translate(0, 0);
 }
+
 .autocomplete__0c75a {
   margin: 0 0.625em -0.25em 2.125em;
   border-radius: 8px;
 }
+
 .attachButton_eba568 {
   margin-left: 0;
   padding: 0.5em;
 }
+
 .attachWrapper__6354f {
   position: relative;
   display: flex;
@@ -45,24 +63,30 @@
   width: 36px;
   max-height: 30px;
 }
+
 .attachButton_b1db83 {
   position: relative;
   height: 30px;
 }
+
 .slateTextArea__0661c {
   padding-left: 10px;
 }
+
 .form__13a2c .innerDisabled__37f59.sansAttachButton__996a4 {
   padding-left: 16px;
 }
+
 .form__13a2c .textArea__74543,
 .form__13a2c .textArea__74543 > div {
   height: fit-content;
   min-height: 64px;
 }
+
 .form__13a2c:not(:has(.attachButton_eba568)) .textArea__74543 > div {
   left: 36px;
 }
+
 .form__13a2c .form__13a2c .textArea__74543 > div {
   position: absolute;
   background: var(--background-tertiary);
@@ -71,11 +95,13 @@
   right: 4px;
   bottom: 0;
 }
+
 .form__13a2c .buttons_ce5b56 {
   background: transparent;
   border-radius: 8px;
   display: contents;
 }
+
 .form__13a2c .buttons_ce5b56 > :is(button, div) {
   background: var(--background-modifier-accent);
   max-height: 30px;
@@ -84,54 +110,66 @@
   display: flex;
   justify-content: center;
 }
+
 .form__13a2c .buttons_ce5b56 button[style="padding: 0px 2px; height: 100%;"] img[src="https://discord.com/assets/4c5a77a89716352686f590a6f014770c.svg"]
 {
   content: url("https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=48&name=shiggy%7E1&quality=lossless");
   padding: 0 4px;
 }
+
 .form__13a2c .inner__9fd0b.sansAttachButton__996a4 {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-columns: auto;
   gap: 4px;
 }
+
 .form__13a2c .textArea__74543.textAreaSlate_e0e383.slateContainer_b692b3 {
   grid-row: 1/3;
   grid-column: 1;
 }
+
 .separator__8424b {
   grid-row: 1/3;
   grid-column: 7;
   min-height: 64px;
   margin-left: 4px;
 }
+
 .uploadInput_a6be39 {
   display: none;
   /*if this is deleted there will be a blank box*/
 }
+
 .innerButton_debeee {
   margin: 0;
 }
+
 .contents_f41bb2 .scrollableContainer__33e06 {
   margin: 12px 0 !important;
 }
+
 :is(main, section)[class^="chatContent"] .scroller_cc9b9a {
   background: var(--background-tertiary);
 }
+
 .contentTitle_b7c496 {
   padding: 0.25em 0.5em;
   text-transform: none;
   font-size: 14px;
 }
+
 .channelTextArea__56a36
   > [class*="channelTextAreaInner-"][class*="scrollableContainer-"] {
   background: var(--background-primary-alt);
   border-radius: 8px;
   margin-bottom: 1em;
 }
+
 .button_f0455c:hover {
   color: var(--interactive-hover) !important;
 }
+
 :is(
     .form__13a2c .textArea__74543 > div,
     .attachWrapper__6354f,
@@ -142,11 +180,13 @@
   background: var(--background-modifier-hover);
   opacity: 1;
 }
+
 :is(main, section)[class^="chatContent"] .typing__6fd1d {
   padding-left: 20px;
   padding-bottom: 6px;
   font-weight: 1000;
 }
+
 main[class^="chatContent"] [class^="attachedBars"] {
   min-height: unset !important;
   position: relative;
@@ -155,14 +195,17 @@ main[class^="chatContent"] [class^="attachedBars"] {
   border-radius: 8px;
   z-index: 0;
 }
+
 .replyBar_b64d74 {
   background-color: transparent;
 }
+
 [class^="jumpToPresentBar"] {
   margin: 0 26px -16px 0;
   right: unset;
   background-color: unset;
 }
+
 .barButtonBase__8fa46 {
   color: var(--text-normal);
   background-color: var(--background-tertiary);
@@ -170,41 +213,50 @@ main[class^="chatContent"] [class^="attachedBars"] {
   padding-right: 8px;
   margin: 0px 8px 16px 0;
 }
+
 .barButtonBase__8fa46:hover {
   background-color: var(--background-floating);
 }
+
 .newMessagesBar__8b6d7 {
   background: transparent;
   margin: 0 5em 0 0.25em;
   top: 96.67%;
   box-shadow: none;
 }
+
 .barButtonAlt__4b48f {
   margin-right: 45%;
 }
+
 :root :is(main, section)[class^="chatContent"] .typing__6fd1d {
   right: unset;
   left: 10px;
 }
+
 :root [class^="jumpToPresentBar"] {
   left: unset;
   right: 0;
   border-top-right-radius: unset;
   border-top-left-radius: unset;
 }
+
 .form__13a2c:has(.attachWrapper__6354f, .attachButton_eba568)
   .sansAttachButton__996a4 {
   padding-left: 32px;
 }
+
 .form__13a2c:not(:has(.attachWrapper__6354f, .attachButton_eba568))
   .sansAttachButton__996a4,
 .form__13a2c .innerDisabled__37f59.sansAttachButton__996a4 {
   padding-left: 0 !important;
 }
+
 .attachButton_eba568:not(:has(.icon_e5875d)) {
   margin-left: 0;
   padding: 0.5em;
 }
+
 .icon_e5875d {
   padding: 0;
   margin: 0 0 0 1em;
@@ -215,6 +267,7 @@ main[class^="chatContent"] [class^="attachedBars"] {
   display: flex;
   justify-content: center;
 }
+
 .icon__4296b {
   padding-top: 3px;
 }

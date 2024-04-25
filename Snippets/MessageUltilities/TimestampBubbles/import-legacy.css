@@ -1,3 +1,13 @@
+/*
+ * @name Timestamps
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Applies a bubble styling to message timestamps
+ * @version 1.0.1
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
 /* Timestamps */
 .contents_f41bb2 [class^="timestamp"] {
   position: relative;

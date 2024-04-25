@@ -1,3 +1,14 @@
+/*
+ * @name BetterQuotes
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Improves blockquotes styling to make it more visible and appealing.
+ * @license MIT
+ * @version 1.0.1
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
 /* [[ QUOTES ]] */
 [class*="markup_"] blockquote {
   padding: 4px 10px;

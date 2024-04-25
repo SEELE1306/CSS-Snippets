@@ -1,3 +1,12 @@
+/*
+ * @name StaffTags
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Applies styling to different staff tags for easier identification.
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
 :root {
   --owner-color: red;
   --admin-color: blue;

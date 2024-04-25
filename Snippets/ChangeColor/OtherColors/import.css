@@ -1,3 +1,14 @@
+/*
+ * @name OtherColors
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Replace other Discord colors (red, yellow, green, etc.) with Blurple [<img valign='middle' alt='blurple.
+ * @license MIT
+ * @version 1.0.1
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
 :root {
   /* RED */
   --red-100: var(--brand-experiment-100);

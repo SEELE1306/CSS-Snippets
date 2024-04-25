@@ -1,3 +1,12 @@
+/*
+ * @name UserOptions
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Replaces the profile popout with more streamlined options
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
 .userPopoutInner_f545a3:has(#account) > *:not(:has(#account)),
 .userPopoutOverlayBackground_d8afa4:has(#account) > *:not(#account) {
   display: none !important;

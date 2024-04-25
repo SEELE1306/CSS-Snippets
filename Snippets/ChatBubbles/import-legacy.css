@@ -1,3 +1,14 @@
+/*
+ * @name ChatBubbles
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Adds a chat bubble around messages. Different colours are available for normal, replying, mentioned and automod messages.
+ * @license MIT
+ * @version 1.0.1
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
 /* Customizable */
 :root {
   --chat-bubble-default: 0 0% 50%;

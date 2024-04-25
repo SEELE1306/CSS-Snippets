@@ -1,3 +1,13 @@
+/*
+ * @name OnekoDM
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Replaces the discord logo with Oneko!
+ * @version 1.0.1
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
 /* [[ ONEKO DM ]] */
 .wrapper_d281dd[data-list-item-id="guildsnav___home"] {
   & path {
