@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
  * @name MessageSection-v1 (Deprecated)
  * @author SEELE1306
@@ -15,32 +14,27 @@
 }
 
 :is(main, section)[class^="chatContent"] .scrollableContainer__33e06 {
-=======
 :is(main, section)[class^="chatContent"] .form_d8a4a1 {
   padding: 20px 0;
   right: 18px;
 }
 :is(main, section)[class^="chatContent"] .scrollableContainer_ff917f {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   max-width: 100%;
   padding-top: 4px;
   margin: -16px 0 16px;
   background: transparent;
   border-radius: 8px;
 }
-<<<<<<< HEAD
 
 .channelTextArea__2e60f .divider_b9338f {
   border-top: none;
 }
 
 .channelAttachmentArea__740bf {
-=======
 .channelTextArea_c2094b .divider__855e3 {
   border-top: none;
 }
 .channelAttachmentArea__5e46a {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   background: var(--background-tertiary);
   border-radius: 8px;
   margin: 0 0 0.5em 2.125em;
@@ -54,7 +48,6 @@
   min-width: 150px;
   max-width: 150px;
 }
-<<<<<<< HEAD
 
 .actionBar__3cdab {
   transform: translate(0, 0);
@@ -71,7 +64,6 @@
 }
 
 .attachWrapper__6354f {
-=======
 .actionBar_a15295 {
   transform: translate(0, 0);
 }
@@ -84,7 +76,6 @@
   padding: 0.5em;
 }
 .attachWrapper_d01704 {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   position: relative;
   display: flex;
   align-items: center;
@@ -93,7 +84,6 @@
   width: 36px;
   max-height: 30px;
 }
-<<<<<<< HEAD
 
 .attachButton_b1db83 {
   position: relative;
@@ -119,7 +109,6 @@
 }
 
 .form__13a2c .form__13a2c .textArea__74543 > div {
-=======
 .attachButton__56f98 {
   position: relative;
   height: 30px;
@@ -139,7 +128,6 @@
   left: 36px;
 }
 .form_d8a4a1 .form_d8a4a1 .textArea_a86690 > div {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   position: absolute;
   background: var(--background-tertiary);
   border-radius: 8px;
@@ -147,22 +135,16 @@
   right: 4px;
   bottom: 0;
 }
-<<<<<<< HEAD
 
 .form__13a2c .buttons_ce5b56 {
-=======
 .form_d8a4a1 .buttons__7ecff {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   background: transparent;
   border-radius: 8px;
   display: contents;
 }
-<<<<<<< HEAD
 
 .form__13a2c .buttons_ce5b56 > :is(button, div) {
-=======
 .form_d8a4a1 .buttons__7ecff > :is(button, div) {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   background: var(--background-modifier-accent);
   max-height: 30px;
   width: 36px;
@@ -170,28 +152,21 @@
   display: flex;
   justify-content: center;
 }
-<<<<<<< HEAD
 
 .form__13a2c .buttons_ce5b56 button[style="padding: 0px 2px; height: 100%;"] img[src="https://discord.com/assets/4c5a77a89716352686f590a6f014770c.svg"]
-=======
 .form_d8a4a1 .buttons__7ecff button[style="padding: 0px 2px; height: 100%;"] img[src="https://discord.com/assets/4c5a77a89716352686f590a6f014770c.svg"]
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
 {
   content: url("https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=48&name=shiggy%7E1&quality=lossless");
   padding: 0 4px;
 }
-<<<<<<< HEAD
 
 .form__13a2c .inner__9fd0b.sansAttachButton__996a4 {
-=======
 .form_d8a4a1 .inner__9fd0b.sansAttachButton__5f863 {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-columns: auto;
   gap: 4px;
 }
-<<<<<<< HEAD
 
 .form__13a2c .textArea__74543.textAreaSlate_e0e383.slateContainer_b692b3 {
   grid-row: 1/3;
@@ -199,19 +174,16 @@
 }
 
 .separator__8424b {
-=======
 .form_d8a4a1 .textArea_a86690.textAreaSlate__8578d.slateContainer__1d1fd {
   grid-row: 1/3;
   grid-column: 1;
 }
 .separator__666aa {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   grid-row: 1/3;
   grid-column: 7;
   min-height: 64px;
   margin-left: 4px;
 }
-<<<<<<< HEAD
 
 .uploadInput_a6be39 {
   display: none;
@@ -231,7 +203,6 @@
 }
 
 .contentTitle_b7c496 {
-=======
 .uploadInput_aa27e8 {
   display: none;
   /*if this is deleted there will be a blank box*/
@@ -246,28 +217,21 @@
   background: var(--background-tertiary);
 }
 .contentTitle_b6c2bb {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   padding: 0.25em 0.5em;
   text-transform: none;
   font-size: 14px;
 }
-<<<<<<< HEAD
 
 .channelTextArea__56a36
-=======
 .channelTextArea__648e5
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   > [class*="channelTextAreaInner-"][class*="scrollableContainer-"] {
   background: var(--background-primary-alt);
   border-radius: 8px;
   margin-bottom: 1em;
 }
-<<<<<<< HEAD
 
 .button_f0455c:hover {
-=======
 .button__437ce:hover {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   color: var(--interactive-hover) !important;
 }
 
@@ -296,12 +260,9 @@ main[class^="chatContent"] [class^="attachedBars"] {
   border-radius: 8px;
   z-index: 0;
 }
-<<<<<<< HEAD
 
 .replyBar_b64d74 {
-=======
 .replyBar_ed6afc {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   background-color: transparent;
 }
 
@@ -310,31 +271,25 @@ main[class^="chatContent"] [class^="attachedBars"] {
   right: unset;
   background-color: unset;
 }
-<<<<<<< HEAD
 
 .barButtonBase__8fa46 {
-=======
 .barButtonBase__5e4cf {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   color: var(--text-normal);
   background-color: var(--background-tertiary);
   border-radius: calc(8px / 1.5);
   padding-right: 8px;
   margin: 0px 8px 16px 0;
 }
-<<<<<<< HEAD
 
 .barButtonBase__8fa46:hover {
   background-color: var(--background-floating);
 }
 
 .newMessagesBar__8b6d7 {
-=======
 .barButtonBase__5e4cf:hover {
   background-color: var(--background-floating);
 }
 .newMessagesBar__8b272 {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   background: transparent;
   margin: 0 5em 0 0.25em;
   top: 96.67%;
@@ -343,12 +298,9 @@ main[class^="chatContent"] [class^="attachedBars"] {
 <<<<<<< HEAD
 
 .barButtonAlt__4b48f {
-=======
 .barButtonAlt_e800ef {
 >>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
-  margin-right: 45%;
 }
-
 :root :is(main, section)[class^="chatContent"] .typing__6fd1d {
   right: unset;
   left: 10px;
@@ -360,7 +312,6 @@ main[class^="chatContent"] [class^="attachedBars"] {
   border-top-right-radius: unset;
   border-top-left-radius: unset;
 }
-<<<<<<< HEAD
 
 .form__13a2c:has(.attachWrapper__6354f, .attachButton_eba568)
   .sansAttachButton__996a4 {
@@ -379,7 +330,6 @@ main[class^="chatContent"] [class^="attachedBars"] {
 }
 
 .icon_e5875d {
-=======
 .form_d8a4a1:has(.attachWrapper_d01704, .attachButton__5f6dc)
   .sansAttachButton__5f863 {
   padding-left: 32px;
@@ -394,7 +344,6 @@ main[class^="chatContent"] [class^="attachedBars"] {
   padding: 0.5em;
 }
 .icon__58cfe {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   padding: 0;
   margin: 0 0 0 1em;
   border-radius: 8px;
@@ -404,11 +353,8 @@ main[class^="chatContent"] [class^="attachedBars"] {
   display: flex;
   justify-content: center;
 }
-<<<<<<< HEAD
 
 .icon__4296b {
-=======
 .icon__9f010 {
->>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   padding-top: 3px;
 }
