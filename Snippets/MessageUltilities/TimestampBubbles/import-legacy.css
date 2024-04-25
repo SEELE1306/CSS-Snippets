@@ -9,7 +9,7 @@
  */
 
 /* Timestamps */
-.contents_f41bb2 [class^="timestamp"] {
+.contents_d3ae0d [class^="timestamp"] {
   position: relative;
   color: var(--text-normal) !important;
   font-weight: bold;
@@ -22,7 +22,7 @@
   line-height: 1rem !important;
 }
 
-.contents_f41bb2 [class^="botTagCozy_"] {
+.contents_d3ae0d [class^="botTagCozy_"] {
   line-height: 1rem;
   box-shadow: 0 0 0 1px var(--brand-experiment-900);
   height: 16px;
@@ -39,13 +39,13 @@
   font-family: "Blank Dot", var(--font-primary);
 }
 
-.contents_f41bb2 [class^="timestamp"]:not(:has(time)) {
+.contents_d3ae0d [class^="timestamp"]:not(:has(time)) {
   background: var(--brand-experiment);
   padding: 0 4px 0 2px;
   box-shadow: 0 0 0 1px var(--brand-experiment-300);
 }
 
-.contents_f41bb2 [class^="timestamp"]:has(time) {
+.contents_d3ae0d [class^="timestamp"]:has(time) {
   background: var(--brand-experiment-700);
   padding: 0 4px;
   box-shadow: 0 0 0 1px var(--brand-experiment);

@@ -12,7 +12,7 @@
   margin-left: 5px;
 }
 
-.container_ca50b9 {
+.container_debb33 {
   display: flex;
   flex-direction: column;
   height: fit-content;
@@ -21,7 +21,7 @@
   margin: 0;
   background: transparent !important;
 
-  & > .avatarWrapper_ba5175 {
+  & > .avatarWrapper__500a6 {
     width: 100%;
     height: 50px;
     padding: 0 16px;
@@ -42,13 +42,13 @@
     }
   }
 
-  & .flex_f5fbb7 {
+  & .flex_f18b02 {
     width: 100%;
     justify-content: center;
     gap: 0px;
   }
 
-  & .button_afdfd9:hover .contents_fb6220 {
+  & .button__581d0:hover .contents__322f4 {
     color: var(--interactive-hover);
   }
 }

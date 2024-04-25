@@ -10,7 +10,7 @@
  */
 
 /* [[ GUILD BOOSTS ]] */
-.textArea_f2029c {
+.textArea__81b51 {
   padding: 0 8px;
 }
 
@@ -20,7 +20,7 @@
   background: color-mix(in srgb, var(--brand-experiment) 50%, transparent);
 }
 
-.containerWithMargin__7d380 {
+.containerWithMargin__3a652 {
   position: relative;
   top: 25px;
   margin: 0;
@@ -28,7 +28,7 @@
   width: 105%;
 }
 
-.tadaIcon__3b97b {
+.tadaIcon__5e3cc {
   right: 98%;
   top: 6px;
   translate: none;
@@ -36,14 +36,14 @@
   opacity: 0.5;
 }
 
-.progressBarContainer__9b571 {
+.progressBarContainer_e11b41 {
   top: -40px;
   z-index: -1;
   height: 40px;
   border-radius: 8px;
 }
 
-.container__4f639 {
+.container_bc43c1 {
   position: relative;
   top: 25px;
   margin: 0;
@@ -56,7 +56,7 @@
       background: color-mix(in srgb, var(--brand-experiment) 75%, transparent);
     }
 
-    & .tadaIcon__3b97b {
+    & .tadaIcon__5e3cc {
       animation: 3s flicker linear infinite;
     }
   }

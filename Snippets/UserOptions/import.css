@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * @name UserOptions
  * @author SEELE1306
@@ -9,6 +10,10 @@
 
 .userPopoutInner_f545a3:has(#account) > *:not(:has(#account)),
 .userPopoutOverlayBackground_d8afa4:has(#account) > *:not(#account) {
+=======
+.userPopoutInner_ac0960:has(#account) > *:not(:has(#account)),
+.userPopoutOverlayBackground__3e7e6:has(#account) > *:not(#account) {
+>>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   display: none !important;
 }
 
@@ -20,7 +25,7 @@
     width: fit-content;
   }
 
-  & .section__6f61e {
+  & .section__62b44 {
     display: none !important;
   }
 }

@@ -9,11 +9,11 @@
  */
 
 /* [[ ONEKO DM ]] */
-.wrapper_d281dd[data-list-item-id="guildsnav___home"] path {
+.wrapper__8436d[data-list-item-id="guildsnav___home"] path {
   display: none !important;
 }
 
-.wrapper_d281dd[data-list-item-id="guildsnav___home"]::before {
+.wrapper__8436d[data-list-item-id="guildsnav___home"]::before {
   content: "";
   border-radius: 50%;
   position: absolute;
@@ -29,11 +29,11 @@
   animation-delay: 2s, 0s;
 }
 
-.wrapper_d281dd[data-list-item-id="guildsnav___home"]::after {
+.wrapper__8436d[data-list-item-id="guildsnav___home"]::after {
   animation: reverse wakeup 1s 1;
 }
 
-.wrapper_d281dd[data-list-item-id="guildsnav___home"]:hover::before {
+.wrapper__8436d[data-list-item-id="guildsnav___home"]:hover::before {
   animation: 2s 1 forwards wakeup;
   opacity: 1;
 }

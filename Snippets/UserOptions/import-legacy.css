@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * @name UserOptions
  * @author SEELE1306
@@ -10,6 +11,11 @@
 [class^="accountProfilePopoutWrapper"] .section__6f61e,
 .userPopoutInner_f545a3:has(#account) > *:not(:has(#account)),
 .userPopoutOverlayBackground_d8afa4:has(#account) > *:not(#account) {
+=======
+[class^="accountProfilePopoutWrapper"] .section__62b44,
+.userPopoutInner_ac0960:has(#account) > *:not(:has(#account)),
+.userPopoutOverlayBackground__3e7e6:has(#account) > *:not(#account) {
+>>>>>>> ca893987fdbd293b4742e26f4e0f4ffd12c1d791
   display: none !important;
 }
 
