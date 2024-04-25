@@ -3,11 +3,7 @@
 A compilation of CSS snippets for Discord and its custom clients.
 
 > [!IMPORTANT]
-> **Update 29.03.2024:** Discord just pushed a huge change that has broken most snippets. Please wait for them to be fixed.
->
-> **Update 09.03.2024:** All snippets have changed their respective raw links. You should consider updating those in your configuration again.
->
-> **Update 19.02.2024:** GuildList is currently broken, please refrain from using it for the time being.
+> **Update 25.04.2024:** Deprecated snippets: GuildList, MessageSection-v1. Other snippets might need additional adjustments.
 
 ## List of available snippets
 
