@@ -14,7 +14,7 @@
 .selected__7f4cb .layout_bb8e67,
 .channel__0aef5.container-32HW5s > .interactiveSelected__689f0,
 .navButtonActive__0c878 {
-  background: color-mix(in srgb, var(--brand-experiment) 50%, transparent);
+  background: color-mix(in srgb, var(--brand-500) 50%, transparent);
 }
 
 .icon__67ab4 {
@@ -31,7 +31,7 @@
 
 .containerDefault_ae2ea4:hover .icon__67ab4 {
   color: var(--interactive-active);
-  background: color-mix(in srgb, var(--brand-experiment) 50%, transparent);
+  background: color-mix(in srgb, var(--brand-500) 50%, transparent);
 }
 
 [class*="unread_"] {

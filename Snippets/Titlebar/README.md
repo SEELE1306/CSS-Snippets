@@ -28,7 +28,7 @@ If you want to use the Discord's accent color for the background color, modify t
 ```css
 :root {
   --titlebar-name: "Discord Mod";
-  --titlebar-background: var(--brand-experiment);
+  --titlebar-background: var(--brand-500);
 }
 ```
 

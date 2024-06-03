@@ -10,281 +10,281 @@
  */
 
 :root {
-  --brand-experiment: hsl(249, 22%, 50%);
+  --brand-500: hsl(249, 22%, 50%);
 }
 :root,
 .theme-dark {
   /* New brand variables */
-  --brand-experiment-100: color-mix(
+  --brand-100: color-mix(
     in srgb,
     #fff calc(97.6% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-130: color-mix(
+  --brand-130: color-mix(
     in srgb,
     #fff calc(95.5% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-160: color-mix(
+  --brand-160: color-mix(
     in srgb,
     #fff calc(92.9% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-200: color-mix(
+  --brand-200: color-mix(
     in srgb,
     #fff calc(90% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-230: color-mix(
+  --brand-230: color-mix(
     in srgb,
     #fff calc(87.1% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-260: color-mix(
+  --brand-260: color-mix(
     in srgb,
     #fff calc(83.7% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-300: color-mix(
+  --brand-300: color-mix(
     in srgb,
     #fff calc(78.8% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-330: color-mix(
+  --brand-330: color-mix(
     in srgb,
     #fff calc(73.3% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-345: color-mix(
+  --brand-345: color-mix(
     in srgb,
     #fff calc(67.5% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-360: color-mix(
+  --brand-360: color-mix(
     in srgb,
     #fff calc(61.2% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-400: color-mix(
+  --brand-400: color-mix(
     in srgb,
     #fff calc(52.9% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-430: color-mix(
+  --brand-430: color-mix(
     in srgb,
     #fff calc(44.9% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-460: color-mix(
+  --brand-460: color-mix(
     in srgb,
     #fff calc(38% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-500: var(
-    --brand-experiment
+  --brand-500: var(
+    --brand-500
   ); /* This is served as a middle ground for all other colour variables */
-  --brand-experiment-530: color-mix(
+  --brand-530: color-mix(
     in srgb,
     #000 calc(38% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-560: color-mix(
+  --brand-560: color-mix(
     in srgb,
     #000 calc(44.9% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-600: color-mix(
+  --brand-600: color-mix(
     in srgb,
     #000 calc(52.9% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-630: color-mix(
+  --brand-630: color-mix(
     in srgb,
     #000 calc(61.2% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-645: color-mix(
+  --brand-645: color-mix(
     in srgb,
     #000 calc(67.5% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-660: color-mix(
+  --brand-660: color-mix(
     in srgb,
     #000 calc(73.3% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-700: color-mix(
+  --brand-700: color-mix(
     in srgb,
     #000 calc(78.8% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-730: color-mix(
+  --brand-730: color-mix(
     in srgb,
     #000 calc(83.7% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-760: color-mix(
+  --brand-760: color-mix(
     in srgb,
     #000 calc(87.1% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-800: color-mix(
+  --brand-800: color-mix(
     in srgb,
     #000 calc(90% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-830: color-mix(
+  --brand-830: color-mix(
     in srgb,
     #000 calc(92.9% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-860: color-mix(
+  --brand-860: color-mix(
     in srgb,
     #000 calc(95.5% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
-  --brand-experiment-900: color-mix(
+  --brand-900: color-mix(
     in srgb,
     #000 calc(97.6% - 32.5%),
-    var(--brand-experiment)
+    var(--brand-500)
   );
 
   /* Opaque brand variables */
-  --brand-experiment-05a: color-mix(
+  --brand-05a: color-mix(
     in srgb,
-    var(--brand-experiment) 5%,
+    var(--brand-500) 5%,
     transparent
   );
-  --brand-experiment-10a: color-mix(
+  --brand-10a: color-mix(
     in srgb,
-    var(--brand-experiment) 10%,
+    var(--brand-500) 10%,
     transparent
   );
-  --brand-experiment-15a: color-mix(
+  --brand-15a: color-mix(
     in srgb,
-    var(--brand-experiment) 15%,
+    var(--brand-500) 15%,
     transparent
   );
-  --brand-experiment-20a: color-mix(
+  --brand-20a: color-mix(
     in srgb,
-    var(--brand-experiment) 20%,
+    var(--brand-500) 20%,
     transparent
   );
-  --brand-experiment-25a: color-mix(
+  --brand-25a: color-mix(
     in srgb,
-    var(--brand-experiment) 25%,
+    var(--brand-500) 25%,
     transparent
   );
-  --brand-experiment-30a: color-mix(
+  --brand-30a: color-mix(
     in srgb,
-    var(--brand-experiment) 30%,
+    var(--brand-500) 30%,
     transparent
   );
-  --brand-experiment-35a: color-mix(
+  --brand-35a: color-mix(
     in srgb,
-    var(--brand-experiment) 35%,
+    var(--brand-500) 35%,
     transparent
   );
-  --brand-experiment-40a: color-mix(
+  --brand-40a: color-mix(
     in srgb,
-    var(--brand-experiment) 40%,
+    var(--brand-500) 40%,
     transparent
   );
-  --brand-experiment-45a: color-mix(
+  --brand-45a: color-mix(
     in srgb,
-    var(--brand-experiment) 45%,
+    var(--brand-500) 45%,
     transparent
   );
-  --brand-experiment-50a: color-mix(
+  --brand-50a: color-mix(
     in srgb,
-    var(--brand-experiment) 50%,
+    var(--brand-500) 50%,
     transparent
   );
-  --brand-experiment-55a: color-mix(
+  --brand-55a: color-mix(
     in srgb,
-    var(--brand-experiment) 55%,
+    var(--brand-500) 55%,
     transparent
   );
-  --brand-experiment-60a: color-mix(
+  --brand-60a: color-mix(
     in srgb,
-    var(--brand-experiment) 60%,
+    var(--brand-500) 60%,
     transparent
   );
-  --brand-experiment-65a: color-mix(
+  --brand-65a: color-mix(
     in srgb,
-    var(--brand-experiment) 65%,
+    var(--brand-500) 65%,
     transparent
   );
-  --brand-experiment-70a: color-mix(
+  --brand-70a: color-mix(
     in srgb,
-    var(--brand-experiment) 70%,
+    var(--brand-500) 70%,
     transparent
   );
-  --brand-experiment-75a: color-mix(
+  --brand-75a: color-mix(
     in srgb,
-    var(--brand-experiment) 75%,
+    var(--brand-500) 75%,
     transparent
   );
-  --brand-experiment-80a: color-mix(
+  --brand-80a: color-mix(
     in srgb,
-    var(--brand-experiment) 80%,
+    var(--brand-500) 80%,
     transparent
   );
-  --brand-experiment-85a: color-mix(
+  --brand-85a: color-mix(
     in srgb,
-    var(--brand-experiment) 85%,
+    var(--brand-500) 85%,
     transparent
   );
-  --brand-experiment-90a: color-mix(
+  --brand-90a: color-mix(
     in srgb,
-    var(--brand-experiment) 90%,
+    var(--brand-500) 90%,
     transparent
   );
-  --brand-experiment-95a: color-mix(
+  --brand-95a: color-mix(
     in srgb,
-    var(--brand-experiment) 95%,
+    var(--brand-500) 95%,
     transparent
   );
 
   /* Old brand varibales */
-  --brand-100: var(--brand-experiment-100);
-  --brand-130: var(--brand-experiment-130);
-  --brand-160: var(--brand-experiment-160);
-  --brand-200: var(--brand-experiment-200);
-  --brand-230: var(--brand-experiment-230);
-  --brand-260: var(--brand-experiment-260);
-  --brand-300: var(--brand-experiment-300);
-  --brand-330: var(--brand-experiment-330);
-  --brand-345: var(--brand-experiment-345);
-  --brand-360: var(--brand-experiment-360);
-  --brand-400: var(--brand-experiment-400);
-  --brand-430: var(--brand-experiment-430);
-  --brand-460: var(--brand-experiment-460);
-  --brand-500: var(--brand-experiment-500);
-  --brand-530: var(--brand-experiment-530);
-  --brand-560: var(--brand-experiment-560);
-  --brand-600: var(--brand-experiment-600);
-  --brand-630: var(--brand-experiment-630);
-  --brand-645: var(--brand-experiment-645);
-  --brand-660: var(--brand-experiment-660);
-  --brand-700: var(--brand-experiment-700);
-  --brand-730: var(--brand-experiment-730);
-  --brand-760: var(--brand-experiment-760);
-  --brand-800: var(--brand-experiment-800);
-  --brand-830: var(--brand-experiment-830);
-  --brand-860: var(--brand-experiment-860);
-  --brand-900: var(--brand-experiment-900);
+  --brand-100: var(--brand-100);
+  --brand-130: var(--brand-130);
+  --brand-160: var(--brand-160);
+  --brand-200: var(--brand-200);
+  --brand-230: var(--brand-230);
+  --brand-260: var(--brand-260);
+  --brand-300: var(--brand-300);
+  --brand-330: var(--brand-330);
+  --brand-345: var(--brand-345);
+  --brand-360: var(--brand-360);
+  --brand-400: var(--brand-400);
+  --brand-430: var(--brand-430);
+  --brand-460: var(--brand-460);
+  --brand-500: var(--brand-500);
+  --brand-530: var(--brand-530);
+  --brand-560: var(--brand-560);
+  --brand-600: var(--brand-600);
+  --brand-630: var(--brand-630);
+  --brand-645: var(--brand-645);
+  --brand-660: var(--brand-660);
+  --brand-700: var(--brand-700);
+  --brand-730: var(--brand-730);
+  --brand-760: var(--brand-760);
+  --brand-800: var(--brand-800);
+  --brand-830: var(--brand-830);
+  --brand-860: var(--brand-860);
+  --brand-900: var(--brand-900);
 
-  --text-brand: var(--brand-experiment);
-  --mention-background: var(--brand-experiment-30a);
+  --text-brand: var(--brand-500);
+  --mention-background: var(--brand-30a);
 
   /* Scrollbars */
-  --scrollbar-auto-thumb: var(--brand-experiment);
+  --scrollbar-auto-thumb: var(--brand-500);
   --scrollbar-auto-track: color-mix(
     in srgb,
-    var(--brand-experiment) 25%,
+    var(--brand-500) 25%,
     transparent
   );
-  --scrollbar-thin-thumb: var(--brand-experiment);
+  --scrollbar-thin-thumb: var(--brand-500);
   --scrollbar-thin-track: transparent;
 }

@@ -29,14 +29,14 @@
   line-height: 1rem !important;
 
   &:not(:has(time)) {
-    background: var(--brand-experiment);
+    background: var(--brand-500);
     padding: 0 4px 0 2px;
-    box-shadow: 0 0 0 1px var(--brand-experiment-300);
+    box-shadow: 0 0 0 1px var(--brand-300);
   }
 
   &:has(time) {
-    background: var(--brand-experiment-700);
+    background: var(--brand-700);
     padding: 0 4px;
-    box-shadow: 0 0 0 1px var(--brand-experiment);
+    box-shadow: 0 0 0 1px var(--brand-500);
   }
 }

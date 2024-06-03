@@ -43,12 +43,12 @@
 }
 
 .progressBar_db0972 {
-  background: var(--brand-experiment-50a);
+  background: var(--brand-50a);
 }
 
 .container_bc43c1:hover .progressBar_db0972 {
   animation: 5s flicker linear infinite;
-  background: var(--brand-experiment-75a);
+  background: var(--brand-75a);
 }
 
 .container_bc43c1:hover .tadaIcon__5e3cc {

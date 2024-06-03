@@ -46,7 +46,7 @@
 }
 
 :is(.container_debb33 button, .withTagAsButton_e22174):hover {
-  background: var(--brand-experiment-700) !important;
+  background: var(--brand-700) !important;
 }
 
 .container_debb33 .button__581d0:hover .contents__322f4 {
@@ -67,7 +67,7 @@
 }
 
 [class^="actionButtons_"] [class^="button_"][class*="buttonColor_"]:hover {
-  background: var(--brand-experiment-700) !important;
+  background: var(--brand-700) !important;
 }
 
 .panels__58331 {
@@ -82,7 +82,7 @@
 }
 
 body:has(.vc-spotify-pause) .panels__58331 {
-  background: var(--brand-experiment-25a) !important;
+  background: var(--brand-25a) !important;
 }
 
 /* [[ SPOTIFY CONTROLS ]] */
@@ -125,29 +125,29 @@ body:has(.vc-spotify-pause) .panels__58331 {
 }
 
 #vc-spotify-player [class*="barFill"] {
-  background: var(--brand-experiment);
+  background: var(--brand-500);
 }
 
 #vc-spotify-player
   .vc-spotify-repeat-off.vc-spotify-repeat-off.vc-spotify-repeat-off,
 #vc-spotify-player
   .vc-spotify-shuffle-off.vc-spotify-shuffle-off.vc-spotify-shuffle-off {
-  color: var(--brand-experiment-300);
+  color: var(--brand-300);
 }
 
 #vc-spotify-player .vc-spotify-button.vc-spotify-button:hover {
-  background: var(--brand-experiment-50a);
+  background: var(--brand-50a);
 }
 
 #vc-spotify-player .vc-spotify-button.vc-spotify-button {
-  color: var(--brand-experiment);
-  background: var(--brand-experiment-25a);
+  color: var(--brand-500);
+  background: var(--brand-25a);
   margin: 0 4px;
   scale: 0.85;
 }
 
 #vc-spotify-player .vc-spotify-button.vc-spotify-button:hover {
-  color: var(--brand-experiment-300);
+  color: var(--brand-300);
 }
 
 #vc-spotify-info-wrapper {

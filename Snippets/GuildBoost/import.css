@@ -17,7 +17,7 @@
 .progressBar_db0972 {
   height: 40px;
   border-radius: 8px;
-  background: color-mix(in srgb, var(--brand-experiment) 50%, transparent);
+  background: color-mix(in srgb, var(--brand-500) 50%, transparent);
 }
 
 .containerWithMargin__3a652 {
@@ -53,7 +53,7 @@
   &:hover {
     & .progressBar_db0972 {
       animation: 5s flicker linear infinite;
-      background: color-mix(in srgb, var(--brand-experiment) 75%, transparent);
+      background: color-mix(in srgb, var(--brand-500) 75%, transparent);
     }
 
     & .tadaIcon__5e3cc {
