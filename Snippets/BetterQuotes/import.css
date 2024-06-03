@@ -12,11 +12,11 @@
 /* [[ QUOTES ]] */
 [class*="markup_"] blockquote {
   padding: 4px 10px;
-  background: color-mix(in srgb, var(--brand-experiment) 25%, transparent);
-  color: var(--brand-experiment-300);
+  background: color-mix(in srgb, var(--brand-500) 25%, transparent);
+  color: var(--brand-300);
   border-radius: 0 4px 4px 0;
 }
 
 [class*="blockquoteDivider_"] {
-  background: var(--brand-experiment-300);
+  background: var(--brand-300);
 }

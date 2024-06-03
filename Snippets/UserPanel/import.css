@@ -38,7 +38,7 @@
     box-sizing: border-box;
 
     &:hover {
-      background: var(--brand-experiment-700) !important;
+      background: var(--brand-700) !important;
     }
   }
 
@@ -65,7 +65,7 @@
     background: transparent;
 
     &:hover {
-      background: var(--brand-experiment-700) !important;
+      background: var(--brand-700) !important;
     }
   }
 }
@@ -84,7 +84,7 @@
 body:has(.vc-spotify-pause) .panels__58331 {
   background: color-mix(
     in srgb,
-    var(--brand-experiment) 25%,
+    var(--brand-500) 25%,
     rgba(0, 0, 0, 0.25)
   ) !important;
 }
@@ -101,22 +101,22 @@ body:has(.vc-spotify-pause) .panels__58331 {
   }
 
   & [class*="barFill"] {
-    background: var(--brand-experiment);
+    background: var(--brand-500);
   }
 
   & :is(.vc-spotify-shuffle-off, .vc-spotify-repeat-off) {
-    color: var(--brand-experiment-300) !important;
+    color: var(--brand-300) !important;
   }
 
   & .vc-spotify-button.vc-spotify-button {
-    color: var(--brand-experiment);
-    background: color-mix(in srgb, var(--brand-experiment) 25%, transparent);
+    color: var(--brand-500);
+    background: color-mix(in srgb, var(--brand-500) 25%, transparent);
     margin: 0 4px;
     scale: 0.85;
 
     &:hover {
-      background: color-mix(in srgb, var(--brand-experiment) 50%, transparent);
-      color: var(--brand-experiment-300);
+      background: color-mix(in srgb, var(--brand-500) 50%, transparent);
+      color: var(--brand-300);
     }
   }
 

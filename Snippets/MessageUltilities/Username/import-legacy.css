@@ -48,5 +48,5 @@
 
 /* Prevent light mode from making whitenames black (visibility) */
 .username__0b0e7:not([style]) {
-  color: var(--brand-experiment-100);
+  color: var(--brand-100);
 }
