@@ -82,7 +82,7 @@
 }
 
 body:has(.vc-spotify-pause) .panels__58331 {
-  background: var(--brand-25a) !important;
+  background: rgba(var(--brand-500), 0.25) !important;
 }
 
 /* [[ SPOTIFY CONTROLS ]] */
@@ -136,12 +136,12 @@ body:has(.vc-spotify-pause) .panels__58331 {
 }
 
 #vc-spotify-player .vc-spotify-button.vc-spotify-button:hover {
-  background: var(--brand-50a);
+  background: rgba(var(--brand-500), 0.5);
 }
 
 #vc-spotify-player .vc-spotify-button.vc-spotify-button {
   color: var(--brand-500);
-  background: var(--brand-25a);
+  background: rgba(var(--brand-500), 0.25);
   margin: 0 4px;
   scale: 0.85;
 }
