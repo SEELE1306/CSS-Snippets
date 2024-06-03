@@ -3,7 +3,7 @@
 A compilation of CSS snippets for Discord and its custom clients.
 
 > [!IMPORTANT]
-> **Update 25.04.2024:** Deprecated snippets: GuildList, MessageSection-v1. Other snippets might need additional adjustments.
+> **Update 03.06.2024:** Deprecated snippets: GuildList, MessageSection-v1. These have been permanently deleted from the snippets repository.
 
 ## List of available snippets
 
@@ -17,7 +17,6 @@ A compilation of CSS snippets for Discord and its custom clients.
 | [ChannelSelections](Snippets/ChannelSelections/) | Allows for more spacing for channel icons & colored unread notifiers. | <img valign='middle' alt='ChannelSelections' src='./docs/_media/ChannelSelections.png' height='200px'/> |
 | [ChatBubbles](Snippets/ChatBubbles/) | Adds a chat bubble around messages. Different colours are available for normal, replying, mentioned and automod messages. | <img valign='middle' alt='ChatBubbles' src='./docs/_media/ChatBubbles.png'/> |
 | [GuildBoost](Snippets/GuildBoost/) | Replaces the boost bar in guilds with a more appealing indicator | <img valign='middle' alt='GuildBoost' src='./docs/_media/GuildBoost.png' height='200px'/> |
-| [GuildList](Snippets/GuildList/) | Makes the guild/server list more more efficient and more appealing. |  <img valign='middle' alt='GuildList' src='./docs/_media/GuildList.png' height='200px'/> |
 | [MessageSection-v2](Snippets/MessageSection/v2/) | Aligns the "Message Section" better and hides its icons a hover menu | <img valign='middle' alt='MessageSection-v2' src='./docs/_media/MessageSection-v2_01.png'/> <img valign='middle' alt='MessageSection-v2' src='./docs/_media/MessageSection-v2_02.png'/> |
 | [MessageTypes](Snippets/MessageUltilities/MessageTypes/) | Includes the message types & actions with the username. Currently available in English and German | <img valign='middle' alt='MessageTypes' src='./docs/_media/MessageTypes.png'/> |
 | [TimestampBubbles](Snippets/MessageUltilities/TimestampBubbles/) | Applies a bubble styling to message timestamps | <img valign='middle' alt='TimestampBubbles' src='./docs/_media/TimestampBubbles.png'/> |
