@@ -14,7 +14,7 @@
 .selected__7f4cb .layout_bb8e67,
 .channel__0aef5.container-32HW5s > .interactiveSelected__689f0,
 .navButtonActive__0c878 {
-  background: rgba(var(--brand-500), 0.5);
+  background: hsla(var(--brand-500-hsl) / 50%);
 }
 
 .icon__67ab4 {
@@ -31,7 +31,7 @@
 
 .containerDefault_ae2ea4:hover .icon__67ab4 {
   color: var(--interactive-active);
-  background: rgba(var(--brand-500), 0.5);
+  background: hsla(var(--brand-500-hsl) / 50%);
 }
 
 [class*="unread_"] {
