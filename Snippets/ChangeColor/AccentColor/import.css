@@ -80,9 +80,6 @@
     #fff calc(38% - 32.5%),
     var(--brand-500)
   );
-  --brand-500: var(
-    --brand-500
-  ); /* This is served as a middle ground for all other colour variables */
   --brand-530: color-mix(
     in srgb,
     #000 calc(38% - 32.5%),
@@ -247,33 +244,25 @@
   );
 
   /* Old brand varibales */
-  --brand-100: var(--brand-100);
-  --brand-130: var(--brand-130);
-  --brand-160: var(--brand-160);
-  --brand-200: var(--brand-200);
-  --brand-230: var(--brand-230);
-  --brand-260: var(--brand-260);
-  --brand-300: var(--brand-300);
-  --brand-330: var(--brand-330);
-  --brand-345: var(--brand-345);
-  --brand-360: var(--brand-360);
-  --brand-400: var(--brand-400);
-  --brand-430: var(--brand-430);
-  --brand-460: var(--brand-460);
-  --brand-500: var(--brand-500);
-  --brand-530: var(--brand-530);
-  --brand-560: var(--brand-560);
-  --brand-600: var(--brand-600);
-  --brand-630: var(--brand-630);
-  --brand-645: var(--brand-645);
-  --brand-660: var(--brand-660);
-  --brand-700: var(--brand-700);
-  --brand-730: var(--brand-730);
-  --brand-760: var(--brand-760);
-  --brand-800: var(--brand-800);
-  --brand-830: var(--brand-830);
-  --brand-860: var(--brand-860);
-  --brand-900: var(--brand-900);
+  --brand-experiment-05a: var(--brand-05a);
+  --brand-experiment-10a: var(--brand-10a);
+  --brand-experiment-15a: var(--brand-15a);
+  --brand-experiment-20a: var(--brand-20a);
+  --brand-experiment-25a: var(--brand-25a);
+  --brand-experiment-30a: var(--brand-30a);
+  --brand-experiment-35a: var(--brand-35a);
+  --brand-experiment-40a: var(--brand-40a);
+  --brand-experiment-45a: var(--brand-45a);
+  --brand-experiment-50a: var(--brand-50a);
+  --brand-experiment-55a: var(--brand-55a);
+  --brand-experiment-60a: var(--brand-60a);
+  --brand-experiment-65a: var(--brand-65a);
+  --brand-experiment-70a: var(--brand-70a);
+  --brand-experiment-75a: var(--brand-75a);
+  --brand-experiment-80a: var(--brand-80a);
+  --brand-experiment-85a: var(--brand-85a);
+  --brand-experiment-90a: var(--brand-90a);
+  --brand-experiment-95a: var(--brand-95a);
 
   --text-brand: var(--brand-500);
   --mention-background: var(--brand-30a);
