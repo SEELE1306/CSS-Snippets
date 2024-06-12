@@ -1,5 +1,10 @@
 # CSS-Snippets
 
+![GitHub License](https://img.shields.io/github/license/SEELE1306/Modular?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/supports-vesktop-red?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/supports-vencord-red?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/supports-betterdiscord-navy?style=for-the-badge)
+
 A compilation of CSS snippets for Discord and its custom clients.
 
 > [!IMPORTANT]
@@ -27,8 +32,6 @@ A compilation of CSS snippets for Discord and its custom clients.
 | [ToolbarHide](Snippets/ToolbarHide/) | Hides the toolbar at the top for a cleaner layout. | <img valign='middle' alt='ToolbarHide' src='./docs/_media/ToolbarHide.png'/> |
 | [StaffTags](Snippets/StaffTags/) | Applies styling to different staff tags for easier identification. | <img valign='middle' alt='StaffTags' src='./docs/_media/StaffTags.png'/> |
 | [Titlebar](Snippets/Titlebar/) | Changes the default Discord titlebar to a more visually appealing one. You can customize the text and background color to your liking. | <img valign='middle' alt='Titlebar_01' src='./docs/_media/Titlebar_01.png'/> <img valign='middle' alt='Titlebar_02' src='./docs/_media/Titlebar_02.png'/> |
-
-
 
 ## Apply
 
@@ -77,5 +80,3 @@ If your client is not [Vesktop](https://github.com/Vencord/Vesktop), the snippet
 [ant0n-0x0000](https://github.com/ant0n-0x0000) for helping out with the snippets' descriptions!
 
 [Saltssaumure](https://github.com/Saltssaumure), [Lexia](https://github.com/exterpolation) for various elements within the snippets
-
-
