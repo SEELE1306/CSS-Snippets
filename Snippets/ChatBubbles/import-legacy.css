@@ -4,17 +4,17 @@
  * @authorLink https://github.com/SEELE1306
  * @description Adds a chat bubble around messages. Different colours are available for normal, replying, mentioned and automod messages.
  * @license MIT
- * @version 1.0.2
+ * @version 1.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* Customizable */
 :root {
-  --chat-bubble-default: 0 0% 50%;
-  --chat-bubble-replying: 180 100% 50%;
-  --chat-bubble-mentioned: 39 100% 50%;
-  --chat-bubble-automod: 0 100% 50%;
+  --chat-bubble-default: grey;
+  --chat-bubble-replying: cyan;
+  --chat-bubble-mentioned: orange;
+  --chat-bubble-automod: red;
   --enable-chat-bubble-border: 1;
 }
 
@@ -35,40 +35,9 @@
   background: transparent;
 }
 
-.markup_a7e664.messageContent_abea64 a {
-  background: var(--background-modifier-accent);
-  color: var(--text-link);
-  font-weight: 600;
-  padding: 0 4px;
-  border-radius: 4px;
-}
-
-.groupStart__7b93c.cozyMessage__9f4fd
-  > .contents_d3ae0d:hover
-  .markup_a7e664.messageContent_abea64
-  a,
-.cozyMessage__9f4fd:not(.groupStart__7b93c)
-  > .contents_d3ae0d:hover
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *)
-  a {
-  background: var(--background-modifier-hover);
-  text-decoration: none;
-}
-
-.groupStart__7b93c.cozyMessage__9f4fd > .contents_d3ae0d,
-.cozyMessage__9f4fd:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
-.container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *, iframe) {
-  margin: 2px 0;
-  padding: 8px;
-  border-radius: 8px;
-  background: hsl(var(--chat-bubble-default) / 25%);
-  border: calc(2px * var(--enable-chat-bubble-border)) solid
-    hsl(var(--chat-bubble-default));
-  max-width: max-content;
-  box-sizing: border-box;
+/* Fix overflow on replied pings */
+.repliedTextPreview__1a8a4 {
+  max-height: fit-content;
 }
 
 .mediaAttachmentsContainer__242e2 {
@@ -79,90 +48,13 @@
   margin: 8px 0 -4px;
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd > .contents_d3ae0d:hover,
-.cozyMessage__9f4fd:not(.groupStart__7b93c)
-  > .contents_d3ae0d:hover
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
-.container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *, iframe):hover {
-  background: hsl(var(--chat-bubble-default) / 50%);
-}
-
-.groupStart__7b93c.cozyMessage__9f4fd.replying__38514 > .contents_d3ae0d,
-.cozyMessage__9f4fd.replying__38514:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
-.replying__38514
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *, iframe) {
-  background: hsl(var(--chat-bubble-replying) / 25%);
-  border: calc(2px * var(--enable-chat-bubble-border)) solid
-    hsl(var(--chat-bubble-replying));
-  border-radius: 8px;
-  max-width: max-content;
-}
-
-.groupStart__7b93c.cozyMessage__9f4fd.replying__38514 > .contents_d3ae0d:hover,
-.cozyMessage__9f4fd.replying__38514:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
-.replying__38514
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *, iframe):hover {
-  background: hsl(var(--chat-bubble-replying) / 50%);
-}
-
-.groupStart__7b93c.cozyMessage__9f4fd.mentioned_fa6fd2 > .contents_d3ae0d,
-.cozyMessage__9f4fd.mentioned_fa6fd2:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
-.mentioned_fa6fd2
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *, iframe) {
-  background: hsl(var(--chat-bubble-mentioned) / 25%);
-  border: calc(2px * var(--enable-chat-bubble-border)) solid
-    hsl(var(--chat-bubble-mentioned));
-  border-radius: 8px;
-}
-
-.groupStart__7b93c.cozyMessage__9f4fd.mentioned_fa6fd2 > .contents_d3ae0d:hover,
-.cozyMessage__9f4fd.mentioned_fa6fd2:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
-.mentioned_fa6fd2
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *, iframe):hover {
-  background: hsl(var(--chat-bubble-mentioned) / 50%);
-}
-
-.groupStart__7b93c.cozyMessage__9f4fd.automodMessage__43f24 > .contents_d3ae0d,
-.cozyMessage__9f4fd.automodMessage__43f24:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
-.automodMessage__43f24
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *, iframe) {
-  background: hsl(var(--chat-bubble-automod) / 25%);
-  border: calc(2px * var(--enable-chat-bubble-border)) solid
-    hsl(var(--chat-bubble-automod));
-  border-radius: 8px;
-}
-
-.groupStart__7b93c.cozyMessage__9f4fd.automodMessage__43f24
-  > .contents_d3ae0d:hover,
-.cozyMessage__9f4fd.automodMessage__43f24:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
-.automodMessage__43f24
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *, iframe):hover {
-  background: hsl(var(--chat-bubble-automod) / 50%);
-}
-
-.automodMessage__43f24:before,
-.replying__38514::before,
-.mentioned_fa6fd2::before {
-  display: none;
+/* revert back to class selectors + add borders */
+.markup_a7e664.messageContent_abea64 a {
+  background: var(--background-modifier-accent);
+  color: var(--text-link);
+  font-weight: 600;
+  padding: 0 4px;
+  border-radius: 4px;
 }
 
 /* Message embeds (Vencord plugin) */
@@ -182,17 +74,132 @@
   margin: 0;
 }
 
-/* Spotify embeds */
+.groupStart__7b93c.cozyMessage__9f4fd
+  > .contents_d3ae0d:hover
+  .markup_a7e664.messageContent_abea64
+  a,
+.cozyMessage__9f4fd:not(.groupStart__7b93c)
+  > .contents_d3ae0d:hover
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *)
+  a {
+  background: var(--background-modifier-hover);
+  text-decoration: none;
+}
+
+.groupStart__7b93c.cozyMessage__9f4fd > .contents_d3ae0d,
+.cozyMessage__9f4fd:not(.groupStart__7b93c)
+  > .contents_d3ae0d
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
+.container__62863 > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *) {
+  margin: 0;
+  padding: 8px;
+  border-radius: 8px;
+  background: hsl(var(--chat-bubble-default) / 25%);
+  max-width: max-content;
+  box-sizing: border-box;
+  border: calc(1px * var(--enable-chat-bubble-border)) solid
+    var(--chat-bubble-default);
+}
+
+.groupStart__7b93c.cozyMessage__9f4fd > .contents_d3ae0d:hover,
+.cozyMessage__9f4fd:not(.groupStart__7b93c)
+  > .contents_d3ae0d
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
+.container__62863 > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *):hover {
+  background: hsl(var(--chat-bubble-default) / 50%);
+}
+
+/* Overwrite previous margin settings */
+.groupStart__7b93c.cozyMessage__9f4fd > .contents_d3ae0d,
+.cozyMessage__9f4fd:not(.groupStart__7b93c)
+  > .contents_d3ae0d
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *) {
+  margin: calc(2px + 1px * var(--enable-chat-bubble-border)) 0;
+}
+
 .container__62863 > .embedSpotify__13fe9 {
+  height: fit-content;
   padding: 0;
-  border-radius: 12px !important;
+  box-sizing: content-box;
 }
 
-/* Fix avatar location */
-.contents_d3ae0d [class^="avatar__"] {
-  margin-top: -10px;
+/* Fix overlapping of reactions */
+.reactions_da5b2a {
+  margin-top: calc(4px + 2px * var(--enable-chat-bubble-border));
+  margin-left: calc(0px - 2px * var(--enable-chat-bubble-border));
 }
 
-.contents_d3ae0d .avatarDecoration__8a0c2 {
-  margin-top: -14px;
+.altText_a57338 {
+  margin: 8px 0 -4px;
+}
+
+.groupStart__7b93c.cozyMessage__9f4fd.replying__38514 > .contents_d3ae0d,
+.cozyMessage__9f4fd.replying__38514:not(.groupStart__7b93c)
+  > .contents_d3ae0d
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
+.replying__38514
+  .container__62863
+  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *) {
+  background: hsl(var(--chat-bubble-replying) / 25%);
+  border-radius: 8px;
+  max-width: max-content;
+  border: calc(1px * var(--enable-chat-bubble-border)) solid
+    var(--chat-bubble-replying);
+}
+
+.groupStart__7b93c.cozyMessage__9f4fd.replying__38514 > .contents_d3ae0d:hover,
+.cozyMessage__9f4fd.replying__38514:not(.groupStart__7b93c)
+  > .contents_d3ae0d
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
+.replying__38514
+  .container__62863
+  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *):hover {
+  background: hsl(var(--chat-bubble-replying) / 50%);
+}
+
+.groupStart__7b93c.cozyMessage__9f4fd.mentioned_fa6fd2 > .contents_d3ae0d,
+.cozyMessage__9f4fd.mentioned_fa6fd2:not(.groupStart__7b93c)
+  > .contents_d3ae0d
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
+.mentioned_fa6fd2
+  .container__62863
+  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *) {
+  background: hsl(var(--chat-bubble-mentioned) / 25%);
+  border-radius: 8px;
+  border: calc(1px * var(--enable-chat-bubble-border)) solid
+    var(--chat-bubble-mentioned);
+}
+
+.groupStart__7b93c.cozyMessage__9f4fd.mentioned_fa6fd2 > .contents_d3ae0d:hover,
+.cozyMessage__9f4fd.mentioned_fa6fd2:not(.groupStart__7b93c)
+  > .contents_d3ae0d
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
+.mentioned_fa6fd2
+  .container__62863
+  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *):hover {
+  background: hsl(var(--chat-bubble-mentioned) / 50%);
+}
+
+.groupStart__7b93c.cozyMessage__9f4fd.automodMessage__43f24 > .contents_d3ae0d,
+.cozyMessage__9f4fd.automodMessage__43f24:not(.groupStart__7b93c)
+  > .contents_d3ae0d
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
+.automodMessage__43f24
+  .container__62863
+  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *) {
+  background: hsl(var(--chat-bubble-automod) / 25%);
+  border-radius: 8px;
+  border: calc(1px * var(--enable-chat-bubble-border)) solid
+    var(--chat-bubble-automod);
+}
+
+.groupStart__7b93c.cozyMessage__9f4fd.automodMessage__43f24
+  > .contents_d3ae0d:hover,
+.cozyMessage__9f4fd.automodMessage__43f24:not(.groupStart__7b93c)
+  > .contents_d3ae0d
+  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
+.automodMessage__43f24
+  .container__62863
+  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *):hover {
+  background: hsl(var(--chat-bubble-automod) / 50%);
 }
