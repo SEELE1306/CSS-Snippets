@@ -7,8 +7,7 @@
 
 A compilation of CSS snippets for Discord and its custom clients.
 
-> [!IMPORTANT]
-> **Update 03.06.2024:** Deprecated snippets: GuildList, MessageSection-v1. These have been permanently deleted from the snippets repository.
+See [Update Checklist](./Update%20Checklist.md) to see which snippets have been fixed/updated.
 
 ## List of available snippets
 
