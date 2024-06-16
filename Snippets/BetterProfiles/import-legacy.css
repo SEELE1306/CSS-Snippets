@@ -213,11 +213,7 @@
 /* User modal tab buttons */
 .tabBarItem_ce14f3 {
   border: none;
-  background: color-mix(
-    in srgb,
-    var(--profile-body-background-color) 40%,
-    transparent
-  );
+  background: var(--background-modifier-accent);
   padding: 2px 0;
   width: 31%;
   height: fit-content;
@@ -225,18 +221,11 @@
   text-align: center;
 }
 .tabBarItem_ce14f3:hover {
-  background: color-mix(
-    in srgb,
-    var(--profile-body-background-color) 70%,
-    transparent
-  ) !important;
+  background: var(--background-modifier-hover) !important;
 }
+
 .tabBarItem_ce14f3.selected_a523ff {
-  background: color-mix(
-    in srgb,
-    var(--profile-body-background-color) 100%,
-    transparent
-  );
+  background: var(--background-modifier-selected);
 }
 
 /* User modal name container */
