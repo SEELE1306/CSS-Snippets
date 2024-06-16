@@ -4,47 +4,156 @@
  * @authorLink https://github.com/SEELE1306
  * @description Improves general layout of user profiles, improving readability and visual appeal.
  * @license MIT
- * @version 1.0.2
+ * @version 1.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* [[ PROFILES ]] */
-.customStatus__3aa7f {
+
+.divider_d6f39c,
+.userInfoSection_e816c1 .eyebrow_b3f8ba:last-child, /* Notes in profile modal */
+.section__62b44:has(.roles__74a2b:empty), /* no roles */
+[class*=userPanelInner_]::before,
+.lastSection__62986, /* notes section */
+.aboutMeGuildIcon_b05b69 /* Profile guild icon */ {
+  display: none;
+}
+
+/* Enable separate sections */
+.userPopoutOverlayBackground__3e7e6,
+.userProfileModalOverlayBackground_a5b043,
+.connectedAccounts__7a8e6 {
+  background: transparent !important;
+}
+
+/* Section eyebrows */
+:is(.section__62b44, .userInfoSection_e816c1) .eyebrow_b3f8ba {
+  display: block;
+  text-align: center;
+}
+
+.eyebrow_b3f8ba {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--text-muted) !important;
+}
+
+/* Fix profile popout clip at 6 lines */
+[style^="-webkit-line-clamp: 6"] {
+  display: block;
+}
+
+/* Fix profile in customization section */
+.profileCustomizationSection_c4a87a {
+  & .section__62b44 {
+    &.container__1c2eb {
+      justify-content: center;
+
+      & > div {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* Limit height of user popouts */
+.userPopoutOuter_d67f56 {
+  border-radius: 8px;
+}
+
+[class^="userPopoutInner_"] {
+  max-height: calc(75vh - 28px);
+}
+
+/* General layout, center items */
+.mainContainer_c5e1e2.profileMutuals__95dc2 {
+  padding-bottom: 8px;
+}
+
+.section__62b44 {
+  margin: 8px 0;
+  padding: 8px;
+}
+
+.section__62b44 > div:not(.activity__20c1e, .roles__74a2b),
+.memberSinceWrapper_f76b59,
+.mainContainer_c5e1e2.profileMutuals__95dc2,
+.userInfoText_b87307,
+.container__9f51c,
+.nameTag_fdddf8,
+.popularApplicationCommandsList__0eb68,
+.section__62b44:has(.vc-user-connection) > .eyebrow_b3f8ba {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.section__62b44:not(:has(.buttonsContainer__83ada)),
+.mutualGuildsList__5e9f3,
+.mutualFriendsList__02caf,
+.userInfoText_b87307.aboutMeGuildIcon_b05b69,
+.mainContainer_c5e1e2.profileMutuals__95dc2,
+.userInfoSection_e816c1 {
+  background: var(--profile-body-background-color);
+  border-radius: 8px;
+}
+
+/* Custom status */
+.section__62b44.customStatusSection_c9f9ba {
+  margin: 8px 12px;
+}
+
+.customStatus__6a31a,
+.customStatus_fe94ef {
   &::before {
     content: "Current status";
+    text-transform: uppercase;
     font-weight: 800;
+    font-size: 12px;
     color: var(--text-muted);
     display: block;
   }
-  & .customStatusEmoji__00639 {
+
+  & .customStatusEmoji__81bd9 {
     margin: 4px -12px 8px;
     position: relative;
     left: 50%;
     float: none;
     border-radius: 4px;
 
-    &.customStatusSoloEmoji__24b58 {
+    &.customStatusSoloEmoji_aab12e {
       position: relative;
       left: 42.5%;
     }
   }
 }
 
-.defaultColor__77578.eyebrow_e5a66c.defaultColor__8610e.title__392bc {
-  justify-content: center;
-  display: flex;
+/* Activity user popout */
+.activityUserPopoutV2__89098 {
+  padding: 0 8px;
 }
 
+/* Spotify song text and time left align */
+.contentImagesUserPopoutV2_cbfb04,
+.textLeft__05c15 {
+  text-align: left;
+}
+
+/* Mutual servers/friends */
+.profileMutuals__95dc2 {
+  padding-top: 8px;
+}
+
+/* Pronouns */
 .pronouns__8aa38,
 .pronouns__3d468 {
-  text-transform: none;
   color: var(--text-normal);
   font-size: 16px;
-  font-weight: 800;
+  font-weight: bold;
   padding: 4px 6px;
   margin: 4px 0 0 0;
-  border-radius: 4px;
+  border-radius: 8px;
   max-width: 90%;
   overflow: hidden;
   background: linear-gradient(
@@ -55,65 +164,18 @@
   background-size: 200% 200%;
 }
 
-.profileBannerPremium__6fb42 {
-  margin: 12px auto auto;
-  width: calc(100% - 24px);
-  height: calc(100px - 24px) !important;
-  min-height: 188px !important;
-  border-radius: 8px;
-}
-
-.popoutBannerPremium__84487 {
-  margin: 8px auto auto;
-  width: calc(100% - 16px) !important;
-  height: calc(100px - 16px) !important;
-  min-height: 106px !important;
-  border-radius: 4px;
-}
-
-.scroller_f9a667 {
-  padding: 6px 12px;
-}
-
-.section__62b44 > div:not(.roles__74a2b),
-.userInfoText_b87307 {
-  padding: 8px;
-}
-
 .scrollerSeparator_d8843a {
   box-shadow: none;
 }
 
+/* profile section width fix */
 .section__62b44.usernameSection_dd6196 {
-  margin-bottom: 8px;
-}
+  margin: 8px 12px;
+  padding: 8px;
 
-.container__9f51c {
-  margin: 0 12px;
-  padding: 16px;
-}
-
-.usernameSection_dd6196 > div {
-  width: calc(100% - 16px);
-}
-
-.section__62b44 > div:not(.activity__20c1e, .roles__74a2b),
-.memberSinceContainer__16630,
-.userInfoText_b87307,
-.container__9f51c,
-.nameTag_fdddf8,
-img[class*="emoji_"] {
-  justify-content: center;
-  text-align: center;
-}
-
-.section__62b44 > div:not(.roles__74a2b),
-.mutualGuildsList__5e9f3,
-.mutualFriendsList__02caf,
-.container__9f51c,
-.userInfoText_b87307 {
-  background: var(--profile-body-background-color);
-  border-radius: 4px;
+  & > div {
+    width: 100%;
+  }
 }
 
 /* remove border in modal connections */
@@ -127,44 +189,33 @@ img[class*="emoji_"] {
   margin-right: 10px;
 }
 
+/* Profile fixes */
+[style^="-webkit-line-clamp: 6"] {
+  display: block;
+}
+
+[class^="userProfileModalOverlayBackground__"] > [class^="body_"] {
+  flex: 0 1 50%;
+}
+
 :is(.userPopoutInner_ac0960, .userInfoText_b87307) .blockquoteContainer__66aaa {
   justify-content: center;
 }
 
-.userPopoutInner_ac0960 .markup_a7e664 a,
-.userInfoText-2MFCmH.markup_a7e664 a,
-.timestamp_ff7119 {
-  background: var(--background-modifier-accent);
-  color: var(--text-link);
-  font-weight: bold;
-  padding: 0 4px;
-  border-radius: 4px;
-}
-
-:is(
-    .userPopoutInner_ac0960 .markup_a7e664 a,
-    .userInfoText-2MFCmH.markup_a7e664 a,
-    .timestamp_ff7119
-  ):hover {
-  background: var(--background-modifier-hover);
-  text-decoration: none;
-}
-
+/* User modal tab */
 .tabBarContainer_b283be {
-  margin: 20px 0 0;
+  margin: 16px 0 0;
   border: none;
 }
 
 .tabBar__35f81 {
-  display: flex;
   flex-flow: row wrap;
+  gap: 8px;
   justify-content: center;
-  align-items: center;
-  row-gap: 8px;
-  column-gap: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
+/* User modal tab buttons */
 .tabBarItem_ce14f3 {
   border: none;
   background: color-mix(
@@ -175,7 +226,7 @@ img[class*="emoji_"] {
   padding: 2px 0;
   width: 31%;
   height: fit-content;
-  border-radius: 4px;
+  border-radius: 8px;
   text-align: center;
 
   &:hover {
@@ -195,6 +246,24 @@ img[class*="emoji_"] {
   }
 }
 
+/* User modal name container */
+.container__9f51c {
+  background: var(--profile-body-background-color);
+  padding: 12px;
+  margin: 12px;
+  border-radius: 8px;
+}
+
+/* User modal section header */
+.userInfoSectionHeader_c9f1d3 {
+  text-align: center;
+}
+
+.userInfoSection_e816c1 {
+  padding-bottom: 8px;
+  margin-top: 12px;
+}
+
 .item__48dda:hover,
 .selected_a523ff.item__48dda {
   border: none;
@@ -212,65 +281,18 @@ img[class*="emoji_"] {
   left: 12.5%;
 }
 
-.userProfileOuterUnthemed__9741c .userPanelInner__3184c {
-  background: transparent !important;
-}
-
-.profilePanel_e2cafe .userPanelInner__3184c {
+/* add ReviewDB */
+div[style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;"],
+.vc-rdb-view {
+  padding: 4px 8px;
+  margin-top: 8px;
   border-radius: 8px;
+  background: var(--profile-body-background-color);
 }
 
-.connectedAccountContainer__5972d {
-  border-width: 2px;
-}
-
-.connectedAccountContainer__5972d:has(.connectedAccountOpenIcon__23b1a:hover) {
-  background: var(--profile-body-divider-color);
-}
-
-.flowerStarContainer__00f61.connectedAccountVerifiedIcon__103a6 > svg > path {
-  fill: var(--profile-body-divider-color);
-  filter: brightness(1) contrast(2);
-}
-
-:is(.userPopoutInner_ac0960, .profilePanel_e2cafe) [class*="divider_"] {
-  background: transparent;
-  border-color: transparent;
-}
-
-.userInfoSection_e816c1 .eyebrow_b3f8ba:last-child, /* Notes in profile modal */
-.section__62b44:has(.roles__74a2b:empty), /* no roles */
-[class*=userPanelInner_]::before,
-.lastSection__62986, /* notes section */
-.aboutMeGuildIcon_b05b69 /* Profile guild icon */ {
-  display: none !important;
-}
-
-/* fixes */
-[class^="userPopoutOverlayBackground_"],
-[class^="userProfileModalOverlayBackground__"] {
-  background: transparent;
-}
-
-:is(.section__62b44, .userInfoSection_e816c1) .eyebrow_b3f8ba {
-  text-transform: none;
-  font-size: 14px;
-  display: block;
-  text-align: center;
-}
-
-.activityUserPopoutV2__89098 .headerText_c0138d,
-.activityProfileV2_f5335f .headerText_c0138d {
-  text-transform: none;
-  font-size: 14px;
-}
-
-[style^="-webkit-line-clamp: 6"] {
-  display: block;
-}
-
-[class^="userProfileModalOverlayBackground__"] > [class^="body_"] {
-  flex: 0 1 500px;
+.vc-rdb-input {
+  border: none;
+  background: var(--profile-body-background-color);
 }
 
 /* [[ ROLE PILLS ]] */
@@ -334,28 +356,17 @@ img[class*="emoji_"] {
   }
 }
 
-/* Fix profile in customization section */
-.profileCustomizationSection_c4a87a {
-  & .section__62b44 {
-    &.container__1c2eb {
-      justify-content: center;
-
-      & > div {
-        width: 100%;
-      }
-    }
-  }
+/* Connected accounts */
+.connectedAccountContainer__5972d {
+  border-width: 2px;
+  border-radius: 8px;
 }
 
-/* Add back ReviewDB */
-div[style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;"],
-.vc-rdb-view {
-  padding: 4px 8px;
-  margin-top: 8px;
-  border-radius: 4px;
-  background: var(--profile-body-background-color);
+.connectedAccountContainer__5972d:has(.connectedAccountOpenIcon__23b1a:hover) {
+  background: var(--profile-body-divider-color);
 }
 
-.vc-rdb-view .wrapper__4e6b6 {
-  scale: 0.825;
+.flowerStarContainer__00f61.connectedAccountVerifiedIcon__103a6 > svg > path {
+  fill: var(--profile-body-divider-color);
+  filter: brightness(1) contrast(2);
 }
