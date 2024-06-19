@@ -8,9 +8,9 @@
  * @discord seele1306
  */
 
-[class^="accountProfilePopoutWrapper"] .section__62b44,
-.userPopoutInner_ac0960:has(#account) > *:not(:has(#account)),
-.userPopoutOverlayBackground__3e7e6:has(#account) > *:not(#account) {
+[class^="accountProfilePopoutWrapper"] .section_d7a21f,
+.userPopoutInner_c69a7b:has(#account) > *:not(:has(#account)),
+.userPopoutOverlayBackground_c69a7b:has(#account) > *:not(#account) {
   display: none !important;
 }
 
