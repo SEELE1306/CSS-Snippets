@@ -3,13 +3,13 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Replaces the profile popout with more streamlined options
- * @version 1.0.2
+ * @version 1.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
-.userPopoutInner_ac0960:has(#account) > *:not(:has(#account)),
-.userPopoutOverlayBackground__3e7e6:has(#account) > *:not(#account) {
+.userPopoutInner_c69a7b:has(#account) > *:not(:has(#account)),
+.userPopoutOverlayBackground_c69a7b:has(#account) > *:not(#account) {
   display: none !important;
 }
 
@@ -21,7 +21,7 @@
     width: fit-content;
   }
 
-  & .section__62b44 {
+  & .section_d7a21f {
     display: none !important;
   }
 }
