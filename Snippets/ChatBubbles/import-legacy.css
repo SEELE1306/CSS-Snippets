@@ -4,7 +4,7 @@
  * @authorLink https://github.com/SEELE1306
  * @description Adds a chat bubble around messages. Different colours are available for normal, replying, mentioned and automod messages.
  * @license MIT
- * @version 1.0.3
+ * @version 1.0.4
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -31,12 +31,12 @@
 }
 
 /* [[ CHAT BUBBLES ]] */
-.channelTextArea_c2094b {
+.channelTextArea_a7d72e {
   background: transparent;
 }
 
 /* Fix overflow on replied pings */
-.repliedTextPreview__1a8a4 {
+.repliedTextPreview_ec86aa {
   max-height: fit-content;
 }
 
@@ -44,12 +44,12 @@
   margin-bottom: 0 !important;
 }
 
-.altText_a57338 {
+.altText_cf58b5 {
   margin: 8px 0 -4px;
 }
 
 /* revert back to class selectors + add borders */
-.markup_a7e664.messageContent_abea64 a {
+.markup_d6076c.messageContent_ec86aa a {
   background: var(--background-modifier-accent);
   color: var(--text-link);
   font-weight: 600;
@@ -58,39 +58,39 @@
 }
 
 /* Message embeds (Vencord plugin) */
-.grid__35551 {
+.grid_ad0b71 {
   padding: 4px 8px 8px 6px;
 }
 
-.grid__35551 .embedAuthor__3e899 span {
+.grid_ad0b71 .embedAuthor_ad0b71 span {
   font-weight: bold;
 }
 
-.grid__35551 .message__7e601 {
+.grid_ad0b71 .message_ddc613 {
   padding: 8px 0;
 }
 
-.grid__35551 .message__7e601 .avatar__08316 {
+.grid_ad0b71 .message_ddc613 .avatar_ec86aa {
   margin: 0;
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd
-  > .contents_d3ae0d:hover
-  .markup_a7e664.messageContent_abea64
+.groupStart_d5deea.cozyMessage_d5deea
+  > .contents_ec86aa:hover
+  .markup_d6076c.messageContent_ec86aa
   a,
-.cozyMessage__9f4fd:not(.groupStart__7b93c)
-  > .contents_d3ae0d:hover
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *)
+.cozyMessage_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa:hover
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *)
   a {
   background: var(--background-modifier-hover);
   text-decoration: none;
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd > .contents_d3ae0d,
-.cozyMessage__9f4fd:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
-.container__62863 > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *) {
+.groupStart_d5deea.cozyMessage_d5deea > .contents_ec86aa,
+.cozyMessage_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *),
+.container_b558d0 > :not(.reactions_ec6b19, .searchResultsWrap_c2b47d *) {
   margin: 0;
   padding: 8px;
   border-radius: 8px;
@@ -101,45 +101,45 @@
     var(--chat-bubble-default);
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd > .contents_d3ae0d:hover,
-.cozyMessage__9f4fd:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
-.container__62863 > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *):hover {
+.groupStart_d5deea.cozyMessage_d5deea > .contents_ec86aa:hover,
+.cozyMessage_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *):hover,
+.container_b558d0 > :not(.reactions_ec6b19, .searchResultsWrap_c2b47d *):hover {
   background: hsl(var(--chat-bubble-default) / 50%);
 }
 
 /* Overwrite previous margin settings */
-.groupStart__7b93c.cozyMessage__9f4fd > .contents_d3ae0d,
-.cozyMessage__9f4fd:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *) {
+.groupStart_d5deea.cozyMessage_d5deea > .contents_ec86aa,
+.cozyMessage_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
   margin: calc(2px + 1px * var(--enable-chat-bubble-border)) 0;
 }
 
-.container__62863 > .embedSpotify__13fe9 {
+.container_b558d0 > .embedSpotify_ad0b71 {
   height: fit-content;
   padding: 0;
   box-sizing: content-box;
 }
 
 /* Fix overlapping of reactions */
-.reactions_da5b2a {
+.reactions_ec6b19 {
   margin-top: calc(4px + 2px * var(--enable-chat-bubble-border));
   margin-left: calc(0px - 2px * var(--enable-chat-bubble-border));
 }
 
-.altText_a57338 {
+.altText_cf58b5 {
   margin: 8px 0 -4px;
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd.replying__38514 > .contents_d3ae0d,
-.cozyMessage__9f4fd.replying__38514:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
-.replying__38514
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *) {
+.groupStart_d5deea.cozyMessage_d5deea.replying_d5deea > .contents_ec86aa,
+.cozyMessage_d5deea.replying_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *),
+.replying_d5deea
+  .container_b558d0
+  > :not(.reactions_ec6b19, .searchResultsWrap_c2b47d *) {
   background: hsl(var(--chat-bubble-replying) / 25%);
   border-radius: 8px;
   max-width: max-content;
@@ -147,59 +147,59 @@
     var(--chat-bubble-replying);
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd.replying__38514 > .contents_d3ae0d:hover,
-.cozyMessage__9f4fd.replying__38514:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
-.replying__38514
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *):hover {
+.groupStart_d5deea.cozyMessage_d5deea.replying_d5deea > .contents_ec86aa:hover,
+.cozyMessage_d5deea.replying_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *):hover,
+.replying_d5deea
+  .container_b558d0
+  > :not(.reactions_ec6b19, .searchResultsWrap_c2b47d *):hover {
   background: hsl(var(--chat-bubble-replying) / 50%);
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd.mentioned_fa6fd2 > .contents_d3ae0d,
-.cozyMessage__9f4fd.mentioned_fa6fd2:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
-.mentioned_fa6fd2
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *) {
+.groupStart_d5deea.cozyMessage_d5deea.mentioned_d5deea > .contents_ec86aa,
+.cozyMessage_d5deea.mentioned_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *),
+.mentioned_d5deea
+  .container_b558d0
+  > :not(.reactions_ec6b19, .searchResultsWrap_c2b47d *) {
   background: hsl(var(--chat-bubble-mentioned) / 25%);
   border-radius: 8px;
   border: calc(1px * var(--enable-chat-bubble-border)) solid
     var(--chat-bubble-mentioned);
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd.mentioned_fa6fd2 > .contents_d3ae0d:hover,
-.cozyMessage__9f4fd.mentioned_fa6fd2:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
-.mentioned_fa6fd2
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *):hover {
+.groupStart_d5deea.cozyMessage_d5deea.mentioned_d5deea > .contents_ec86aa:hover,
+.cozyMessage_d5deea.mentioned_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *):hover,
+.mentioned_d5deea
+  .container_b558d0
+  > :not(.reactions_ec6b19, .searchResultsWrap_c2b47d *):hover {
   background: hsl(var(--chat-bubble-mentioned) / 50%);
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd.automodMessage__43f24 > .contents_d3ae0d,
-.cozyMessage__9f4fd.automodMessage__43f24:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *),
-.automodMessage__43f24
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *) {
+.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea > .contents_ec86aa,
+.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *),
+.automodMessage_d5deea
+  .container_b558d0
+  > :not(.reactions_ec6b19, .searchResultsWrap_c2b47d *) {
   background: hsl(var(--chat-bubble-automod) / 25%);
   border-radius: 8px;
   border: calc(1px * var(--enable-chat-bubble-border)) solid
     var(--chat-bubble-automod);
 }
 
-.groupStart__7b93c.cozyMessage__9f4fd.automodMessage__43f24
-  > .contents_d3ae0d:hover,
-.cozyMessage__9f4fd.automodMessage__43f24:not(.groupStart__7b93c)
-  > .contents_d3ae0d
-  > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *):hover,
-.automodMessage__43f24
-  .container__62863
-  > :not(.reactions_da5b2a, .searchResultsWrap__2e184 *):hover {
+.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea
+  > .contents_ec86aa:hover,
+.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea)
+  > .contents_ec86aa
+  > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *):hover,
+.automodMessage_d5deea
+  .container_b558d0
+  > :not(.reactions_ec6b19, .searchResultsWrap_c2b47d *):hover {
   background: hsl(var(--chat-bubble-automod) / 50%);
 }
