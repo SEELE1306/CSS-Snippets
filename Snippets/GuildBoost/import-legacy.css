@@ -4,25 +4,25 @@
  * @authorLink https://github.com/SEELE1306
  * @description Replaces the boost bar in guilds with a more appealing indicator.
  * @license MIT
- * @version 1.0.3
+ * @version 1.0.4
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* [[ GUILD BOOSTS ]] */
-.textArea__81b51 {
+.textArea_c75f85 {
   padding: 0 8px;
 }
 
 .progressBar_db0972,
-.progressBarContainer_e11b41 {
+.progressBarContainer_c75f85 {
   height: 40px;
   border-radius: 8px;
   background: hsla(var(--brand-500-hsl) / 50%);
 }
 
-.container_bc43c1,
-.containerWithMargin__3a652 {
+.container_c75f85,
+.containerWithMargin_c75f85 {
   position: relative;
   top: 25px;
   margin: 0;
@@ -30,7 +30,7 @@
   width: 105%;
 }
 
-.tadaIcon__5e3cc {
+.tadaIcon_c75f85 {
   right: 98%;
   top: 6px;
   translate: none;
@@ -38,7 +38,7 @@
   opacity: 0.5;
 }
 
-.progressBarContainer_e11b41 {
+.progressBarContainer_c75f85 {
   top: -40px;
   z-index: -1;
   height: 40px;
@@ -46,7 +46,7 @@
   background: var(--background-tertiary) !important;
 }
 
-.container_bc43c1 {
+.container_c75f85 {
   position: relative;
   top: 25px;
   margin: 0;
@@ -54,6 +54,6 @@
   width: 105%;
 }
 
-.container_bc43c1:hover .progressBar_d41287 {
+.container_c75f85:hover .progressBar_c75f85 {
   background: hsla(var(--brand-500-hsl) / 75%);
 }
