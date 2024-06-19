@@ -3,13 +3,13 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description  Hides the toolbar at the top for a cleaner layout.
- * @version 1.0.2
+ * @version 1.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* [[ TOOLBAR HIDE ]] */
-.toolbar__62fb5 {
+.toolbar_e44302 {
   overflow: hidden;
   justify-content: flex-end;
   transition: all 350ms;

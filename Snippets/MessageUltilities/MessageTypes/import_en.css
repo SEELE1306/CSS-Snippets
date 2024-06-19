@@ -3,60 +3,60 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Includes the message types & actions with the username
- * @version 1.0.2
+ * @version 1.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* Message types (ENGLISH) */
 /* Removes the edited sign */
-.edited_b20dd9 {
+.edited_ec86aa {
   font-size: 0;
 }
 
-.contents_d3ae0d .username__0b0e7::after {
+.contents_ec86aa .username_ec86aa::after {
   content: " wrote:";
 }
 
-.message_ccca67:has(.edited_b20dd9) .contents_d3ae0d .username__0b0e7::after {
+.message_d5deea:has(.edited_ec86aa) .contents_ec86aa .username_ec86aa::after {
   content: " wrote and edited:";
 }
 
-.message_ccca67:has(.mediaAttachmentsContainer__242e2, .embed_cc6dae)
-  .contents_d3ae0d
-  .username__0b0e7::after {
+.message_d5deea:has(.mediaAttachmentsContainer__242e2, .embed_ad0b71)
+  .contents_ec86aa
+  .username_ec86aa::after {
   content: " sent attachment(s):";
 }
 
-.message_ccca67:has(.stickerAsset_ab864f)
-  .contents_d3ae0d
-  .username__0b0e7::after {
+.message_d5deea:has(.stickerAsset_cb3343)
+  .contents_ec86aa
+  .username_ec86aa::after {
   content: " sent a sticker:";
 }
 
-.message_ccca67:has(.emoji.jumboable) .contents_d3ae0d .username__0b0e7::after {
+.message_d5deea:has(.emoji.jumboable) .contents_ec86aa .username_ec86aa::after {
   content: " sent emoji(s):";
 }
 
-.hasReply__602e2 .contents_d3ae0d .username__0b0e7::after {
+.hasReply_ec86aa .contents_ec86aa .username_ec86aa::after {
   content: " replied:";
 }
 
-.message_ccca67.hasReply__602e2:has(.edited_b20dd9)
-  .contents_d3ae0d
-  .username__0b0e7::after {
+.message_d5deea.hasReply_ec86aa:has(.edited_ec86aa)
+  .contents_ec86aa
+  .username_ec86aa::after {
   content: " replied and edited:";
 }
 
-.mentioned_fa6fd2 .contents_d3ae0d .username__0b0e7::after {
+.mentioned_d5deea .contents_ec86aa .username_ec86aa::after {
   content: " mentioned:";
 }
 
-.mentioned_fa6fd2:has(.edited_b20dd9) .contents_d3ae0d .username__0b0e7::after {
+.mentioned_d5deea:has(.edited_ec86aa) .contents_ec86aa .username_ec86aa::after {
   content: " mentioned and edited:";
 }
 
 /* Add color to extra elements */
-.username__0b0e7::after {
+.username_ec86aa::after {
   color: var(--text-muted);
 }

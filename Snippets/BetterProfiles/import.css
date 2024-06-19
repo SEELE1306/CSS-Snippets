@@ -4,7 +4,7 @@
  * @authorLink https://github.com/SEELE1306
  * @description Improves general layout of user profiles, improving readability and visual appeal.
  * @license MIT
- * @version 1.0.4
+ * @version 1.0.5
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -310,7 +310,7 @@ div[style="display: flex; justify-content: space-between; align-items: center; m
   overflow: hidden;
   position: relative;
 
-  & .roleRemoveButton_e4010c {
+  & .roleRemoveButton_f9575e {
     position: unset;
     /* width: 100%; */
     height: 100%;
