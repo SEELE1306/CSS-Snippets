@@ -3,34 +3,34 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Aligns the "Message Section" better and hides its icons a hover menu
- * @version 2.0.2
+ * @version 2.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* [[ CHAT AREA ]] */
-.form_d8a4a1 {
+.form_a7d72e {
   margin-top: 0;
   padding: 0;
 }
 
-.form_d8a4a1 .buttons__7ecff {
+.form_a7d72e .buttons_d0696b {
   overflow: hidden;
   position: relative;
   justify-content: flex-end;
   transition: all 350ms;
 }
 
-.form_d8a4a1 .buttons__7ecff > :is(button, div) {
+.form_a7d72e .buttons_d0696b > :is(button, div) {
   display: flex;
   justify-content: center;
 }
 
-.form_d8a4a1 .buttons__7ecff:where(:not(:hover)) {
+.form_a7d72e .buttons_d0696b:where(:not(:hover)) {
   max-width: 32px;
 }
 
-.form_d8a4a1 .buttons__7ecff::before {
+.form_a7d72e .buttons_d0696b::before {
   opacity: 0%;
   transition: opacity 150ms;
   position: absolute;
@@ -40,57 +40,57 @@
   width: 32px;
 }
 
-.form_d8a4a1 .buttons__7ecff:where(:not(:hover))::before {
+.form_a7d72e .buttons_d0696b:where(:not(:hover))::before {
   opacity: 100%;
   transition: opacity 1000ms;
 }
 
-.form_d8a4a1 .buttons__7ecff:hover {
+.form_a7d72e .buttons_d0696b:hover {
   transition: all 150ms;
   width: 50%;
 }
 
-.form_d8a4a1 .buttons__7ecff > :is(div, button) {
+.form_a7d72e .buttons_d0696b > :is(div, button) {
   transform: scaleX(0%) !important;
   opacity: 0%;
   display: flex;
   justify-content: center;
 }
 
-.form_d8a4a1 .buttons__7ecff:hover > :is(div, button) {
+.form_a7d72e .buttons_d0696b:hover > :is(div, button) {
   display: flex;
   transform: scaleX(100%) !important;
   transition: opacity 300ms;
   opacity: 100%;
 }
 
-.buttons__7ecff > :is(div, button):hover svg {
+.buttons_d0696b > :is(div, button):hover svg {
   background: var(--background-modifier-hover);
   color: var(--interactive-hover);
 }
 
-.buttons__7ecff > :is(div, button) svg {
+.buttons_d0696b > :is(div, button) svg {
   padding: 3px;
   border-radius: 4px;
 }
 
-.separator__666aa {
+.separator_a06035 {
   grid-column: 4;
   margin-right: 8px;
   padding-bottom: 8px;
   padding-top: 8px;
 }
 
-.separator__666aa .innerButton__9efb8 {
+.separator_a06035 .innerButton_a06035 {
   padding: 0;
   margin: 0;
 }
 
-.channelTextArea_c2094b .divider__855e3 {
+.channelTextArea_a7d72e .divider_fc5f50 {
   border-top: none;
 }
 
-.channelAttachmentArea__5e46a {
+.channelAttachmentArea_e8c527 {
   background: var(--background-tertiary);
   margin-left: 4px;
   padding: 8px;
@@ -99,35 +99,35 @@
   width: fit-content;
 }
 
-.upload_c98ecb {
+.upload_df1eaf {
   min-height: 150px;
   max-height: 150px;
   min-width: 150px;
   max-width: 150px;
 }
 
-.actionBar_a15295 {
+.actionBar_df1eaf {
   transform: translate(0, -16px);
 }
 
-.actionBar_a15295 .button_d4bf9b {
+.actionBar_df1eaf .button_ef319f {
   background: var(--background-tertiary);
 }
 
 /* align chatbox to bottom */
-.form_d8a4a1 > :first-child {
+.form_a7d72e > :first-child {
   margin-bottom: 0px;
 }
 
 /* center chatbox contents, no border radius */
-.form_d8a4a1 > :first-child > * {
+.form_a7d72e > :first-child > * {
   padding-top: 4px;
   min-height: 49px;
   border-radius: 0;
 }
 
 /* slowmode/typing indicator */
-.form_d8a4a1 > :last-child[class^="typing"] {
+.form_a7d72e > :last-child[class^="typing"] {
   top: -32px;
   right: 24px;
   padding: 0px 16px 0px 8px;
@@ -138,7 +138,7 @@
 }
 
 /* jump to present */
-.jumpToPresentBar__69174 {
+.jumpToPresentBar_cf58b5 {
   padding: 0;
   left: 0;
   border-radius: 4px;
@@ -148,15 +148,15 @@
   right: unset;
 }
 
-.jumpToPresentBar__69174:active {
+.jumpToPresentBar_cf58b5:active {
   margin-bottom: 8px;
 }
 
-.jumpToPresentBar__69174 > .barButtonMain__984b4 {
+.jumpToPresentBar_cf58b5 > .barButtonMain_cf58b5 {
   flex: 0 0 auto;
 }
 
-.attachedBars_c1606a {
+.attachedBars_d0696b {
   min-height: unset !important;
   position: relative;
   margin: 0px 24px 4px 4px;
@@ -165,31 +165,31 @@
   background: var(--background-tertiary);
 }
 
-.replyBar_ed6afc {
+.replyBar_b11c5e {
   background: none;
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
-.barBase__8839d {
+.barBase_cf58b5 {
   --bar-height: 24px;
   --bar-edges: 24px;
 }
 
-.messagesWrapper_add28b:has(.newMessagesBar__8b272):has(
-    .jumpToPresentBar__69174
+.messagesWrapper_e2e187:has(.newMessagesBar_cf58b5):has(
+    .jumpToPresentBar_cf58b5
   )
-  .barBase__8839d {
+  .barBase_cf58b5 {
   align-items: flex-start;
   height: var(--bar-height);
   overflow: hidden;
   width: calc(50% - var(--bar-edges));
 }
 
-.base__06abc .typingDots__0448d svg {
+.base_d7ebeb .typingDots_d7ebeb svg {
   margin-right: 4px;
 }
 
-.newMessagesBar__8b272 {
+.newMessagesBar_cf58b5 {
   height: 24px;
   margin-bottom: 8px;
   margin-left: calc(var(--bar-edges) * -1 + 8px);
@@ -198,12 +198,12 @@
   background: var(--background-tertiary);
 }
 
-.messagesWrapper_add28b:has(.jumpToPresentBar__69174) .newMessagesBar__8b272 {
+.messagesWrapper_e2e187:has(.jumpToPresentBar_cf58b5) .newMessagesBar_cf58b5 {
   left: auto;
 }
 
-.newMessagesBar__8b272:hover .span_b2761b,
-.jumpToPresentBar__69174:hover .barButtonMain__984b4 {
+.newMessagesBar_cf58b5:hover .span_cf58b5,
+.jumpToPresentBar_cf58b5:hover .barButtonMain_cf58b5 {
   animation: vertiscroll 0.5s linear forwards;
   display: block;
   height: auto;

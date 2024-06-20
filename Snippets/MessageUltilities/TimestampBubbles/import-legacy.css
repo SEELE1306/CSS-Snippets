@@ -3,13 +3,13 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble styling to message timestamps
- * @version 1.0.2
+ * @version 1.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* Timestamps */
-.contents_d3ae0d [class^="timestamp"] {
+.contents_ec86aa [class^="timestamp"] {
   position: relative;
   color: var(--text-normal) !important;
   font-weight: bold;
@@ -22,7 +22,7 @@
   line-height: 1rem !important;
 }
 
-.contents_d3ae0d [class^="botTagCozy_"] {
+.contents_ec86aa [class^="botTagCozy_"] {
   line-height: 1rem;
   box-shadow: 0 0 0 1px var(--brand-900);
   height: 16px;
@@ -39,13 +39,13 @@
   font-family: "Blank Dot", var(--font-primary);
 }
 
-.contents_d3ae0d [class^="timestamp"]:not(:has(time)) {
+.contents_ec86aa [class^="timestamp"]:not(:has(time)) {
   background: var(--brand-500);
   padding: 0 4px 0 2px;
   box-shadow: 0 0 0 1px var(--brand-300);
 }
 
-.contents_d3ae0d [class^="timestamp"]:has(time) {
+.contents_ec86aa [class^="timestamp"]:has(time) {
   background: var(--brand-700);
   padding: 0 4px;
   box-shadow: 0 0 0 1px var(--brand-500);

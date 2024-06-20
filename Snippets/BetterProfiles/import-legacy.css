@@ -4,7 +4,7 @@
  * @authorLink https://github.com/SEELE1306
  * @description Improves general layout of user profiles, improving readability and visual appeal.
  * @license MIT
- * @version 1.0.4
+ * @version 1.0.5
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -293,13 +293,13 @@ div[style="display: flex; justify-content: space-between; align-items: center; m
   position: relative;
 }
 
-.rolePill_fa2f72 .roleRemoveButton_e4010c {
+.rolePill_fa2f72 .roleRemoveButton_f9575e {
   position: unset;
   /* width: 100%; */
   height: 100%;
 }
 
-.rolePill_fa2f72 .roleRemoveButton_e4010c .roleCircle_a26d7b {
+.rolePill_fa2f72 .roleRemoveButton_f9575e .roleCircle_a26d7b {
   border-radius: unset;
   margin: unset;
   position: absolute;
@@ -309,18 +309,18 @@ div[style="display: flex; justify-content: space-between; align-items: center; m
   text-align: center;
 }
 
-.rolePill_fa2f72 .roleRemoveButton_e4010c .roleRemoveIcon_e4010c {
+.rolePill_fa2f72 .roleRemoveButton_f9575e .roleRemoveIcon_e4010c {
   background: var(--profile-role-pill-background-color);
   padding: 2px;
   border-radius: 50%;
   margin: -6px 0 0 -6px;
 }
 
-.rolePill_fa2f72 .roleRemoveButton_e4010c .roleRemoveIcon_e4010c path {
+.rolePill_fa2f72 .roleRemoveButton_f9575e .roleRemoveIcon_e4010c path {
   fill: #fff;
 }
 
-.rolePill_fa2f72 .roleRemoveButton_e4010c + .roleName_e4010c {
+.rolePill_fa2f72 .roleRemoveButton_f9575e + .roleName_e4010c {
   margin-left: 4px;
 }
 

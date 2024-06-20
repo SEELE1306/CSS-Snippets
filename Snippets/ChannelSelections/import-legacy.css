@@ -4,20 +4,20 @@
  * @authorLink https://github.com/SEELE1306
  * @description Allows for more spacing for channel icons & colored unread notifiers.
  * @license MIT
- * @version 1.0.2
+ * @version 1.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* [[ CHANNEL LIST ]] */
-:is(.containerDefault_ae2ea4.selected__11b62, .modeUnreadImportant__35358) .icon__67ab4,
-.selected__7f4cb .layout_bb8e67,
-.channel__0aef5.container-32HW5s > .interactiveSelected__689f0,
-.navButtonActive__0c878 {
+:is(.containerDefault_f6f816.selected_f6f816, .modeUnreadImportant_d8bfb3) .icon_d8bfb3,
+.selected_e9f61e .layout_e9f61e,
+.channel_c91bad.container-32HW5s > .interactiveSelected_c91bad,
+.navButtonActive_af5dbb {
   background: hsla(var(--brand-500-hsl) / 50%);
 }
 
-.icon__67ab4 {
+.icon_d8bfb3 {
   width: 15px;
   height: 15px;
   margin: 2px 2px 0 0;
@@ -25,11 +25,11 @@
   padding: 3px;
 }
 
-:is(.containerDefault_ae2ea4.selected__11b62, .modeUnreadImportant__35358) .icon__67ab4 {
+:is(.containerDefault_f6f816.selected_f6f816, .modeUnreadImportant_d8bfb3) .icon_d8bfb3 {
   color: var(--interactive-active);
 }
 
-.containerDefault_ae2ea4:hover .icon__67ab4 {
+.containerDefault_f6f816:hover .icon_d8bfb3 {
   color: var(--interactive-active);
   background: hsla(var(--brand-500-hsl) / 50%);
 }
