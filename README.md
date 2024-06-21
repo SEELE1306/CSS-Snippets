@@ -9,9 +9,6 @@ A compilation of CSS snippets for Discord and its custom clients.
 
 See [Update Checklist](./Update%20Checklist.md) to see which snippets have been fixed/updated.
 
-> [!WARNING]
-> Due to a huge Discord update, all snippets are completely broken. **You may risk not being able to even open up Vencord/Vesktop.** Please uninstall Vencord/Vesktop for the time being and wait for the snippets to be fixed!
-
 ## List of available snippets
 
 | Snippet    | Changes | Image |
