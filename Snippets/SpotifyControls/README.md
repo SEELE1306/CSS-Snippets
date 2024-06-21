@@ -4,7 +4,7 @@
 
 Redesign for Spotify Controls.
 
-## How to change bubble colors
+## How to change overlay strength
 
 After importing the snippet, copy and paste this snippet. Afterwards, change the values to those you prefer.
 
