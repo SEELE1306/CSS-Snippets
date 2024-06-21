@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble to usernames that abide by role color
- * @version 1.0.2
+ * @version 1.0.4
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -27,26 +27,30 @@
   margin-bottom: 4px;
 }
 
-.contents_ec86aa .username_ec86aa,
+/* Username */
+.username_ec86aa,
 .base_d7ebeb .text_d7ebeb strong,
 .name_b11c5e,
-.repliedMessage_ec86aa > .username_ec86aa,
+.mention.interactive,
+[class^="repliedMessage_"] > .username_ec86aa,
 .member_a31c43 .username_d272d6 {
-  background: color-mix(in srgb, currentColor 25%, rgba(0, 0, 0, 0.25));
-  text-shadow: 0 0 5px color-mix(in srgb, currentColor 25%, #000);
+  filter: brightness(1.2);
+  background: color-mix(in srgb, currentColor 20%, transparent);
+  border: 1px solid;
+  font-weight: bold;
   margin-right: 4px;
-  padding: 0 4px;
-  border-radius: 4px;
+  padding: 0 6px;
+  border-radius: 6px;
+  display: inline-flex;
+
+  &:hover {
+    text-decoration: none;
+    background: color-mix(in srgb, currentColor 40%, transparent);
+  }
 }
 
 .username_ec86aa::after {
   position: relative;
   margin: 0 0 0 8px;
   color: inherit;
-  text-shadow: 0 0 5px #000;
-}
-
-/* Prevent light mode from making whitenames black (visibility) */
-.username_ec86aa:not([style]) {
-  color: var(--brand-100);
 }

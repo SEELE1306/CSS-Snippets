@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble styling to message timestamps
- * @version 1.0.1
+ * @version 1.0.2
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -39,4 +39,53 @@
     padding: 0 4px;
     box-shadow: 0 0 0 1px var(--brand-500);
   }
+}
+
+/* Timestamps */
+@font-face {
+  font-family: "Blank Dot";
+  src: url("https://raw.githubusercontent.com/adobe-fonts/adobe-blank/master/AdobeBlank.ttf.woff");
+  unicode-range: U+2022;
+}
+
+[class*="timestampInline_"],
+.vc-reply-timestamp {
+  font-family: "Blank Dot", var(--font-primary);
+  position: relative;
+  color: var(--primary-100) !important;
+  letter-spacing: 0.05em;
+  font-size: 10px !important;
+  margin: 0 4px;
+  height: 16px;
+  border-radius: 4px;
+  top: -2px;
+  max-width: fit-content;
+  line-height: 1rem !important;
+
+  &:not(:has(time)) {
+    background: var(--brand-600);
+    padding: 0 4px 0 2px;
+    border: 1px solid var(--brand-300);
+  }
+
+  &:has(time) {
+    background: var(--brand-600);
+    padding: 0 4px;
+    border: 1px solid var(--brand-300);
+  }
+}
+
+/* Align timestamps in replies */
+.vc-reply-timestamp {
+  text-align: center;
+  margin-right: 8px;
+  margin-left: 0;
+  top: 0;
+}
+
+.contents_ec86aa [class^="botTagCozy_"] {
+  border: calc(1px * var(--enable-chat-bubble-border)) solid var(--brand-300);
+  border-radius: 6px;
+  height: 16px;
+  top: 2px;
 }

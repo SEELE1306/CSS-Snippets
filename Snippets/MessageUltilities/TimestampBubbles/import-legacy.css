@@ -3,50 +3,51 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble styling to message timestamps
- * @version 1.0.3
+ * @version 1.0.2
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* Timestamps */
-.contents_ec86aa [class^="timestamp"] {
-  position: relative;
-  color: var(--text-normal) !important;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  font-size: 10px !important;
-  margin: 0 4px;
-  height: 16px;
-  border-radius: 4px;
-  top: -2px;
-  line-height: 1rem !important;
-}
-
-.contents_ec86aa [class^="botTagCozy_"] {
-  line-height: 1rem;
-  box-shadow: 0 0 0 1px var(--brand-900);
-  height: 16px;
-  top: 2px;
-}
-
 @font-face {
   font-family: "Blank Dot";
   src: url("https://raw.githubusercontent.com/adobe-fonts/adobe-blank/master/AdobeBlank.ttf.woff");
   unicode-range: U+2022;
 }
 
-[class^="timestampInline_"] {
+[class*="timestampInline_"],
+.vc-reply-timestamp {
   font-family: "Blank Dot", var(--font-primary);
+  position: relative;
+  color: var(--primary-100) !important;
+  letter-spacing: 0.05em;
+  font-size: 10px !important;
+  margin: 0 4px;
+  height: 16px;
+  border-radius: 4px;
+  top: -2px;
+  max-width: fit-content;
+  line-height: 1rem !important;
 }
 
-.contents_ec86aa [class^="timestamp"]:not(:has(time)) {
-  background: var(--brand-500);
+[class*="timestampInline_"]:not(:has(time)),
+.vc-reply-timestamp:not(:has(time)) {
+  background: var(--brand-600);
   padding: 0 4px 0 2px;
-  box-shadow: 0 0 0 1px var(--brand-300);
+  border: 1px solid var(--brand-300);
 }
 
-.contents_ec86aa [class^="timestamp"]:has(time) {
-  background: var(--brand-700);
+[class*="timestampInline_"]:has(time),
+.vc-reply-timestamp:has(time) {
+  background: var(--brand-600);
   padding: 0 4px;
-  box-shadow: 0 0 0 1px var(--brand-500);
+  border: 1px solid var(--brand-300);
+}
+
+/* Align timestamps in replies */
+.vc-reply-timestamp {
+  text-align: center;
+  margin-right: 8px;
+  margin-left: 0;
+  top: 0;
 }
