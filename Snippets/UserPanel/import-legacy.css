@@ -2,8 +2,8 @@
  * @name UserPanel
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
- * @description Replaces the user panel with a customizable, more appealing version. Includes appearance changes to the Spotify media player.
- * @version 1.0.3
+ * @description Replaces the user panel with a customizable, more appealing version.
+ * @version 2.0.0
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -80,88 +80,4 @@
   border-radius: 8px;
   position: relative;
   transition: background 250ms ease-in-out;
-}
-
-body:has(.vc-spotify-pause) .panels_a4d4d9 {
-  background: hsla(var(--brand-500-hsl) / 25%) !important;
-}
-
-/* [[ SPOTIFY CONTROLS ]] */
-#vc-spotify-player {
-  background: transparent !important;
-  border-bottom: none;
-  padding: 14px 12px;
-}
-
-.vc-spotify-button-row {
-  margin-top: 15px;
-}
-
-#vc-spotify-titles {
-  margin: 0 4px;
-}
-
-#vc-spotify-song-title {
-  font-weight: 800;
-}
-
-.vc-spotify-time-right,
-.vc-spotify-time-left {
-  margin-top: 1px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-}
-
-.vc-spotify-comma,
-.vc-spotify-ellipoverflow,
-.vc-spotify-artist,
-.vc-spotify-album {
-  margin-top: -2px;
-  font-weight: 600;
-}
-
-#vc-spotify-player [class*="bar_"] {
-  background: var(--background-modifier-accent);
-  height: 4px;
-}
-
-#vc-spotify-player [class*="barFill"] {
-  background: var(--brand-500);
-}
-
-#vc-spotify-player
-  .vc-spotify-repeat-off.vc-spotify-repeat-off.vc-spotify-repeat-off,
-#vc-spotify-player
-  .vc-spotify-shuffle-off.vc-spotify-shuffle-off.vc-spotify-shuffle-off {
-  color: var(--brand-300);
-}
-
-#vc-spotify-player .vc-spotify-button.vc-spotify-button:hover {
-  background: hsla(var(--brand-500-hsl) / 50%);
-}
-
-#vc-spotify-player .vc-spotify-button.vc-spotify-button {
-  color: var(--brand-500);
-  background: hsla(var(--brand-500-hsl) / 25%);
-  margin: 0 4px;
-  scale: 0.85;
-}
-
-#vc-spotify-player .vc-spotify-button.vc-spotify-button:hover {
-  color: var(--brand-300);
-}
-
-#vc-spotify-info-wrapper {
-  flex-direction: row-reverse;
-}
-
-#vc-spotify-player #vc-spotify-album-image {
-  margin-top: -4px;
-  border-radius: 8px;
-}
-
-#vc-spotify-titles {
-  margin-left: 0;
-  padding-left: 0;
-  flex: 1 auto;
 }
