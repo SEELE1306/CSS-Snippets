@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies styling to different staff tags for easier identification.
- * @version 1.0.2
+ * @version 1.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -42,5 +42,8 @@
 
 [class*="botTag__"] > [class*="botText__"] {
   line-height: 0.875rem !important;
-  font-weight: 600;
+}
+
+[class^="userTagNoNickname-"] > [class*="botTag"] {
+  margin-bottom: 4px;
 }
