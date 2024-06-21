@@ -30,10 +30,11 @@ See [Update Checklist](./Update%20Checklist.md) to see which snippets have been 
 | [Username](Snippets/MessageUltilities/Username/) | Applies a bubble to usernames that abide by role color | <img valign='middle' alt='Username' src='./docs/_media/Username.png'/> <img valign='middle' alt='Username' src='./docs/_media/Username_ext.png'/>|
 | [OnekoDM](Snippets/OnekoDM/) | Replaces the discord logo with Oneko! | <img valign='middle' alt='OnekoDM' src='./docs/_media/OnekoDM.png'/> |
 | [UserOptions](Snippets/UserOptions/) | Replaces the profile popout with more streamlined options | <img valign='middle' alt='UserOptions' src='./docs/_media/UserOptions.png' height='200px'/> |
-| [UserPanel](Snippets/UserPanel/) | Replaces the user panel with a customizable, more appealing version. Includes appearance changes to the Spotify media player. | <img valign='middle' alt='UserPanel' src='./docs/_media/UserPanel.png'/> |
+| [UserPanel](Snippets/UserPanel/) | Replaces the user panel with a customizable, more appealing version. | <img valign='middle' alt='UserPanel' src='./docs/_media/UserPanel.png'/> |
 | [ToolbarHide](Snippets/ToolbarHide/) | Hides the toolbar at the top for a cleaner layout. | <img valign='middle' alt='ToolbarHide' src='./docs/_media/ToolbarHide.png'/> |
 | [StaffTags](Snippets/StaffTags/) | Applies styling to different staff tags for easier identification. | <img valign='middle' alt='StaffTags' src='./docs/_media/StaffTags.png'/> |
 | [Titlebar](Snippets/Titlebar/) | Changes the default Discord titlebar to a more visually appealing one. You can customize the text and background color to your liking. | <img valign='middle' alt='Titlebar_01' src='./docs/_media/Titlebar_01.png'/> <img valign='middle' alt='Titlebar_02' src='./docs/_media/Titlebar_02.png'/> |
+| [UserPanel](Snippets/SpotifyControls/) | Redesign for Spotify Controls with album image. | <img valign='middle' alt='SpotifyControls' src='./docs/_media/SpotifyControls.png'/> |
 
 ## Apply
 
