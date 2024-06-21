@@ -1,0 +1,152 @@
+/*
+ * @name SpotifyControls
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Redesign for Spotify Controls.
+ * @version 1.0.0
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
+/* [[ SPOTIFY CONTROLS ]] */
+:root {
+  --blur-amount: 2px; /* higher px = stronger blur, 0 = no blur */
+  --darken-percent: 0.5; /* 0 = album cover is not darkened, 1 = album cover is darkened fully (black) */
+}
+
+#vc-spotify-player {
+  background: transparent !important;
+  position: relative;
+  overflow: hidden;
+  padding: 14px 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, var(--darken-percent)),
+        rgba(0, 0, 0, var(--darken-percent))
+      ),
+      var(--vc-spotify-track-image) center/cover no-repeat;
+    clip-path: inset(0);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, var(--darken-percent)),
+        rgba(0, 0, 0, var(--darken-percent))
+      ),
+      var(--vc-spotify-track-image) center/cover no-repeat;
+    opacity: 0.5;
+    filter: blur(50px);
+    transform: scale(20);
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  & [class*="bar_"] {
+    background: var(--interactive-muted);
+    height: 4px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: var(--vc-spotify-track-image) center/cover no-repeat;
+      opacity: 0.5;
+      filter: blur(50px);
+      transform: scale(20);
+    }
+  }
+
+  & [class*="barFill"] {
+    background: var(--interactive-normal);
+  }
+
+  & :is(.vc-spotify-shuffle-off, .vc-spotify-repeat-off) {
+    color: var(--interactive-normal) !important;
+  }
+
+  & .vc-spotify-button.vc-spotify-button {
+    color: var(--interactive-normal);
+    background: var(--background-modifier-accent);
+    margin: 0 4px;
+    scale: 0.85;
+
+    &:hover {
+      background: var(--background-modifier-hover) !important;
+      color: var(--interactive-hover) !important;
+    }
+  }
+
+  &
+    :is(
+      .vc-spotify-shuffle-on,
+      .vc-spotify-repeat-track,
+      .vc-spotify-repeat-context
+    ) {
+    background: var(--background-modifier-selected) !important;
+    color: var(--interactive-active) !important;
+  }
+
+  & .vc-spotify-button-row {
+    margin-top: 15px;
+  }
+
+  & :is(.vc-spotify-time-right, .vc-spotify-time-left) {
+    margin-top: 1px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+
+  &
+    :is(
+      .vc-spotify-comma,
+      .vc-spotify-ellipoverflow,
+      .vc-spotify-artist,
+      .vc-spotify-album
+    ) {
+    margin-top: -2px;
+    font-weight: 600;
+  }
+
+  & #vc-spotify-album-image {
+    margin-top: -4px;
+    border-radius: 8px;
+  }
+
+  & #vc-spotify-titles {
+    margin-left: 0;
+    padding-left: 0;
+    flex: 1 auto;
+  }
+}
+
+#vc-spotify-song-title {
+  font-weight: 800;
+}
+
+#vc-spotify-info-wrapper {
+  flex-direction: row-reverse;
+}
