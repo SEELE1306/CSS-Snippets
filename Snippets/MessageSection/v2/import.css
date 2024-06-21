@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Aligns the "Message Section" better and hides its icons a hover menu
- * @version 2.0.3
+ * @version 2.0.4
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -14,14 +14,22 @@
   padding: 0;
 
   /* Align chat box to bottom */
-  & > :first-child {
+  & > .channelTextAreaContainer_d0696b {
     margin-bottom: 0px;
+
+    & > .channelTextArea_a7d72e {
+      margin-bottom: 0px;
+
+      & > .scrollableContainer_d0696b {
+        margin: 0 8px 8px 8px;
+      }
+    }
 
     /* center chatbox contents, no border radius */
     & > * {
-      padding-top: 4px;
       min-height: 49px;
       border-radius: 0;
+      padding-top: 4px;
     }
 
     & > .content_faf5ab > img {
@@ -45,6 +53,7 @@
     position: relative;
     justify-content: flex-end;
     transition: all 350ms;
+    margin-right: 4px;
 
     &::before {
       opacity: 0%;
@@ -74,12 +83,10 @@
       opacity: 0%;
 
       & svg {
-        padding: 3px;
         border-radius: 4px;
       }
 
       &:hover svg {
-        background: var(--background-modifier-hover);
         color: var(--interactive-hover);
       }
     }
@@ -94,6 +101,7 @@
     }
   }
 }
+
 .separator_a06035 {
   grid-column: 4;
   margin-right: 8px;
@@ -112,7 +120,7 @@
 
 .channelAttachmentArea_e8c527 {
   background: var(--background-tertiary);
-  margin-left: 4px;
+  margin: 4px 8px;
   padding: 8px;
   gap: 8px;
   border-radius: 8px;
@@ -171,7 +179,7 @@
 }
 
 .replyBar_b11c5e {
-  background: none;
+  background: var(--background-tertiary);
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
@@ -223,4 +231,8 @@
   100% {
     transform: translateY(calc(-100% + var(--bar-height)));
   }
+}
+
+.themedBackground_d0696b {
+  background: var(--background-primary);
 }

@@ -3,15 +3,52 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Aligns the "Message Section" better and hides its icons a hover menu
- * @version 2.0.3
+ * @version 2.0.4
  * @authorId 518795791318384647
  * @discord seele1306
  */
-
 /* [[ CHAT AREA ]] */
 .form_a7d72e {
   margin-top: 0;
   padding: 0;
+  /* Align chat box to bottom */
+}
+
+.form_a7d72e > .channelTextAreaContainer_d0696b {
+  margin-bottom: 0px;
+}
+
+.form_a7d72e > .channelTextAreaContainer_d0696b > .channelTextArea_a7d72e {
+  margin-bottom: 0px;
+}
+
+.form_a7d72e
+  > .channelTextAreaContainer_d0696b
+  > .channelTextArea_a7d72e
+  > .scrollableContainer_d0696b {
+  margin: 0 8px 8px 8px;
+  /* center chatbox contents, no border radius */
+}
+
+.form_a7d72e > .channelTextAreaContainer_d0696b > * {
+  min-height: 49px;
+  border-radius: 0;
+  padding-top: 4px;
+}
+
+.form_a7d72e > .channelTextAreaContainer_d0696b > .content_faf5ab > img {
+  margin-bottom: 8px;
+  /* Slowmode/typing indicators */
+}
+
+.form_a7d72e > :last-child[class^="typing"] {
+  top: -32px;
+  right: 24px;
+  padding: 0px 16px 0px 8px;
+  margin-left: auto;
+  width: fit-content;
+  border-radius: 4px;
+  background: var(--background-tertiary);
 }
 
 .form_a7d72e .buttons_d0696b {
@@ -19,15 +56,7 @@
   position: relative;
   justify-content: flex-end;
   transition: all 350ms;
-}
-
-.form_a7d72e .buttons_d0696b > :is(button, div) {
-  display: flex;
-  justify-content: center;
-}
-
-.form_a7d72e .buttons_d0696b:where(:not(:hover)) {
-  max-width: 32px;
+  margin-right: 4px;
 }
 
 .form_a7d72e .buttons_d0696b::before {
@@ -40,38 +69,39 @@
   width: 32px;
 }
 
-.form_a7d72e .buttons_d0696b:where(:not(:hover))::before {
-  opacity: 100%;
-  transition: opacity 1000ms;
-}
-
 .form_a7d72e .buttons_d0696b:hover {
   transition: all 150ms;
   width: 50%;
 }
 
-.form_a7d72e .buttons_d0696b > :is(div, button) {
-  transform: scaleX(0%) !important;
-  opacity: 0%;
-  display: flex;
-  justify-content: center;
-}
-
-.form_a7d72e .buttons_d0696b:hover > :is(div, button) {
-  display: flex;
+.form_a7d72e .buttons_d0696b:hover > :is(button, div) {
   transform: scaleX(100%) !important;
   transition: opacity 300ms;
   opacity: 100%;
 }
 
-.buttons_d0696b > :is(div, button):hover svg {
-  background: var(--background-modifier-hover);
+.form_a7d72e .buttons_d0696b > :is(button, div) {
+  display: flex;
+  justify-content: center;
+  transform: scaleX(0%) !important;
+  opacity: 0%;
+}
+
+.form_a7d72e .buttons_d0696b > :is(button, div) svg {
+  border-radius: 4px;
+}
+
+.form_a7d72e .buttons_d0696b > :is(button, div):hover svg {
   color: var(--interactive-hover);
 }
 
-.buttons_d0696b > :is(div, button) svg {
-  padding: 3px;
-  border-radius: 4px;
+.form_a7d72e .buttons_d0696b:where(:not(:hover)) {
+  max-width: 32px;
+}
+
+.form_a7d72e .buttons_d0696b:where(:not(:hover))::before {
+  opacity: 100%;
+  transition: opacity 1000ms;
 }
 
 .separator_a06035 {
@@ -92,7 +122,7 @@
 
 .channelAttachmentArea_e8c527 {
   background: var(--background-tertiary);
-  margin-left: 4px;
+  margin: 4px 8px;
   padding: 8px;
   gap: 8px;
   border-radius: 8px;
@@ -111,29 +141,6 @@
 }
 
 .actionBar_df1eaf .button_ef319f {
-  background: var(--background-tertiary);
-}
-
-/* align chatbox to bottom */
-.form_a7d72e > :first-child {
-  margin-bottom: 0px;
-}
-
-/* center chatbox contents, no border radius */
-.form_a7d72e > :first-child > * {
-  padding-top: 4px;
-  min-height: 49px;
-  border-radius: 0;
-}
-
-/* slowmode/typing indicator */
-.form_a7d72e > :last-child[class^="typing"] {
-  top: -32px;
-  right: 24px;
-  padding: 0px 16px 0px 8px;
-  margin-left: auto;
-  width: fit-content;
-  border-radius: 4px;
   background: var(--background-tertiary);
 }
 
@@ -156,6 +163,14 @@
   flex: 0 0 auto;
 }
 
+.jumpToPresentBar_cf58b5:hover .barButtonMain_cf58b5 {
+  animation: vertiscroll 0.5s linear forwards;
+  display: block;
+  height: auto;
+  overflow: visible;
+  white-space: normal;
+}
+
 .attachedBars_d0696b {
   min-height: unset !important;
   position: relative;
@@ -166,7 +181,7 @@
 }
 
 .replyBar_b11c5e {
-  background: none;
+  background: var(--background-tertiary);
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
@@ -185,6 +200,10 @@
   width: calc(50% - var(--bar-edges));
 }
 
+.messagesWrapper_e2e187:has(.jumpToPresentBar_cf58b5) .newMessagesBar_cf58b5 {
+  left: auto;
+}
+
 .base_d7ebeb .typingDots_d7ebeb svg {
   margin-right: 4px;
 }
@@ -198,12 +217,7 @@
   background: var(--background-tertiary);
 }
 
-.messagesWrapper_e2e187:has(.jumpToPresentBar_cf58b5) .newMessagesBar_cf58b5 {
-  left: auto;
-}
-
-.newMessagesBar_cf58b5:hover .span_cf58b5,
-.jumpToPresentBar_cf58b5:hover .barButtonMain_cf58b5 {
+.newMessagesBar_cf58b5:hover .span_cf58b5 {
   animation: vertiscroll 0.5s linear forwards;
   display: block;
   height: auto;
@@ -218,4 +232,8 @@
   100% {
     transform: translateY(calc(-100% + var(--bar-height)));
   }
+}
+
+.themedBackground_d0696b {
+  background: var(--background-primary);
 }
