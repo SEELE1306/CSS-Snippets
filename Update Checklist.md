@@ -2,9 +2,9 @@
 
 ## To be updated
 
-Updated: `2024-06-16`
+Updated: `2024-06-26`
 
-- [x] BetterProfiles `2024-06-19`
+- [ ] BetterProfiles `2024-06-26`
 - [x] BetterQuotes `2024-06-16`
 - [x] ChatBubbles `2024-06-16`
 - [x] GuildBoost `2024-06-19`
@@ -16,6 +16,6 @@ Updated: `2024-06-16`
 - [x] StaffTags `2024-06-21`
 - [x] Titlebar `2024-06-20`
 - [x] ToolbarHide `2024-06-20`
-- [x] UserOptions `2024-06-19`
+- [ ] UserOptions `2024-06-26`
 - [x] UserPanel `2024-06-21`
 - [x] SpotifyControls `2024-06-21`
