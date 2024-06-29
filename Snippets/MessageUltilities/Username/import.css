@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble to usernames that abide by role color
- * @version 1.0.5
+ * @version 1.0.6
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -41,7 +41,7 @@
   filter: brightness(1.2);
   background: color-mix(in srgb, currentColor 20%, transparent);
   border: calc(1px * var(--enable-border)) solid;
-  font-weight: bold;
+  /*font-weight: bold;*/
   margin-right: 4px;
   padding: 0 6px;
   border-radius: 6px;
