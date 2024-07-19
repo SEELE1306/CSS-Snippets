@@ -15,7 +15,7 @@
   --chat-bubble-replying: cyan;
   --chat-bubble-mentioned: orange;
   --chat-bubble-automod: red;
-  --enable-chat-bubble-border: 1;
+  --enable-chat-bubble-border: 0;
 }
 
 /* NOT Customizable */
