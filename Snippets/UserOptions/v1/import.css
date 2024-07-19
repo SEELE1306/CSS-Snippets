@@ -8,20 +8,21 @@
  * @discord seele1306
  */
 
-.userPopoutInner_c69a7b:has(#account) > *:not(:has(#account)),
-.userPopoutOverlayBackground_c69a7b:has(#account) > *:not(#account) {
-  display: none !important;
-}
-
-[class^="accountProfilePopoutWrapper_"] {
-  left: 0;
-
-  & [class*="userPopout"] {
-    margin: 0;
-    width: fit-content;
-  }
-
-  & .section_d7a21f {
-    display: none !important;
-  }
-}
+ .userPopoutInner_c69a7b:has(#account) > *:not(:has(#account)),
+ .userPopoutOverlayBackground_c69a7b:has(#account) > *:not(#account) {
+   display: none !important;
+ }
+ 
+ [class^="accountProfilePopoutWrapper_"] {
+   left: 0;
+ 
+   & [class*="userPopout"] {
+     margin: 0;
+     width: fit-content;
+   }
+ 
+   & .section_d7a21f {
+     display: none !important;
+   }
+ }
+ 

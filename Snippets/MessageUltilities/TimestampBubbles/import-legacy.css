@@ -3,10 +3,14 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble styling to message timestamps
- * @version 1.0.2
+ * @version 1.0.3
  * @authorId 518795791318384647
  * @discord seele1306
  */
+
+ :root {
+  --enable-border: 0;
+}
 
 /* Timestamps */
 @font-face {
@@ -34,14 +38,14 @@
 .vc-reply-timestamp:not(:has(time)) {
   background: var(--brand-600);
   padding: 0 4px 0 2px;
-  border: 1px solid var(--brand-300);
+  border: calc(1px * var(--enable-border)) solid var(--brand-300);
 }
 
 [class*="timestampInline_"]:has(time),
 .vc-reply-timestamp:has(time) {
   background: var(--brand-600);
   padding: 0 4px;
-  border: 1px solid var(--brand-300);
+  border: calc(1px * var(--enable-border)) solid var(--brand-300);
 }
 
 /* Align timestamps in replies */
@@ -50,4 +54,11 @@
   margin-right: 8px;
   margin-left: 0;
   top: 0;
+}
+
+.contents_f9f2ca [class^="botTagCozy_"] {
+  border: calc(1px * var(--enable-border)) solid var(--brand-300);
+  border-radius: 6px;
+  height: 16px;
+  top: 2px;
 }

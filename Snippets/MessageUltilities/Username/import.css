@@ -3,10 +3,14 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble to usernames that abide by role color
- * @version 1.0.4
+ * @version 1.0.6
  * @authorId 518795791318384647
  * @discord seele1306
  */
+
+ :root {
+  --enable-border: 0;
+}
 
 /* ShowMeYourName plugin */
 .vc-smyn-suffix {
@@ -23,21 +27,21 @@
 }
 
 /* Username */
-.cozy_ec86aa .header_ec86aa {
+.cozy_f9f2ca .header_f9f2ca {
   margin-bottom: 4px;
 }
 
 /* Username */
-.username_ec86aa,
+.username_f9f2ca,
 .base_d7ebeb .text_d7ebeb strong,
 .name_b11c5e,
 .mention.interactive,
-[class^="repliedMessage_"] > .username_ec86aa,
+[class^="repliedMessage_"] > .username_f9f2ca,
 .member_a31c43 .username_d272d6 {
   filter: brightness(1.2);
   background: color-mix(in srgb, currentColor 20%, transparent);
-  border: 1px solid;
-  font-weight: bold;
+  border: calc(1px * var(--enable-border)) solid;
+  /*font-weight: bold;*/
   margin-right: 4px;
   padding: 0 6px;
   border-radius: 6px;
@@ -49,7 +53,7 @@
   }
 }
 
-.username_ec86aa::after {
+.username_f9f2ca::after {
   position: relative;
   margin: 0 0 0 8px;
   color: inherit;

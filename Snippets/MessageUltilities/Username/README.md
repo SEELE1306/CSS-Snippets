@@ -14,3 +14,13 @@ This snippet can be combined with [MessageTypes](Snippets/MessageUltilities/Mess
 
 The following plugins have to be enabled in Vencord:
 **ShowMeYourName**
+
+## Customization
+
+To enable / disable borders paste this snippet after importing:
+
+```css
+:root {
+    --enable-border: 0; /* 1 to enable, default is 0 */
+}
+```
