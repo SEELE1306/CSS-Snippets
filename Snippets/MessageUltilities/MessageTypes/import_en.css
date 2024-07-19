@@ -10,53 +10,53 @@
 
 /* Message types (ENGLISH) */
 /* Removes the edited sign */
-.edited_ec86aa {
+.edited_f9f2ca {
   font-size: 0;
 }
 
-.contents_ec86aa .username_ec86aa::after {
+.contents_f9f2ca .username_f9f2ca::after {
   content: " wrote:";
 }
 
-.message_d5deea:has(.edited_ec86aa) .contents_ec86aa .username_ec86aa::after {
+.message_d5deea:has(.edited_f9f2ca) .contents_f9f2ca .username_f9f2ca::after {
   content: " wrote and edited:";
 }
 
-.message_d5deea:has(.mediaAttachmentsContainer__242e2, .embed_ad0b71)
-  .contents_ec86aa
-  .username_ec86aa::after {
+.message_d5deea:has(.mediaAttachmentsContainer__242e2, .embed_b0068a)
+  .contents_f9f2ca
+  .username_f9f2ca::after {
   content: " sent attachment(s):";
 }
 
 .message_d5deea:has(.stickerAsset_cb3343)
-  .contents_ec86aa
-  .username_ec86aa::after {
+  .contents_f9f2ca
+  .username_f9f2ca::after {
   content: " sent a sticker:";
 }
 
-.message_d5deea:has(.emoji.jumboable) .contents_ec86aa .username_ec86aa::after {
+.message_d5deea:has(.emoji.jumboable) .contents_f9f2ca .username_f9f2ca::after {
   content: " sent emoji(s):";
 }
 
-.hasReply_ec86aa .contents_ec86aa .username_ec86aa::after {
+.hasReply_f9f2ca .contents_f9f2ca .username_f9f2ca::after {
   content: " replied:";
 }
 
-.message_d5deea.hasReply_ec86aa:has(.edited_ec86aa)
-  .contents_ec86aa
-  .username_ec86aa::after {
+.message_d5deea.hasReply_f9f2ca:has(.edited_f9f2ca)
+  .contents_f9f2ca
+  .username_f9f2ca::after {
   content: " replied and edited:";
 }
 
-.mentioned_d5deea .contents_ec86aa .username_ec86aa::after {
+.mentioned_d5deea .contents_f9f2ca .username_f9f2ca::after {
   content: " mentioned:";
 }
 
-.mentioned_d5deea:has(.edited_ec86aa) .contents_ec86aa .username_ec86aa::after {
+.mentioned_d5deea:has(.edited_f9f2ca) .contents_f9f2ca .username_f9f2ca::after {
   content: " mentioned and edited:";
 }
 
 /* Add color to extra elements */
-.username_ec86aa::after {
+.username_f9f2ca::after {
   color: var(--text-muted);
 }

@@ -10,53 +10,53 @@
 
 /* Message types (GERMAN) */
 /* Removes the edited sign */
-.edited_ec86aa {
+.edited_f9f2ca {
   font-size: 0;
 }
 
-.contents_ec86aa .username_ec86aa::after {
+.contents_f9f2ca .username_f9f2ca::after {
   content: " hat geschrieben:";
 }
 
-.message_d5deea:has(.edited_ec86aa) .contents_ec86aa .username_ec86aa::after {
+.message_d5deea:has(.edited_f9f2ca) .contents_f9f2ca .username_f9f2ca::after {
   content: " hat geschrieben und bearbeitet:";
 }
 
-.message_d5deea:has(.mediaAttachmentsContainer__242e2, .embed_ad0b71)
-  .contents_ec86aa
-  .username_ec86aa::after {
+.message_d5deea:has(.mediaAttachmentsContainer__242e2, .embed_b0068a)
+  .contents_f9f2ca
+  .username_f9f2ca::after {
   content: " hat Anhänge gesendet:";
 }
 
 .message_d5deea:has(.stickerAsset_cb3343)
-  .contents_ec86aa
-  .username_ec86aa::after {
+  .contents_f9f2ca
+  .username_f9f2ca::after {
   content: " hat einen Sticker gesendet:";
 }
 
-.message_d5deea:has(.emoji.jumboable) .contents_ec86aa .username_ec86aa::after {
+.message_d5deea:has(.emoji.jumboable) .contents_f9f2ca .username_f9f2ca::after {
   content: " hat Emojis gesendet:";
 }
 
-.hasReply_ec86aa .contents_ec86aa .username_ec86aa::after {
+.hasReply_f9f2ca .contents_f9f2ca .username_f9f2ca::after {
   content: " hat geantwortet:";
 }
 
-.message_d5deea.hasReply_ec86aa:has(.edited_ec86aa)
-  .contents_ec86aa
-  .username_ec86aa::after {
+.message_d5deea.hasReply_f9f2ca:has(.edited_f9f2ca)
+  .contents_f9f2ca
+  .username_f9f2ca::after {
   content: " hat geantwortet und bearbeitet:";
 }
 
-.mentioned_d5deea .contents_ec86aa .username_ec86aa::after {
+.mentioned_d5deea .contents_f9f2ca .username_f9f2ca::after {
   content: " hat dir erwähnt:";
 }
 
-.mentioned_d5deea:has(.edited_ec86aa) .contents_ec86aa .username_ec86aa::after {
+.mentioned_d5deea:has(.edited_f9f2ca) .contents_f9f2ca .username_f9f2ca::after {
   content: " hat dir erwähnt und bearbeitet:";
 }
 
 /* Add color to extra elements */
-.username_ec86aa::after {
+.username_f9f2ca::after {
   color: var(--text-muted);
 }

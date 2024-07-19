@@ -8,7 +8,7 @@
  * @discord seele1306
  */
 
-:root {
+ :root {
   --enable-border: 0;
 }
 
@@ -27,15 +27,15 @@
 }
 
 /* Username */
-.cozy_ec86aa .header_ec86aa {
+.cozy_f9f2ca .header_f9f2ca {
   margin-bottom: 4px;
 }
 
-.username_ec86aa,
+.username_f9f2ca,
 .base_d7ebeb .text_d7ebeb strong,
 .name_b11c5e,
 .mention.interactive,
-[class^="repliedMessage_"] > .username_ec86aa,
+[class^="repliedMessage_"] > .username_f9f2ca,
 .member_a31c43 .username_d272d6 {
   filter: brightness(1.2);
   background: var(background-modifier-accent);
@@ -47,17 +47,17 @@
   display: inline-flex;
 }
 
-.username_ec86aa:hover,
+.username_f9f2ca:hover,
 .base_d7ebeb .text_d7ebeb strong:hover,
 .name_b11c5e:hover,
 .mention.interactive:hover,
-[class^="repliedMessage_"] > .username_ec86aa:hover,
+[class^="repliedMessage_"] > .username_f9f2ca:hover,
 .member_a31c43 .username_d272d6:hover {
   text-decoration: none;
   background: var(--background-modifier-hover);
 }
 
-.username_ec86aa::after {
+.username_f9f2ca::after {
   position: relative;
   margin: 0 0 0 8px;
   color: inherit;
