@@ -10,12 +10,13 @@
  */
 
 /* Customizable */
+
 :root {
-  --chat-bubble-default: grey;
-  --chat-bubble-replying: cyan;
-  --chat-bubble-mentioned: orange;
-  --chat-bubble-automod: red;
-  --enable-chat-bubble-border: 1;
+  --chat-bubble-default: 0 0% 50%;
+  --chat-bubble-replying: 180 100% 50%;
+  --chat-bubble-mentioned: 39 100% 50%;
+  --chat-bubble-automod: 0 100% 50%;
+  --enable-chat-bubble-border: 0;
 }
 
 /* NOT Customizable */
