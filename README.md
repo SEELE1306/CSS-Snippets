@@ -7,7 +7,7 @@
 
 > [!IMPORTANT]
 > Until further notice, this repository will only be maintained to a minimum, since I need to concentrate on other personal projects. This means no further new snippets will be uploaded and existing ones may not get design changes, rather bug fixes with a considerable delay.
-> 
+>
 > Thank you for your understanding.
 
 > [!WARNING]
@@ -17,12 +17,10 @@ A compilation of CSS snippets for Discord and its custom clients.
 
 See [Update Checklist](./Update%20Checklist.md) to see which snippets have been fixed/updated.
 
-
 ## List of available snippets
 
 | Snippet    | Changes | Image |
 | -------- | ------- | ------- |
-| [BetterProfiles-v1 (Deprecated)](Snippets/BetterProfiles/v1) | Improves general layout of user profiles, improving readability and visual appeal. Credits to [Saltssaumure](https://github.com/Saltssaumure) for the role pills. | <img valign='middle' alt='BetterProfiles' src='./docs/_media/BetterProfiles.png' height='200px'/> |
 | [BetterQuotes](Snippets/BetterQuotes/) | Improves blockquotes styling to make it more visible and appealing. | <img valign='middle' alt='BetterQuotes' src='./docs/_media/BetterQuotes.png'/> |
 | [AccentColor](Snippets/ChangeColor/AccentColor/) | Replaces the Blurple [<img valign='middle' alt='blurple' src='https://readme-swatches.vercel.app/5865F2?style=circle&size=10'/>#5865F2] accent color with one of your choice. | <img valign='middle' alt='AccentColor' src='./docs/_media/AccentColor.png'/> |
 | [ClientColor](Snippets/ChangeColor/ClientColor/) | Replaces the Grey [<img valign='middle' alt='grey' src='https://readme-swatches.vercel.app/313338?style=circle&size=10'/>#313338] client color with one of your choice. | <img valign='middle' alt='ClientColor' src='./docs/_media/ClientColor.png'/> |
@@ -35,7 +33,6 @@ See [Update Checklist](./Update%20Checklist.md) to see which snippets have been 
 | [TimestampBubbles](Snippets/MessageUltilities/TimestampBubbles/) | Applies a bubble styling to message timestamps | <img valign='middle' alt='TimestampBubbles' src='./docs/_media/TimestampBubbles.png'/> |
 | [Username](Snippets/MessageUltilities/Username/) | Applies a bubble to usernames that abide by role color | <img valign='middle' alt='Username' src='./docs/_media/Username.png'/> <img valign='middle' alt='Username' src='./docs/_media/Username_ext.png'/>|
 | [OnekoDM](Snippets/OnekoDM/) | Replaces the discord logo with Oneko! | <img valign='middle' alt='OnekoDM' src='./docs/_media/OnekoDM.png'/> |
-| [UserOptions-v1 (Deprecated)](Snippets/UserOptions/v1) | Replaces the profile popout with more streamlined options | <img valign='middle' alt='UserOptions' src='./docs/_media/UserOptions.png' height='200px'/> |
 | [UserPanel](Snippets/UserPanel/) | Replaces the user panel with a customizable, more appealing version. | <img valign='middle' alt='UserPanel' src='./docs/_media/UserPanel.png'/> |
 | [ToolbarHide](Snippets/ToolbarHide/) | Hides the toolbar at the top for a cleaner layout. | <img valign='middle' alt='ToolbarHide' src='./docs/_media/ToolbarHide.png'/> |
 | [StaffTags](Snippets/StaffTags/) | Applies styling to different staff tags for easier identification. | <img valign='middle' alt='StaffTags' src='./docs/_media/StaffTags.png'/> |
@@ -88,4 +85,4 @@ If your client is not [Vesktop](https://github.com/Vencord/Vesktop), the snippet
 
 [ant0n-0x0000](https://github.com/ant0n-0x0000) for helping out with the snippets' descriptions!
 
-[Saltssaumure](https://github.com/Saltssaumure), [Lexia](https://github.com/exterpolation) for various elements within the snippets
+[Saltssaumure](https://github.com/Saltssaumure), [Lexia](https://github.com/exterpolation), [CichyCze](https://github.com/CichyCze), [UzinSG](https://github.com/UzinSG) for various elements within the snippets!
