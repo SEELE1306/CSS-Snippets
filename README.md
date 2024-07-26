@@ -7,6 +7,7 @@
 
 > [!IMPORTANT]
 > Until further notice, this repository will only be maintained to a minimum, since I need to concentrate on other personal projects. This means no further new snippets will be uploaded and existing ones may not get design changes, rather bug fixes with a considerable delay.
+> 
 > Thank you for your understanding.
 
 > [!WARNING]
