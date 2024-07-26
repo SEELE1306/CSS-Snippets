@@ -5,12 +5,17 @@
 ![Static Badge](https://img.shields.io/badge/supports-vencord-red?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/supports-betterdiscord-navy?style=for-the-badge)
 
+> [!IMPORTANT]
+> Until further notice, this repository will only be maintained to a minimum, since I need to concentrate on other personal projects. This means no further new snippets will be uploaded and existing ones may not get design changes, rather bug fixes with a considerable delay.
+> Thank you for your understanding.
+
+> [!WARNING]
+> A recent Discord update has completely revamped the profile popouts and sections, making the following snippets no longer usable: **BetterProfiles, UserOptions**. These will be removed for the time being.
+
 A compilation of CSS snippets for Discord and its custom clients.
 
 See [Update Checklist](./Update%20Checklist.md) to see which snippets have been fixed/updated.
 
-> [!WARNING]
-> A recent Discord update has completely revamped the profile popouts and sections, making the following snippets no longer usable: **BetterProfiles, UserOptions**. A fix for these snippets is being worked on, please refrain from using them for the time being.
 
 ## List of available snippets
 
