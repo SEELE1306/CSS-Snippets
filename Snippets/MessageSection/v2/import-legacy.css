@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Aligns the "Message Section" better and hides its icons a hover menu
- * @version 2.0.5
+ * @version 2.0.6
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -140,7 +140,7 @@
   transform: translate(0, -16px);
 }
 
-.actionBar_df1eaf .button_ef319f {
+.actionBar_df1eaf .button_f7e168 {
   background: var(--background-tertiary);
 }
 

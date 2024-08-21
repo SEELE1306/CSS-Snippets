@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Replaces the user panel with a customizable, more appealing version.
- * @version 2.0.0
+ * @version 2.0.1
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -32,7 +32,7 @@
   border-radius: unset;
 }
 
-.panels_a4d4d9 .container_b2ca13 .flex_bba380 {
+.panels_a4d4d9 .container_b2ca13 .flex_dc333f {
   width: 100%;
   justify-content: center;
   gap: 0px;
