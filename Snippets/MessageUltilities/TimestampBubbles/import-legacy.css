@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble styling to message timestamps
- * @version 1.0.4
+ * @version 1.0.5
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -56,7 +56,7 @@
   top: 0;
 }
 
-.contents_f9f2ca [class^="botTagCozy_"] {
+.contents_c19a55 [class^="botTagCozy_"] {
   border: calc(1px * var(--enable-border)) solid var(--brand-300);
   border-radius: 6px;
   height: 16px;

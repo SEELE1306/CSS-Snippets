@@ -3,45 +3,45 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Aligns the "Message Section" better and hides its icons a hover menu
- * @version 2.0.6
+ * @version 2.0.7
  * @authorId 518795791318384647
  * @discord seele1306
  */
 /* [[ CHAT AREA ]] */
-.form_a7d72e {
+.form_f75fb0 {
   margin-top: 0;
   padding: 0;
   /* Align chat box to bottom */
 }
 
-.form_a7d72e > .channelTextAreaContainer_d0696b {
+.form_f75fb0 > .channelTextAreaContainer_d0696b {
   margin-bottom: 0px;
 }
 
-.form_a7d72e > .channelTextAreaContainer_d0696b > .channelTextArea_a7d72e {
+.form_f75fb0 > .channelTextAreaContainer_d0696b > .channelTextArea_f75fb0 {
   margin-bottom: 0px;
 }
 
-.form_a7d72e
+.form_f75fb0
   > .channelTextAreaContainer_d0696b
-  > .channelTextArea_a7d72e
-  > .scrollableContainer_d0696b {
+  > .channelTextArea_f75fb0
+  > .scrollableContainer__74017 {
   margin: 0 8px 8px 8px;
   /* center chatbox contents, no border radius */
 }
 
-.form_a7d72e > .channelTextAreaContainer_d0696b > * {
+.form_f75fb0 > .channelTextAreaContainer_d0696b > * {
   min-height: 49px;
   border-radius: 0;
   padding-top: 4px;
 }
 
-.form_a7d72e > .channelTextAreaContainer_d0696b > .content_faf5ab > img {
+.form_f75fb0 > .channelTextAreaContainer_d0696b > .content__44df5 > img {
   margin-bottom: 8px;
   /* Slowmode/typing indicators */
 }
 
-.form_a7d72e > :last-child[class^="typing"] {
+.form_f75fb0 > :last-child[class^="typing"] {
   top: -32px;
   right: 24px;
   padding: 0px 16px 0px 8px;
@@ -51,7 +51,7 @@
   background: var(--background-tertiary);
 }
 
-.form_a7d72e .buttons_d0696b {
+.form_f75fb0 .buttons__74017 {
   overflow: hidden;
   position: relative;
   justify-content: flex-end;
@@ -59,7 +59,7 @@
   margin-right: 4px;
 }
 
-.form_a7d72e .buttons_d0696b::before {
+.form_f75fb0 .buttons__74017::before {
   opacity: 0%;
   transition: opacity 150ms;
   position: absolute;
@@ -69,58 +69,58 @@
   width: 32px;
 }
 
-.form_a7d72e .buttons_d0696b:hover {
+.form_f75fb0 .buttons__74017:hover {
   transition: all 150ms;
   width: 50%;
 }
 
-.form_a7d72e .buttons_d0696b:hover > :is(button, div) {
+.form_f75fb0 .buttons__74017:hover > :is(button, div) {
   transform: scaleX(100%) !important;
   transition: opacity 300ms;
   opacity: 100%;
 }
 
-.form_a7d72e .buttons_d0696b > :is(button, div) {
+.form_f75fb0 .buttons__74017 > :is(button, div) {
   display: flex;
   justify-content: center;
   transform: scaleX(0%) !important;
   opacity: 0%;
 }
 
-.form_a7d72e .buttons_d0696b > :is(button, div) svg {
+.form_f75fb0 .buttons__74017 > :is(button, div) svg {
   border-radius: 4px;
 }
 
-.form_a7d72e .buttons_d0696b > :is(button, div):hover svg {
+.form_f75fb0 .buttons__74017 > :is(button, div):hover svg {
   color: var(--interactive-hover);
 }
 
-.form_a7d72e .buttons_d0696b:where(:not(:hover)) {
+.form_f75fb0 .buttons__74017:where(:not(:hover)) {
   max-width: 32px;
 }
 
-.form_a7d72e .buttons_d0696b:where(:not(:hover))::before {
+.form_f75fb0 .buttons__74017:where(:not(:hover))::before {
   opacity: 100%;
   transition: opacity 1000ms;
 }
 
-.separator_a06035 {
+.separator_aa63ab {
   grid-column: 4;
   margin-right: 8px;
   padding-bottom: 8px;
   padding-top: 8px;
 }
 
-.separator_a06035 .innerButton_a06035 {
+.separator_aa63ab .innerButton_aa63ab {
   padding: 0;
   margin: 0;
 }
 
-.channelTextArea_a7d72e .divider_c2654d {
+.channelTextArea_f75fb0 .divider__908e2 {
   border-top: none;
 }
 
-.channelAttachmentArea_e8c527 {
+.channelAttachmentArea_b77158 {
   background: var(--background-tertiary);
   margin: 4px 8px;
   padding: 8px;
@@ -129,23 +129,23 @@
   width: fit-content;
 }
 
-.upload_df1eaf {
+.upload_aa605f {
   min-height: 150px;
   max-height: 150px;
   min-width: 150px;
   max-width: 150px;
 }
 
-.actionBar_df1eaf {
+.actionBar_aa605f {
   transform: translate(0, -16px);
 }
 
-.actionBar_df1eaf .button_f7e168 {
+.actionBar_aa605f .button_f7ecac {
   background: var(--background-tertiary);
 }
 
 /* jump to present */
-.jumpToPresentBar_cf58b5 {
+.jumpToPresentBar__0f481 {
   padding: 0;
   left: 0;
   border-radius: 4px;
@@ -155,15 +155,15 @@
   right: unset;
 }
 
-.jumpToPresentBar_cf58b5:active {
+.jumpToPresentBar__0f481:active {
   margin-bottom: 8px;
 }
 
-.jumpToPresentBar_cf58b5 > .barButtonMain_cf58b5 {
+.jumpToPresentBar__0f481 > .barButtonMain__0f481 {
   flex: 0 0 auto;
 }
 
-.jumpToPresentBar_cf58b5:hover .barButtonMain_cf58b5 {
+.jumpToPresentBar__0f481:hover .barButtonMain__0f481 {
   animation: vertiscroll 0.5s linear forwards;
   display: block;
   height: auto;
@@ -171,7 +171,7 @@
   white-space: normal;
 }
 
-.attachedBars_d0696b {
+.stackedBars__74017 {
   min-height: unset !important;
   position: relative;
   margin: 0px 24px 4px 4px;
@@ -180,35 +180,35 @@
   background: var(--background-tertiary);
 }
 
-.replyBar_b11c5e {
+.replyBar__841c8 {
   background: var(--background-tertiary);
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
-.barBase_cf58b5 {
+.barBase__0f481 {
   --bar-height: 24px;
   --bar-edges: 24px;
 }
 
-.messagesWrapper_e2e187:has(.newMessagesBar_cf58b5):has(
-    .jumpToPresentBar_cf58b5
+.messagesWrapper__36d07:has(.newMessagesBar__0f481):has(
+    .jumpToPresentBar__0f481
   )
-  .barBase_cf58b5 {
+  .barBase__0f481 {
   align-items: flex-start;
   height: var(--bar-height);
   overflow: hidden;
   width: calc(50% - var(--bar-edges));
 }
 
-.messagesWrapper_e2e187:has(.jumpToPresentBar_cf58b5) .newMessagesBar_cf58b5 {
+.messagesWrapper__36d07:has(.jumpToPresentBar__0f481) .newMessagesBar__0f481 {
   left: auto;
 }
 
-.base_d7ebeb .typingDots_d7ebeb svg {
+.base_b88801 .typingDots_b88801 svg {
   margin-right: 4px;
 }
 
-.newMessagesBar_cf58b5 {
+.newMessagesBar__0f481 {
   height: 24px;
   margin-bottom: 8px;
   margin-left: calc(var(--bar-edges) * -1 + 8px);
@@ -217,7 +217,7 @@
   background: var(--background-tertiary);
 }
 
-.newMessagesBar_cf58b5:hover .span_cf58b5 {
+.newMessagesBar__0f481:hover .span__0f481 {
   animation: vertiscroll 0.5s linear forwards;
   display: block;
   height: auto;
@@ -234,6 +234,6 @@
   }
 }
 
-.themedBackground_d0696b {
+.themedBackground__74017 {
   background: var(--background-primary);
 }

@@ -3,23 +3,23 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description  Hides the toolbar at the top for a cleaner layout.
- * @version 1.0.5
+ * @version 1.0.6
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* [[ TOOLBAR HIDE ]] */
-.toolbar_fc4f04 {
+.toolbar__9293f {
   overflow: hidden;
   justify-content: flex-end;
   transition: all 350ms;
 }
 
-.toolbar_fc4f04:where(:not(:hover)) {
+.toolbar__9293f:where(:not(:hover)) {
   max-width: 32px;
 }
 
-.toolbar_fc4f04::before {
+.toolbar__9293f::before {
   opacity: 0%;
   transition: opacity 150ms;
   position: absolute;
@@ -29,28 +29,28 @@
   width: 32px;
 }
 
-.toolbar_fc4f04:where(:not(:hover))::before {
+.toolbar__9293f:where(:not(:hover))::before {
   opacity: 100%;
   transition: opacity 1000ms;
 }
 
-.toolbar_fc4f04:hover {
+.toolbar__9293f:hover {
   transition: all 150ms;
 }
 
-.toolbar_fc4f04 > div {
+.toolbar__9293f > div {
   transform: scaleX(0%) !important;
   opacity: 0%;
   display: flex;
   justify-content: center;
 }
 
-.toolbar_fc4f04:hover > div {
+.toolbar__9293f:hover > div {
   transform: scaleX(100%) !important;
   transition: opacity 300ms;
   opacity: 100%;
 }
 
-.toolbar_fc4f04 > div svg {
+.toolbar__9293f > div svg {
   transition: all 0.3s ease-in-out;
 }

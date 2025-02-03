@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble to usernames that abide by role color
- * @version 1.0.7
+ * @version 1.0.8
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -27,16 +27,16 @@
 }
 
 /* Username */
-.cozy_f9f2ca .header_f9f2ca {
+.cozy_c19a55 .header_c19a55 {
   margin-bottom: 4px;
 }
 
-.username_f9f2ca,
-.base_d7ebeb .text_d7ebeb strong,
-.name_b11c5e,
+.username_c19a55,
+.base_b88801 .text_b88801 strong,
+.name__841c8,
 .mention.interactive,
-[class^="repliedMessage_"] > .username_f9f2ca,
-.member_a31c43 .username_d272d6 {
+[class^="repliedMessage_"] > .username_c19a55,
+.member__5d473 .username_d272d6 {
   filter: brightness(1.2);
   background: var(--background-modifier-accent);
   border: calc(1px * var(--enable-border)) solid;
@@ -47,17 +47,17 @@
   display: inline-flex;
 }
 
-.username_f9f2ca:hover,
-.base_d7ebeb .text_d7ebeb strong:hover,
-.name_b11c5e:hover,
+.username_c19a55:hover,
+.base_b88801 .text_b88801 strong:hover,
+.name__841c8:hover,
 .mention.interactive:hover,
-[class^="repliedMessage_"] > .username_f9f2ca:hover,
-.member_a31c43 .username_d272d6:hover {
+[class^="repliedMessage_"] > .username_c19a55:hover,
+.member__5d473 .username_d272d6:hover {
   text-decoration: none;
   background: var(--background-modifier-hover);
 }
 
-.username_f9f2ca::after {
+.username_c19a55::after {
   position: relative;
   margin: 0 0 0 8px;
   color: inherit;
