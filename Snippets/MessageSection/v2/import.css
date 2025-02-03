@@ -3,13 +3,13 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Aligns the "Message Section" better and hides its icons a hover menu
- * @version 2.0.6
+ * @version 2.0.7
  * @authorId 518795791318384647
  * @discord seele1306
  */
 
 /* [[ CHAT AREA ]] */
-.form_a7d72e {
+.form_f75fb0 {
   margin-top: 0;
   padding: 0;
 
@@ -17,10 +17,10 @@
   & > .channelTextAreaContainer_d0696b {
     margin-bottom: 0px;
 
-    & > .channelTextArea_a7d72e {
+    & > .channelTextArea_f75fb0 {
       margin-bottom: 0px;
 
-      & > .scrollableContainer_d0696b {
+      & > .scrollableContainer__74017 {
         margin: 0 8px 8px 8px;
       }
     }
@@ -32,7 +32,7 @@
       padding-top: 4px;
     }
 
-    & > .content_faf5ab > img {
+    & > .content__44df5 > img {
       margin-bottom: 8px;
     }
   }
@@ -48,7 +48,7 @@
     background: var(--background-tertiary);
   }
 
-  & .buttons_d0696b {
+  & .buttons__74017 {
     overflow: hidden;
     position: relative;
     justify-content: flex-end;
@@ -102,23 +102,23 @@
   }
 }
 
-.separator_a06035 {
+.separator_aa63ab {
   grid-column: 4;
   margin-right: 8px;
   padding-bottom: 8px;
   padding-top: 8px;
 
-  & .innerButton_a06035 {
+  & .innerButton_aa63ab {
     padding: 0;
     margin: 0;
   }
 }
 
-.channelTextArea_a7d72e .divider_c2654d {
+.channelTextArea_f75fb0 .divider__908e2 {
   border-top: none;
 }
 
-.channelAttachmentArea_e8c527 {
+.channelAttachmentArea_b77158 {
   background: var(--background-tertiary);
   margin: 4px 8px;
   padding: 8px;
@@ -127,23 +127,23 @@
   width: fit-content;
 }
 
-.upload_df1eaf {
+.upload_aa605f {
   min-height: 150px;
   max-height: 150px;
   min-width: 150px;
   max-width: 150px;
 }
 
-.actionBar_df1eaf {
+.actionBar_aa605f {
   transform: translate(0, -16px);
 
-  & .button_f7e168 {
+  & .button_f7ecac {
     background: var(--background-tertiary);
   }
 }
 
 /* jump to present */
-.jumpToPresentBar_cf58b5 {
+.jumpToPresentBar__0f481 {
   padding: 0;
   left: 0;
   border-radius: 4px;
@@ -156,11 +156,11 @@
     margin-bottom: 8px;
   }
 
-  & > .barButtonMain_cf58b5 {
+  & > .barButtonMain__0f481 {
     flex: 0 0 auto;
   }
 
-  &:hover .barButtonMain_cf58b5 {
+  &:hover .barButtonMain__0f481 {
     animation: vertiscroll 0.5s linear forwards;
     display: block;
     height: auto;
@@ -169,7 +169,7 @@
   }
 }
 
-.attachedBars_d0696b {
+.stackedBars__74017 {
   min-height: unset !important;
   position: relative;
   margin: 0px 24px 4px 4px;
@@ -178,35 +178,35 @@
   background: var(--background-tertiary);
 }
 
-.replyBar_b11c5e {
+.replyBar__841c8 {
   background: var(--background-tertiary);
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
-.barBase_cf58b5 {
+.barBase__0f481 {
   --bar-height: 24px;
   --bar-edges: 24px;
 }
 
-.messagesWrapper_e2e187:has(.newMessagesBar_cf58b5):has(
-    .jumpToPresentBar_cf58b5
+.messagesWrapper__36d07:has(.newMessagesBar__0f481):has(
+    .jumpToPresentBar__0f481
   )
-  .barBase_cf58b5 {
+  .barBase__0f481 {
   align-items: flex-start;
   height: var(--bar-height);
   overflow: hidden;
   width: calc(50% - var(--bar-edges));
 }
 
-.messagesWrapper_e2e187:has(.jumpToPresentBar_cf58b5) .newMessagesBar_cf58b5 {
+.messagesWrapper__36d07:has(.jumpToPresentBar__0f481) .newMessagesBar__0f481 {
   left: auto;
 }
 
-.base_d7ebeb .typingDots_d7ebeb svg {
+.base_b88801 .typingDots_b88801 svg {
   margin-right: 4px;
 }
 
-.newMessagesBar_cf58b5 {
+.newMessagesBar__0f481 {
   height: 24px;
   margin-bottom: 8px;
   margin-left: calc(var(--bar-edges) * -1 + 8px);
@@ -214,7 +214,7 @@
   inset: auto var(--bar-edges) 0;
   background: var(--background-tertiary);
 
-  &:hover .span_cf58b5 {
+  &:hover .span__0f481 {
     animation: vertiscroll 0.5s linear forwards;
     display: block;
     height: auto;
@@ -233,6 +233,6 @@
   }
 }
 
-.themedBackground_d0696b {
+.themedBackground__74017 {
   background: var(--background-primary);
 }
