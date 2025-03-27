@@ -6,9 +6,7 @@
 ![Static Badge](https://img.shields.io/badge/supports-betterdiscord-navy?style=for-the-badge)
 
 > [!IMPORTANT]
-> Until further notice, this repository will only be maintained to a minimum, since I need to concentrate on other personal projects. This means no further new snippets will be uploaded and existing ones may not get design changes, rather bug fixes with a considerable delay.
->
-> Thank you for your understanding.
+> Yes, Discord has ruined everything. It is unlikely that I will be able to fix the snippets in their current condition.
 
 > [!WARNING]
 > A recent Discord update has completely revamped the profile popouts and sections, making the following snippets no longer usable: **BetterProfiles, UserOptions**. These will be removed for the time being.
